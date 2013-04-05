@@ -1,5 +1,8 @@
 <?php
-
+Route::any('article/(:num?)',
+	array('as' => 'article',
+			'uses' => 'article@index')
+	);
 /*
 |--------------------------------------------------------------------------
 | Application Routes
