@@ -3,13 +3,16 @@ class Article_Controller extends Base_Controller {
 	public $restful = true;
 	
 	public function get_index($id = null) {
+		
+	
 		if(is_null($id)) {
 			$allArticles=Article::all();
-			return BaseModel::allToJson($allArticles);
+			return BaseModel::allToJson($allArticles) . Input::query("start",$default_value = "START DEFAULT: 1");
 		} else {
 			$article = Article::find($id);
-			return $article->toJson();
+			return $article->toJson() . "BLEH";
 		}
+	
 	}
 
 	public function post_index(){

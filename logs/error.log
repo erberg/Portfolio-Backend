@@ -1,0 +1,16 @@
+[Fri Apr 05 13:39:41 2013] [error] PHP Parse error:  syntax error, unexpected '$default_value' (T_VARIABLE) in /var/www/www.ericrberg.com/application/controllers/article.php on line 8
+[Fri Apr 05 13:39:43 2013] [error] PHP Parse error:  syntax error, unexpected '$default_value' (T_VARIABLE) in /var/www/www.ericrberg.com/application/controllers/article.php on line 8
+[Fri Apr 05 13:39:52 2013] [error] PHP Parse error:  syntax error, unexpected '$default_value' (T_VARIABLE) in /var/www/www.ericrberg.com/application/controllers/article.php on line 8
+[Fri Apr 05 13:39:53 2013] [error] PHP Parse error:  syntax error, unexpected '$default_value' (T_VARIABLE) in /var/www/www.ericrberg.com/application/controllers/article.php on line 8
+[Fri Apr 05 13:40:31 2013] [error] PHP Parse error:  syntax error, unexpected '$default_value' (T_VARIABLE) in /var/www/www.ericrberg.com/application/controllers/article.php on line 8
+[Fri Apr 05 19:58:31 2013] [error] PHP Fatal error:  Call to a member function toJson() on a non-object in /var/www/www.ericrberg.com/application/controllers/article.php on line 13
+[Fri Apr 05 19:58:31 2013] [error] PHP Stack trace:
+[Fri Apr 05 19:58:31 2013] [error] PHP   1. {main}() /var/www/www.ericrberg.com/public/index.php:0
+[Fri Apr 05 19:58:31 2013] [error] PHP   2. require() /var/www/www.ericrberg.com/public/index.php:34
+[Fri Apr 05 19:58:31 2013] [error] PHP   3. Laravel\\Routing\\Route->call() /var/www/www.ericrberg.com/laravel/laravel.php:167
+[Fri Apr 05 19:58:31 2013] [error] PHP   4. Laravel\\Routing\\Route->response() /var/www/www.ericrberg.com/laravel/routing/route.php:124
+[Fri Apr 05 19:58:31 2013] [error] PHP   5. Laravel\\Routing\\Controller::call() /var/www/www.ericrberg.com/laravel/routing/route.php:153
+[Fri Apr 05 19:58:31 2013] [error] PHP   6. Laravel\\Routing\\Controller->execute() /var/www/www.ericrberg.com/laravel/routing/controller.php:165
+[Fri Apr 05 19:58:31 2013] [error] PHP   7. Laravel\\Routing\\Controller->response() /var/www/www.ericrberg.com/laravel/routing/controller.php:285
+[Fri Apr 05 19:58:31 2013] [error] PHP   8. call_user_func_array() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Fri Apr 05 19:58:31 2013] [error] PHP   9. Article_Controller->get_index() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
