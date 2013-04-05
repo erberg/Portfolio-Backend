@@ -1,5 +1,5 @@
 <?php
 class Article extends BaseModel{
-	public staic $table = 'article';
+	public static $table = 'article';
 }
 ?>

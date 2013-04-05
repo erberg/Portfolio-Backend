@@ -13,7 +13,7 @@ class Create_Article {
 			$table->increments('id');
 			$table->string('title',30);
 			$table->string('subtitle',30);
-			$table->string('filename',30);
+			$table->string('img_location',30);
 			$table->text('content');
 			$table->timestamps();
 		});
