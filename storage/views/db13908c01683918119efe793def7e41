@@ -1,0 +1,13 @@
+
+<?php \Laravel\Section::start('css'); ?>
+@parent
+<?php \Laravel\Section::stop(); ?>
+
+<?php \Laravel\Section::start('js'); ?>
+@parent
+<?php \Laravel\Section::stop(); ?>
+
+<?php \Laravel\Section::start('content'); ?>
+content
+<?php \Laravel\Section::stop(); ?>
+<?php echo view('layout._main')->with(get_defined_vars())->render(); ?>

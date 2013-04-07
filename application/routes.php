@@ -1,9 +1,15 @@
 <?php
 
-Route::any('article/(:num?)',
-	array('as' => 'article',
-		  'uses' => 'article@index')
+/*Route::any('admin/articles/(:num?)',
+	array('as' => 'admin.articles',
+		  'uses' => 'admin.articles@index')
 	);
+	*/
+Route::get('admin/articles/(:num?)',function(){
+	return View::make('articles.index')->
+		with('viewName' , 'Articles');
+});
+
 /*
 |--------------------------------------------------------------------------
 | Application Routes

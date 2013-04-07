@@ -14,3 +14,279 @@
 [Fri Apr 05 19:58:31 2013] [error] PHP   7. Laravel\\Routing\\Controller->response() /var/www/www.ericrberg.com/laravel/routing/controller.php:285
 [Fri Apr 05 19:58:31 2013] [error] PHP   8. call_user_func_array() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
 [Fri Apr 05 19:58:31 2013] [error] PHP   9. Article_Controller->get_index() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Sat Apr 06 22:15:34 2013] [error] [client 24.18.143.237] PHP Fatal error:  Call to a member function toJson() on a non-object in /var/www/www.ericrberg.com/application/controllers/article.php on line 12
+[Sat Apr 06 22:15:34 2013] [error] [client 24.18.143.237] PHP Stack trace:
+[Sat Apr 06 22:15:34 2013] [error] [client 24.18.143.237] PHP   1. {main}() /var/www/www.ericrberg.com/public/index.php:0
+[Sat Apr 06 22:15:34 2013] [error] [client 24.18.143.237] PHP   2. require() /var/www/www.ericrberg.com/public/index.php:34
+[Sat Apr 06 22:15:34 2013] [error] [client 24.18.143.237] PHP   3. Laravel\\Routing\\Route->call() /var/www/www.ericrberg.com/laravel/laravel.php:167
+[Sat Apr 06 22:15:34 2013] [error] [client 24.18.143.237] PHP   4. Laravel\\Routing\\Route->response() /var/www/www.ericrberg.com/laravel/routing/route.php:124
+[Sat Apr 06 22:15:34 2013] [error] [client 24.18.143.237] PHP   5. Laravel\\Routing\\Controller::call() /var/www/www.ericrberg.com/laravel/routing/route.php:153
+[Sat Apr 06 22:15:34 2013] [error] [client 24.18.143.237] PHP   6. Laravel\\Routing\\Controller->execute() /var/www/www.ericrberg.com/laravel/routing/controller.php:165
+[Sat Apr 06 22:15:34 2013] [error] [client 24.18.143.237] PHP   7. Laravel\\Routing\\Controller->response() /var/www/www.ericrberg.com/laravel/routing/controller.php:285
+[Sat Apr 06 22:15:34 2013] [error] [client 24.18.143.237] PHP   8. call_user_func_array() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Sat Apr 06 22:15:34 2013] [error] [client 24.18.143.237] PHP   9. Article_Controller->get_index() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Sat Apr 06 22:24:28 2013] [error] [client 24.18.143.237] PHP Fatal error:  Call to a member function toJson() on a non-object in /var/www/www.ericrberg.com/application/controllers/article.php on line 12
+[Sat Apr 06 22:24:28 2013] [error] [client 24.18.143.237] PHP Stack trace:
+[Sat Apr 06 22:24:28 2013] [error] [client 24.18.143.237] PHP   1. {main}() /var/www/www.ericrberg.com/public/index.php:0
+[Sat Apr 06 22:24:28 2013] [error] [client 24.18.143.237] PHP   2. require() /var/www/www.ericrberg.com/public/index.php:34
+[Sat Apr 06 22:24:28 2013] [error] [client 24.18.143.237] PHP   3. Laravel\\Routing\\Route->call() /var/www/www.ericrberg.com/laravel/laravel.php:167
+[Sat Apr 06 22:24:28 2013] [error] [client 24.18.143.237] PHP   4. Laravel\\Routing\\Route->response() /var/www/www.ericrberg.com/laravel/routing/route.php:124
+[Sat Apr 06 22:24:28 2013] [error] [client 24.18.143.237] PHP   5. Laravel\\Routing\\Controller::call() /var/www/www.ericrberg.com/laravel/routing/route.php:153
+[Sat Apr 06 22:24:28 2013] [error] [client 24.18.143.237] PHP   6. Laravel\\Routing\\Controller->execute() /var/www/www.ericrberg.com/laravel/routing/controller.php:165
+[Sat Apr 06 22:24:28 2013] [error] [client 24.18.143.237] PHP   7. Laravel\\Routing\\Controller->response() /var/www/www.ericrberg.com/laravel/routing/controller.php:285
+[Sat Apr 06 22:24:28 2013] [error] [client 24.18.143.237] PHP   8. call_user_func_array() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Sat Apr 06 22:24:28 2013] [error] [client 24.18.143.237] PHP   9. Article_Controller->get_index() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Sat Apr 06 22:26:56 2013] [error] [client 24.18.143.237] PHP Parse error:  syntax error, unexpected '$start' (T_VARIABLE), expecting function (T_FUNCTION) in /var/www/www.ericrberg.com/application/models/basemodel.php on line 3
+[Sat Apr 06 22:26:56 2013] [error] [client 24.18.143.237] PHP Stack trace:
+[Sat Apr 06 22:26:56 2013] [error] [client 24.18.143.237] PHP   1. {main}() /var/www/www.ericrberg.com/public/index.php:0
+[Sat Apr 06 22:26:56 2013] [error] [client 24.18.143.237] PHP   2. require() /var/www/www.ericrberg.com/public/index.php:34
+[Sat Apr 06 22:26:56 2013] [error] [client 24.18.143.237] PHP   3. Laravel\\Routing\\Route->call() /var/www/www.ericrberg.com/laravel/laravel.php:167
+[Sat Apr 06 22:26:56 2013] [error] [client 24.18.143.237] PHP   4. Laravel\\Routing\\Route->response() /var/www/www.ericrberg.com/laravel/routing/route.php:124
+[Sat Apr 06 22:26:56 2013] [error] [client 24.18.143.237] PHP   5. Laravel\\Routing\\Controller::call() /var/www/www.ericrberg.com/laravel/routing/route.php:153
+[Sat Apr 06 22:26:56 2013] [error] [client 24.18.143.237] PHP   6. Laravel\\Routing\\Controller->execute() /var/www/www.ericrberg.com/laravel/routing/controller.php:165
+[Sat Apr 06 22:26:56 2013] [error] [client 24.18.143.237] PHP   7. Laravel\\Routing\\Controller->response() /var/www/www.ericrberg.com/laravel/routing/controller.php:285
+[Sat Apr 06 22:26:56 2013] [error] [client 24.18.143.237] PHP   8. call_user_func_array() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Sat Apr 06 22:26:56 2013] [error] [client 24.18.143.237] PHP   9. Article_Controller->get_index() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Sat Apr 06 22:26:56 2013] [error] [client 24.18.143.237] PHP  10. Laravel\\Autoloader::load() /var/www/www.ericrberg.com/laravel/routing/controller.php:0
+[Sat Apr 06 22:26:56 2013] [error] [client 24.18.143.237] PHP  11. Laravel\\Autoloader::load_psr() /var/www/www.ericrberg.com/laravel/autoloader.php:79
+[Sat Apr 06 22:26:56 2013] [error] [client 24.18.143.237] PHP  12. require() /var/www/www.ericrberg.com/laravel/autoloader.php:120
+[Sat Apr 06 22:26:56 2013] [error] [client 24.18.143.237] PHP  13. Laravel\\Autoloader::load() /var/www/www.ericrberg.com/laravel/autoloader.php:0
+[Sat Apr 06 22:26:56 2013] [error] [client 24.18.143.237] PHP  14. Laravel\\Autoloader::load_psr() /var/www/www.ericrberg.com/laravel/autoloader.php:79
+[Sat Apr 06 22:27:16 2013] [error] [client 24.18.143.237] PHP Parse error:  syntax error, unexpected '$start' (T_VARIABLE), expecting function (T_FUNCTION) in /var/www/www.ericrberg.com/application/models/basemodel.php on line 3
+[Sat Apr 06 22:27:16 2013] [error] [client 24.18.143.237] PHP Stack trace:
+[Sat Apr 06 22:27:16 2013] [error] [client 24.18.143.237] PHP   1. {main}() /var/www/www.ericrberg.com/public/index.php:0
+[Sat Apr 06 22:27:16 2013] [error] [client 24.18.143.237] PHP   2. require() /var/www/www.ericrberg.com/public/index.php:34
+[Sat Apr 06 22:27:16 2013] [error] [client 24.18.143.237] PHP   3. Laravel\\Routing\\Route->call() /var/www/www.ericrberg.com/laravel/laravel.php:167
+[Sat Apr 06 22:27:16 2013] [error] [client 24.18.143.237] PHP   4. Laravel\\Routing\\Route->response() /var/www/www.ericrberg.com/laravel/routing/route.php:124
+[Sat Apr 06 22:27:16 2013] [error] [client 24.18.143.237] PHP   5. Laravel\\Routing\\Controller::call() /var/www/www.ericrberg.com/laravel/routing/route.php:153
+[Sat Apr 06 22:27:16 2013] [error] [client 24.18.143.237] PHP   6. Laravel\\Routing\\Controller->execute() /var/www/www.ericrberg.com/laravel/routing/controller.php:165
+[Sat Apr 06 22:27:16 2013] [error] [client 24.18.143.237] PHP   7. Laravel\\Routing\\Controller->response() /var/www/www.ericrberg.com/laravel/routing/controller.php:285
+[Sat Apr 06 22:27:16 2013] [error] [client 24.18.143.237] PHP   8. call_user_func_array() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Sat Apr 06 22:27:16 2013] [error] [client 24.18.143.237] PHP   9. Article_Controller->get_index() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Sat Apr 06 22:27:16 2013] [error] [client 24.18.143.237] PHP  10. Laravel\\Autoloader::load() /var/www/www.ericrberg.com/laravel/routing/controller.php:0
+[Sat Apr 06 22:27:16 2013] [error] [client 24.18.143.237] PHP  11. Laravel\\Autoloader::load_psr() /var/www/www.ericrberg.com/laravel/autoloader.php:79
+[Sat Apr 06 22:27:16 2013] [error] [client 24.18.143.237] PHP  12. require() /var/www/www.ericrberg.com/laravel/autoloader.php:120
+[Sat Apr 06 22:27:16 2013] [error] [client 24.18.143.237] PHP  13. Laravel\\Autoloader::load() /var/www/www.ericrberg.com/laravel/autoloader.php:0
+[Sat Apr 06 22:27:16 2013] [error] [client 24.18.143.237] PHP  14. Laravel\\Autoloader::load_psr() /var/www/www.ericrberg.com/laravel/autoloader.php:79
+[Sat Apr 06 22:27:18 2013] [error] [client 24.18.143.237] PHP Parse error:  syntax error, unexpected '$start' (T_VARIABLE), expecting function (T_FUNCTION) in /var/www/www.ericrberg.com/application/models/basemodel.php on line 3
+[Sat Apr 06 22:27:18 2013] [error] [client 24.18.143.237] PHP Stack trace:
+[Sat Apr 06 22:27:18 2013] [error] [client 24.18.143.237] PHP   1. {main}() /var/www/www.ericrberg.com/public/index.php:0
+[Sat Apr 06 22:27:18 2013] [error] [client 24.18.143.237] PHP   2. require() /var/www/www.ericrberg.com/public/index.php:34
+[Sat Apr 06 22:27:18 2013] [error] [client 24.18.143.237] PHP   3. Laravel\\Routing\\Route->call() /var/www/www.ericrberg.com/laravel/laravel.php:167
+[Sat Apr 06 22:27:18 2013] [error] [client 24.18.143.237] PHP   4. Laravel\\Routing\\Route->response() /var/www/www.ericrberg.com/laravel/routing/route.php:124
+[Sat Apr 06 22:27:18 2013] [error] [client 24.18.143.237] PHP   5. Laravel\\Routing\\Controller::call() /var/www/www.ericrberg.com/laravel/routing/route.php:153
+[Sat Apr 06 22:27:18 2013] [error] [client 24.18.143.237] PHP   6. Laravel\\Routing\\Controller->execute() /var/www/www.ericrberg.com/laravel/routing/controller.php:165
+[Sat Apr 06 22:27:18 2013] [error] [client 24.18.143.237] PHP   7. Laravel\\Routing\\Controller->response() /var/www/www.ericrberg.com/laravel/routing/controller.php:285
+[Sat Apr 06 22:27:18 2013] [error] [client 24.18.143.237] PHP   8. call_user_func_array() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Sat Apr 06 22:27:18 2013] [error] [client 24.18.143.237] PHP   9. Article_Controller->get_index() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Sat Apr 06 22:27:18 2013] [error] [client 24.18.143.237] PHP  10. Laravel\\Autoloader::load() /var/www/www.ericrberg.com/laravel/routing/controller.php:0
+[Sat Apr 06 22:27:18 2013] [error] [client 24.18.143.237] PHP  11. Laravel\\Autoloader::load_psr() /var/www/www.ericrberg.com/laravel/autoloader.php:79
+[Sat Apr 06 22:27:18 2013] [error] [client 24.18.143.237] PHP  12. require() /var/www/www.ericrberg.com/laravel/autoloader.php:120
+[Sat Apr 06 22:27:18 2013] [error] [client 24.18.143.237] PHP  13. Laravel\\Autoloader::load() /var/www/www.ericrberg.com/laravel/autoloader.php:0
+[Sat Apr 06 22:27:18 2013] [error] [client 24.18.143.237] PHP  14. Laravel\\Autoloader::load_psr() /var/www/www.ericrberg.com/laravel/autoloader.php:79
+[Sat Apr 06 22:27:18 2013] [error] [client 24.18.143.237] PHP Parse error:  syntax error, unexpected '$start' (T_VARIABLE), expecting function (T_FUNCTION) in /var/www/www.ericrberg.com/application/models/basemodel.php on line 3
+[Sat Apr 06 22:27:18 2013] [error] [client 24.18.143.237] PHP Stack trace:
+[Sat Apr 06 22:27:18 2013] [error] [client 24.18.143.237] PHP   1. {main}() /var/www/www.ericrberg.com/public/index.php:0
+[Sat Apr 06 22:27:18 2013] [error] [client 24.18.143.237] PHP   2. require() /var/www/www.ericrberg.com/public/index.php:34
+[Sat Apr 06 22:27:18 2013] [error] [client 24.18.143.237] PHP   3. Laravel\\Routing\\Route->call() /var/www/www.ericrberg.com/laravel/laravel.php:167
+[Sat Apr 06 22:27:18 2013] [error] [client 24.18.143.237] PHP   4. Laravel\\Routing\\Route->response() /var/www/www.ericrberg.com/laravel/routing/route.php:124
+[Sat Apr 06 22:27:18 2013] [error] [client 24.18.143.237] PHP   5. Laravel\\Routing\\Controller::call() /var/www/www.ericrberg.com/laravel/routing/route.php:153
+[Sat Apr 06 22:27:18 2013] [error] [client 24.18.143.237] PHP   6. Laravel\\Routing\\Controller->execute() /var/www/www.ericrberg.com/laravel/routing/controller.php:165
+[Sat Apr 06 22:27:18 2013] [error] [client 24.18.143.237] PHP   7. Laravel\\Routing\\Controller->response() /var/www/www.ericrberg.com/laravel/routing/controller.php:285
+[Sat Apr 06 22:27:18 2013] [error] [client 24.18.143.237] PHP   8. call_user_func_array() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Sat Apr 06 22:27:18 2013] [error] [client 24.18.143.237] PHP   9. Article_Controller->get_index() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Sat Apr 06 22:27:18 2013] [error] [client 24.18.143.237] PHP  10. Laravel\\Autoloader::load() /var/www/www.ericrberg.com/laravel/routing/controller.php:0
+[Sat Apr 06 22:27:18 2013] [error] [client 24.18.143.237] PHP  11. Laravel\\Autoloader::load_psr() /var/www/www.ericrberg.com/laravel/autoloader.php:79
+[Sat Apr 06 22:27:18 2013] [error] [client 24.18.143.237] PHP  12. require() /var/www/www.ericrberg.com/laravel/autoloader.php:120
+[Sat Apr 06 22:27:18 2013] [error] [client 24.18.143.237] PHP  13. Laravel\\Autoloader::load() /var/www/www.ericrberg.com/laravel/autoloader.php:0
+[Sat Apr 06 22:27:18 2013] [error] [client 24.18.143.237] PHP  14. Laravel\\Autoloader::load_psr() /var/www/www.ericrberg.com/laravel/autoloader.php:79
+[Sat Apr 06 22:27:18 2013] [error] [client 24.18.143.237] PHP Parse error:  syntax error, unexpected '$start' (T_VARIABLE), expecting function (T_FUNCTION) in /var/www/www.ericrberg.com/application/models/basemodel.php on line 3
+[Sat Apr 06 22:27:18 2013] [error] [client 24.18.143.237] PHP Stack trace:
+[Sat Apr 06 22:27:18 2013] [error] [client 24.18.143.237] PHP   1. {main}() /var/www/www.ericrberg.com/public/index.php:0
+[Sat Apr 06 22:27:18 2013] [error] [client 24.18.143.237] PHP   2. require() /var/www/www.ericrberg.com/public/index.php:34
+[Sat Apr 06 22:27:18 2013] [error] [client 24.18.143.237] PHP   3. Laravel\\Routing\\Route->call() /var/www/www.ericrberg.com/laravel/laravel.php:167
+[Sat Apr 06 22:27:18 2013] [error] [client 24.18.143.237] PHP   4. Laravel\\Routing\\Route->response() /var/www/www.ericrberg.com/laravel/routing/route.php:124
+[Sat Apr 06 22:27:18 2013] [error] [client 24.18.143.237] PHP   5. Laravel\\Routing\\Controller::call() /var/www/www.ericrberg.com/laravel/routing/route.php:153
+[Sat Apr 06 22:27:18 2013] [error] [client 24.18.143.237] PHP   6. Laravel\\Routing\\Controller->execute() /var/www/www.ericrberg.com/laravel/routing/controller.php:165
+[Sat Apr 06 22:27:18 2013] [error] [client 24.18.143.237] PHP   7. Laravel\\Routing\\Controller->response() /var/www/www.ericrberg.com/laravel/routing/controller.php:285
+[Sat Apr 06 22:27:18 2013] [error] [client 24.18.143.237] PHP   8. call_user_func_array() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Sat Apr 06 22:27:18 2013] [error] [client 24.18.143.237] PHP   9. Article_Controller->get_index() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Sat Apr 06 22:27:18 2013] [error] [client 24.18.143.237] PHP  10. Laravel\\Autoloader::load() /var/www/www.ericrberg.com/laravel/routing/controller.php:0
+[Sat Apr 06 22:27:18 2013] [error] [client 24.18.143.237] PHP  11. Laravel\\Autoloader::load_psr() /var/www/www.ericrberg.com/laravel/autoloader.php:79
+[Sat Apr 06 22:27:18 2013] [error] [client 24.18.143.237] PHP  12. require() /var/www/www.ericrberg.com/laravel/autoloader.php:120
+[Sat Apr 06 22:27:18 2013] [error] [client 24.18.143.237] PHP  13. Laravel\\Autoloader::load() /var/www/www.ericrberg.com/laravel/autoloader.php:0
+[Sat Apr 06 22:27:18 2013] [error] [client 24.18.143.237] PHP  14. Laravel\\Autoloader::load_psr() /var/www/www.ericrberg.com/laravel/autoloader.php:79
+[Sat Apr 06 22:27:19 2013] [error] [client 24.18.143.237] PHP Parse error:  syntax error, unexpected '$start' (T_VARIABLE), expecting function (T_FUNCTION) in /var/www/www.ericrberg.com/application/models/basemodel.php on line 3
+[Sat Apr 06 22:27:19 2013] [error] [client 24.18.143.237] PHP Stack trace:
+[Sat Apr 06 22:27:19 2013] [error] [client 24.18.143.237] PHP   1. {main}() /var/www/www.ericrberg.com/public/index.php:0
+[Sat Apr 06 22:27:19 2013] [error] [client 24.18.143.237] PHP   2. require() /var/www/www.ericrberg.com/public/index.php:34
+[Sat Apr 06 22:27:19 2013] [error] [client 24.18.143.237] PHP   3. Laravel\\Routing\\Route->call() /var/www/www.ericrberg.com/laravel/laravel.php:167
+[Sat Apr 06 22:27:19 2013] [error] [client 24.18.143.237] PHP   4. Laravel\\Routing\\Route->response() /var/www/www.ericrberg.com/laravel/routing/route.php:124
+[Sat Apr 06 22:27:19 2013] [error] [client 24.18.143.237] PHP   5. Laravel\\Routing\\Controller::call() /var/www/www.ericrberg.com/laravel/routing/route.php:153
+[Sat Apr 06 22:27:19 2013] [error] [client 24.18.143.237] PHP   6. Laravel\\Routing\\Controller->execute() /var/www/www.ericrberg.com/laravel/routing/controller.php:165
+[Sat Apr 06 22:27:19 2013] [error] [client 24.18.143.237] PHP   7. Laravel\\Routing\\Controller->response() /var/www/www.ericrberg.com/laravel/routing/controller.php:285
+[Sat Apr 06 22:27:19 2013] [error] [client 24.18.143.237] PHP   8. call_user_func_array() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Sat Apr 06 22:27:19 2013] [error] [client 24.18.143.237] PHP   9. Article_Controller->get_index() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Sat Apr 06 22:27:19 2013] [error] [client 24.18.143.237] PHP  10. Laravel\\Autoloader::load() /var/www/www.ericrberg.com/laravel/routing/controller.php:0
+[Sat Apr 06 22:27:19 2013] [error] [client 24.18.143.237] PHP  11. Laravel\\Autoloader::load_psr() /var/www/www.ericrberg.com/laravel/autoloader.php:79
+[Sat Apr 06 22:27:19 2013] [error] [client 24.18.143.237] PHP  12. require() /var/www/www.ericrberg.com/laravel/autoloader.php:120
+[Sat Apr 06 22:27:19 2013] [error] [client 24.18.143.237] PHP  13. Laravel\\Autoloader::load() /var/www/www.ericrberg.com/laravel/autoloader.php:0
+[Sat Apr 06 22:27:19 2013] [error] [client 24.18.143.237] PHP  14. Laravel\\Autoloader::load_psr() /var/www/www.ericrberg.com/laravel/autoloader.php:79
+[Sat Apr 06 22:27:19 2013] [error] [client 24.18.143.237] PHP Parse error:  syntax error, unexpected '$start' (T_VARIABLE), expecting function (T_FUNCTION) in /var/www/www.ericrberg.com/application/models/basemodel.php on line 3
+[Sat Apr 06 22:27:19 2013] [error] [client 24.18.143.237] PHP Stack trace:
+[Sat Apr 06 22:27:19 2013] [error] [client 24.18.143.237] PHP   1. {main}() /var/www/www.ericrberg.com/public/index.php:0
+[Sat Apr 06 22:27:19 2013] [error] [client 24.18.143.237] PHP   2. require() /var/www/www.ericrberg.com/public/index.php:34
+[Sat Apr 06 22:27:19 2013] [error] [client 24.18.143.237] PHP   3. Laravel\\Routing\\Route->call() /var/www/www.ericrberg.com/laravel/laravel.php:167
+[Sat Apr 06 22:27:19 2013] [error] [client 24.18.143.237] PHP   4. Laravel\\Routing\\Route->response() /var/www/www.ericrberg.com/laravel/routing/route.php:124
+[Sat Apr 06 22:27:19 2013] [error] [client 24.18.143.237] PHP   5. Laravel\\Routing\\Controller::call() /var/www/www.ericrberg.com/laravel/routing/route.php:153
+[Sat Apr 06 22:27:19 2013] [error] [client 24.18.143.237] PHP   6. Laravel\\Routing\\Controller->execute() /var/www/www.ericrberg.com/laravel/routing/controller.php:165
+[Sat Apr 06 22:27:19 2013] [error] [client 24.18.143.237] PHP   7. Laravel\\Routing\\Controller->response() /var/www/www.ericrberg.com/laravel/routing/controller.php:285
+[Sat Apr 06 22:27:19 2013] [error] [client 24.18.143.237] PHP   8. call_user_func_array() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Sat Apr 06 22:27:19 2013] [error] [client 24.18.143.237] PHP   9. Article_Controller->get_index() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Sat Apr 06 22:27:19 2013] [error] [client 24.18.143.237] PHP  10. Laravel\\Autoloader::load() /var/www/www.ericrberg.com/laravel/routing/controller.php:0
+[Sat Apr 06 22:27:19 2013] [error] [client 24.18.143.237] PHP  11. Laravel\\Autoloader::load_psr() /var/www/www.ericrberg.com/laravel/autoloader.php:79
+[Sat Apr 06 22:27:19 2013] [error] [client 24.18.143.237] PHP  12. require() /var/www/www.ericrberg.com/laravel/autoloader.php:120
+[Sat Apr 06 22:27:19 2013] [error] [client 24.18.143.237] PHP  13. Laravel\\Autoloader::load() /var/www/www.ericrberg.com/laravel/autoloader.php:0
+[Sat Apr 06 22:27:19 2013] [error] [client 24.18.143.237] PHP  14. Laravel\\Autoloader::load_psr() /var/www/www.ericrberg.com/laravel/autoloader.php:79
+[Sun Apr 07 00:31:36 2013] [error] [client 24.18.143.237] PHP Fatal error:  Class 'Articles_Controller' not found in /var/www/www.ericrberg.com/laravel/routing/controller.php on line 228
+[Sun Apr 07 00:31:36 2013] [error] [client 24.18.143.237] PHP Stack trace:
+[Sun Apr 07 00:31:36 2013] [error] [client 24.18.143.237] PHP   1. {main}() /var/www/www.ericrberg.com/public/index.php:0
+[Sun Apr 07 00:31:36 2013] [error] [client 24.18.143.237] PHP   2. require() /var/www/www.ericrberg.com/public/index.php:34
+[Sun Apr 07 00:31:36 2013] [error] [client 24.18.143.237] PHP   3. Laravel\\Routing\\Route->call() /var/www/www.ericrberg.com/laravel/laravel.php:167
+[Sun Apr 07 00:31:36 2013] [error] [client 24.18.143.237] PHP   4. Laravel\\Routing\\Route->response() /var/www/www.ericrberg.com/laravel/routing/route.php:124
+[Sun Apr 07 00:31:36 2013] [error] [client 24.18.143.237] PHP   5. Laravel\\Routing\\Controller::call() /var/www/www.ericrberg.com/laravel/routing/route.php:153
+[Sun Apr 07 00:31:36 2013] [error] [client 24.18.143.237] PHP   6. Laravel\\Routing\\Controller::resolve() /var/www/www.ericrberg.com/laravel/routing/controller.php:145
+[Sun Apr 07 00:31:36 2013] [error] [client 24.18.143.237] PHP Fatal error:  Class 'Articles_Controller' not found in /var/www/www.ericrberg.com/laravel/routing/controller.php on line 228
+[Sun Apr 07 00:31:36 2013] [error] [client 24.18.143.237] PHP Stack trace:
+[Sun Apr 07 00:31:36 2013] [error] [client 24.18.143.237] PHP   1. {main}() /var/www/www.ericrberg.com/public/index.php:0
+[Sun Apr 07 00:31:36 2013] [error] [client 24.18.143.237] PHP   2. require() /var/www/www.ericrberg.com/public/index.php:34
+[Sun Apr 07 00:31:36 2013] [error] [client 24.18.143.237] PHP   3. Laravel\\Routing\\Route->call() /var/www/www.ericrberg.com/laravel/laravel.php:167
+[Sun Apr 07 00:31:36 2013] [error] [client 24.18.143.237] PHP   4. Laravel\\Routing\\Route->response() /var/www/www.ericrberg.com/laravel/routing/route.php:124
+[Sun Apr 07 00:31:36 2013] [error] [client 24.18.143.237] PHP   5. Laravel\\Routing\\Controller::call() /var/www/www.ericrberg.com/laravel/routing/route.php:153
+[Sun Apr 07 00:31:36 2013] [error] [client 24.18.143.237] PHP   6. Laravel\\Routing\\Controller::resolve() /var/www/www.ericrberg.com/laravel/routing/controller.php:145
+[Sun Apr 07 00:37:01 2013] [error] [client 24.18.143.237] PHP Fatal error:  Class 'Articles_Controller' not found in /var/www/www.ericrberg.com/laravel/routing/controller.php on line 228
+[Sun Apr 07 00:37:01 2013] [error] [client 24.18.143.237] PHP Stack trace:
+[Sun Apr 07 00:37:01 2013] [error] [client 24.18.143.237] PHP   1. {main}() /var/www/www.ericrberg.com/public/index.php:0
+[Sun Apr 07 00:37:01 2013] [error] [client 24.18.143.237] PHP   2. require() /var/www/www.ericrberg.com/public/index.php:34
+[Sun Apr 07 00:37:01 2013] [error] [client 24.18.143.237] PHP   3. Laravel\\Routing\\Route->call() /var/www/www.ericrberg.com/laravel/laravel.php:167
+[Sun Apr 07 00:37:01 2013] [error] [client 24.18.143.237] PHP   4. Laravel\\Routing\\Route->response() /var/www/www.ericrberg.com/laravel/routing/route.php:124
+[Sun Apr 07 00:37:01 2013] [error] [client 24.18.143.237] PHP   5. Laravel\\Routing\\Controller::call() /var/www/www.ericrberg.com/laravel/routing/route.php:153
+[Sun Apr 07 00:37:01 2013] [error] [client 24.18.143.237] PHP   6. Laravel\\Routing\\Controller::resolve() /var/www/www.ericrberg.com/laravel/routing/controller.php:145
+[Sun Apr 07 00:37:02 2013] [error] [client 24.18.143.237] PHP Fatal error:  Class 'Articles_Controller' not found in /var/www/www.ericrberg.com/laravel/routing/controller.php on line 228
+[Sun Apr 07 00:37:02 2013] [error] [client 24.18.143.237] PHP Stack trace:
+[Sun Apr 07 00:37:02 2013] [error] [client 24.18.143.237] PHP   1. {main}() /var/www/www.ericrberg.com/public/index.php:0
+[Sun Apr 07 00:37:02 2013] [error] [client 24.18.143.237] PHP   2. require() /var/www/www.ericrberg.com/public/index.php:34
+[Sun Apr 07 00:37:02 2013] [error] [client 24.18.143.237] PHP   3. Laravel\\Routing\\Route->call() /var/www/www.ericrberg.com/laravel/laravel.php:167
+[Sun Apr 07 00:37:02 2013] [error] [client 24.18.143.237] PHP   4. Laravel\\Routing\\Route->response() /var/www/www.ericrberg.com/laravel/routing/route.php:124
+[Sun Apr 07 00:37:02 2013] [error] [client 24.18.143.237] PHP   5. Laravel\\Routing\\Controller::call() /var/www/www.ericrberg.com/laravel/routing/route.php:153
+[Sun Apr 07 00:37:02 2013] [error] [client 24.18.143.237] PHP   6. Laravel\\Routing\\Controller::resolve() /var/www/www.ericrberg.com/laravel/routing/controller.php:145
+[Sun Apr 07 00:44:43 2013] [error] [client 24.18.143.237] PHP Fatal error:  Call to undefined method Laravel\\Response::toJson() in /var/www/www.ericrberg.com/application/controllers/api/articles.php on line 12
+[Sun Apr 07 00:44:43 2013] [error] [client 24.18.143.237] PHP Stack trace:
+[Sun Apr 07 00:44:43 2013] [error] [client 24.18.143.237] PHP   1. {main}() /var/www/www.ericrberg.com/public/index.php:0
+[Sun Apr 07 00:44:43 2013] [error] [client 24.18.143.237] PHP   2. require() /var/www/www.ericrberg.com/public/index.php:34
+[Sun Apr 07 00:44:43 2013] [error] [client 24.18.143.237] PHP   3. Laravel\\Routing\\Route->call() /var/www/www.ericrberg.com/laravel/laravel.php:167
+[Sun Apr 07 00:44:43 2013] [error] [client 24.18.143.237] PHP   4. Laravel\\Routing\\Route->response() /var/www/www.ericrberg.com/laravel/routing/route.php:124
+[Sun Apr 07 00:44:43 2013] [error] [client 24.18.143.237] PHP   5. Laravel\\Routing\\Controller::call() /var/www/www.ericrberg.com/laravel/routing/route.php:153
+[Sun Apr 07 00:44:43 2013] [error] [client 24.18.143.237] PHP   6. Laravel\\Routing\\Controller->execute() /var/www/www.ericrberg.com/laravel/routing/controller.php:165
+[Sun Apr 07 00:44:43 2013] [error] [client 24.18.143.237] PHP   7. Laravel\\Routing\\Controller->response() /var/www/www.ericrberg.com/laravel/routing/controller.php:285
+[Sun Apr 07 00:44:43 2013] [error] [client 24.18.143.237] PHP   8. call_user_func_array() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Sun Apr 07 00:44:43 2013] [error] [client 24.18.143.237] PHP   9. Api_Articles_Controller->get_index() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Sun Apr 07 00:47:43 2013] [error] [client 24.18.143.237] PHP Fatal error:  Call to undefined method Laravel\\Response::toJson() in /var/www/www.ericrberg.com/application/controllers/api/articles.php on line 12
+[Sun Apr 07 00:47:43 2013] [error] [client 24.18.143.237] PHP Stack trace:
+[Sun Apr 07 00:47:43 2013] [error] [client 24.18.143.237] PHP   1. {main}() /var/www/www.ericrberg.com/public/index.php:0
+[Sun Apr 07 00:47:43 2013] [error] [client 24.18.143.237] PHP   2. require() /var/www/www.ericrberg.com/public/index.php:34
+[Sun Apr 07 00:47:43 2013] [error] [client 24.18.143.237] PHP   3. Laravel\\Routing\\Route->call() /var/www/www.ericrberg.com/laravel/laravel.php:167
+[Sun Apr 07 00:47:43 2013] [error] [client 24.18.143.237] PHP   4. Laravel\\Routing\\Route->response() /var/www/www.ericrberg.com/laravel/routing/route.php:124
+[Sun Apr 07 00:47:43 2013] [error] [client 24.18.143.237] PHP   5. Laravel\\Routing\\Controller::call() /var/www/www.ericrberg.com/laravel/routing/route.php:153
+[Sun Apr 07 00:47:43 2013] [error] [client 24.18.143.237] PHP   6. Laravel\\Routing\\Controller->execute() /var/www/www.ericrberg.com/laravel/routing/controller.php:165
+[Sun Apr 07 00:47:43 2013] [error] [client 24.18.143.237] PHP   7. Laravel\\Routing\\Controller->response() /var/www/www.ericrberg.com/laravel/routing/controller.php:285
+[Sun Apr 07 00:47:43 2013] [error] [client 24.18.143.237] PHP   8. call_user_func_array() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Sun Apr 07 00:47:43 2013] [error] [client 24.18.143.237] PHP   9. Api_Articles_Controller->get_index() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Sun Apr 07 00:51:53 2013] [error] [client 24.18.143.237] PHP Fatal error:  Call to undefined method Laravel\\Response::toJson() in /var/www/www.ericrberg.com/application/controllers/api/articles.php on line 12
+[Sun Apr 07 00:51:53 2013] [error] [client 24.18.143.237] PHP Stack trace:
+[Sun Apr 07 00:51:53 2013] [error] [client 24.18.143.237] PHP   1. {main}() /var/www/www.ericrberg.com/public/index.php:0
+[Sun Apr 07 00:51:53 2013] [error] [client 24.18.143.237] PHP   2. require() /var/www/www.ericrberg.com/public/index.php:34
+[Sun Apr 07 00:51:53 2013] [error] [client 24.18.143.237] PHP   3. Laravel\\Routing\\Route->call() /var/www/www.ericrberg.com/laravel/laravel.php:167
+[Sun Apr 07 00:51:53 2013] [error] [client 24.18.143.237] PHP   4. Laravel\\Routing\\Route->response() /var/www/www.ericrberg.com/laravel/routing/route.php:124
+[Sun Apr 07 00:51:53 2013] [error] [client 24.18.143.237] PHP   5. Laravel\\Routing\\Controller::call() /var/www/www.ericrberg.com/laravel/routing/route.php:153
+[Sun Apr 07 00:51:53 2013] [error] [client 24.18.143.237] PHP   6. Laravel\\Routing\\Controller->execute() /var/www/www.ericrberg.com/laravel/routing/controller.php:165
+[Sun Apr 07 00:51:53 2013] [error] [client 24.18.143.237] PHP   7. Laravel\\Routing\\Controller->response() /var/www/www.ericrberg.com/laravel/routing/controller.php:285
+[Sun Apr 07 00:51:53 2013] [error] [client 24.18.143.237] PHP   8. call_user_func_array() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Sun Apr 07 00:51:53 2013] [error] [client 24.18.143.237] PHP   9. Api_Articles_Controller->get_index() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Sun Apr 07 00:51:54 2013] [error] [client 24.18.143.237] PHP Fatal error:  Call to undefined method Laravel\\Response::toJson() in /var/www/www.ericrberg.com/application/controllers/api/articles.php on line 12
+[Sun Apr 07 00:51:54 2013] [error] [client 24.18.143.237] PHP Stack trace:
+[Sun Apr 07 00:51:54 2013] [error] [client 24.18.143.237] PHP   1. {main}() /var/www/www.ericrberg.com/public/index.php:0
+[Sun Apr 07 00:51:54 2013] [error] [client 24.18.143.237] PHP   2. require() /var/www/www.ericrberg.com/public/index.php:34
+[Sun Apr 07 00:51:54 2013] [error] [client 24.18.143.237] PHP   3. Laravel\\Routing\\Route->call() /var/www/www.ericrberg.com/laravel/laravel.php:167
+[Sun Apr 07 00:51:54 2013] [error] [client 24.18.143.237] PHP   4. Laravel\\Routing\\Route->response() /var/www/www.ericrberg.com/laravel/routing/route.php:124
+[Sun Apr 07 00:51:54 2013] [error] [client 24.18.143.237] PHP   5. Laravel\\Routing\\Controller::call() /var/www/www.ericrberg.com/laravel/routing/route.php:153
+[Sun Apr 07 00:51:54 2013] [error] [client 24.18.143.237] PHP   6. Laravel\\Routing\\Controller->execute() /var/www/www.ericrberg.com/laravel/routing/controller.php:165
+[Sun Apr 07 00:51:54 2013] [error] [client 24.18.143.237] PHP   7. Laravel\\Routing\\Controller->response() /var/www/www.ericrberg.com/laravel/routing/controller.php:285
+[Sun Apr 07 00:51:54 2013] [error] [client 24.18.143.237] PHP   8. call_user_func_array() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Sun Apr 07 00:51:54 2013] [error] [client 24.18.143.237] PHP   9. Api_Articles_Controller->get_index() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Sun Apr 07 00:52:02 2013] [error] [client 24.18.143.237] PHP Fatal error:  Call to undefined method Laravel\\Response::toJson() in /var/www/www.ericrberg.com/application/controllers/api/articles.php on line 12
+[Sun Apr 07 00:52:02 2013] [error] [client 24.18.143.237] PHP Stack trace:
+[Sun Apr 07 00:52:02 2013] [error] [client 24.18.143.237] PHP   1. {main}() /var/www/www.ericrberg.com/public/index.php:0
+[Sun Apr 07 00:52:02 2013] [error] [client 24.18.143.237] PHP   2. require() /var/www/www.ericrberg.com/public/index.php:34
+[Sun Apr 07 00:52:02 2013] [error] [client 24.18.143.237] PHP   3. Laravel\\Routing\\Route->call() /var/www/www.ericrberg.com/laravel/laravel.php:167
+[Sun Apr 07 00:52:02 2013] [error] [client 24.18.143.237] PHP   4. Laravel\\Routing\\Route->response() /var/www/www.ericrberg.com/laravel/routing/route.php:124
+[Sun Apr 07 00:52:02 2013] [error] [client 24.18.143.237] PHP   5. Laravel\\Routing\\Controller::call() /var/www/www.ericrberg.com/laravel/routing/route.php:153
+[Sun Apr 07 00:52:02 2013] [error] [client 24.18.143.237] PHP   6. Laravel\\Routing\\Controller->execute() /var/www/www.ericrberg.com/laravel/routing/controller.php:165
+[Sun Apr 07 00:52:02 2013] [error] [client 24.18.143.237] PHP   7. Laravel\\Routing\\Controller->response() /var/www/www.ericrberg.com/laravel/routing/controller.php:285
+[Sun Apr 07 00:52:02 2013] [error] [client 24.18.143.237] PHP   8. call_user_func_array() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Sun Apr 07 00:52:02 2013] [error] [client 24.18.143.237] PHP   9. Api_Articles_Controller->get_index() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Sun Apr 07 00:54:25 2013] [error] [client 24.18.143.237] PHP Fatal error:  Call to a member function toJson() on a non-object in /var/www/www.ericrberg.com/application/controllers/api/articles.php on line 12
+[Sun Apr 07 00:54:25 2013] [error] [client 24.18.143.237] PHP Stack trace:
+[Sun Apr 07 00:54:25 2013] [error] [client 24.18.143.237] PHP   1. {main}() /var/www/www.ericrberg.com/public/index.php:0
+[Sun Apr 07 00:54:25 2013] [error] [client 24.18.143.237] PHP   2. require() /var/www/www.ericrberg.com/public/index.php:34
+[Sun Apr 07 00:54:25 2013] [error] [client 24.18.143.237] PHP   3. Laravel\\Routing\\Route->call() /var/www/www.ericrberg.com/laravel/laravel.php:167
+[Sun Apr 07 00:54:25 2013] [error] [client 24.18.143.237] PHP   4. Laravel\\Routing\\Route->response() /var/www/www.ericrberg.com/laravel/routing/route.php:124
+[Sun Apr 07 00:54:25 2013] [error] [client 24.18.143.237] PHP   5. Laravel\\Routing\\Controller::call() /var/www/www.ericrberg.com/laravel/routing/route.php:153
+[Sun Apr 07 00:54:25 2013] [error] [client 24.18.143.237] PHP   6. Laravel\\Routing\\Controller->execute() /var/www/www.ericrberg.com/laravel/routing/controller.php:165
+[Sun Apr 07 00:54:25 2013] [error] [client 24.18.143.237] PHP   7. Laravel\\Routing\\Controller->response() /var/www/www.ericrberg.com/laravel/routing/controller.php:285
+[Sun Apr 07 00:54:25 2013] [error] [client 24.18.143.237] PHP   8. call_user_func_array() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Sun Apr 07 00:54:25 2013] [error] [client 24.18.143.237] PHP   9. Api_Articles_Controller->get_index() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Sun Apr 07 01:11:45 2013] [error] [client 24.18.143.237] PHP Fatal error:  Call to a member function toJson() on a non-object in /var/www/www.ericrberg.com/application/controllers/api/articles.php on line 12
+[Sun Apr 07 01:11:45 2013] [error] [client 24.18.143.237] PHP Stack trace:
+[Sun Apr 07 01:11:45 2013] [error] [client 24.18.143.237] PHP   1. {main}() /var/www/www.ericrberg.com/public/index.php:0
+[Sun Apr 07 01:11:45 2013] [error] [client 24.18.143.237] PHP   2. require() /var/www/www.ericrberg.com/public/index.php:34
+[Sun Apr 07 01:11:45 2013] [error] [client 24.18.143.237] PHP   3. Laravel\\Routing\\Route->call() /var/www/www.ericrberg.com/laravel/laravel.php:167
+[Sun Apr 07 01:11:45 2013] [error] [client 24.18.143.237] PHP   4. Laravel\\Routing\\Route->response() /var/www/www.ericrberg.com/laravel/routing/route.php:124
+[Sun Apr 07 01:11:45 2013] [error] [client 24.18.143.237] PHP   5. Laravel\\Routing\\Controller::call() /var/www/www.ericrberg.com/laravel/routing/route.php:153
+[Sun Apr 07 01:11:45 2013] [error] [client 24.18.143.237] PHP   6. Laravel\\Routing\\Controller->execute() /var/www/www.ericrberg.com/laravel/routing/controller.php:165
+[Sun Apr 07 01:11:45 2013] [error] [client 24.18.143.237] PHP   7. Laravel\\Routing\\Controller->response() /var/www/www.ericrberg.com/laravel/routing/controller.php:285
+[Sun Apr 07 01:11:45 2013] [error] [client 24.18.143.237] PHP   8. call_user_func_array() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Sun Apr 07 01:11:45 2013] [error] [client 24.18.143.237] PHP   9. Api_Articles_Controller->get_index() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Sun Apr 07 01:18:37 2013] [error] [client 24.18.143.237] PHP Fatal error:  Call to a member function toJson() on a non-object in /var/www/www.ericrberg.com/application/controllers/admin/articles.php on line 12
+[Sun Apr 07 01:18:37 2013] [error] [client 24.18.143.237] PHP Stack trace:
+[Sun Apr 07 01:18:37 2013] [error] [client 24.18.143.237] PHP   1. {main}() /var/www/www.ericrberg.com/public/index.php:0
+[Sun Apr 07 01:18:37 2013] [error] [client 24.18.143.237] PHP   2. require() /var/www/www.ericrberg.com/public/index.php:34
+[Sun Apr 07 01:18:37 2013] [error] [client 24.18.143.237] PHP   3. Laravel\\Routing\\Route->call() /var/www/www.ericrberg.com/laravel/laravel.php:167
+[Sun Apr 07 01:18:37 2013] [error] [client 24.18.143.237] PHP   4. Laravel\\Routing\\Route->response() /var/www/www.ericrberg.com/laravel/routing/route.php:124
+[Sun Apr 07 01:18:37 2013] [error] [client 24.18.143.237] PHP   5. Laravel\\Routing\\Controller::call() /var/www/www.ericrberg.com/laravel/routing/route.php:153
+[Sun Apr 07 01:18:37 2013] [error] [client 24.18.143.237] PHP   6. Laravel\\Routing\\Controller->execute() /var/www/www.ericrberg.com/laravel/routing/controller.php:165
+[Sun Apr 07 01:18:37 2013] [error] [client 24.18.143.237] PHP   7. Laravel\\Routing\\Controller->response() /var/www/www.ericrberg.com/laravel/routing/controller.php:285
+[Sun Apr 07 01:18:37 2013] [error] [client 24.18.143.237] PHP   8. call_user_func_array() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Sun Apr 07 01:18:37 2013] [error] [client 24.18.143.237] PHP   9. Admin_Articles_Controller->get_index() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Sun Apr 07 01:18:49 2013] [error] [client 24.18.143.237] PHP Fatal error:  Call to a member function toJson() on a non-object in /var/www/www.ericrberg.com/application/controllers/admin/articles.php on line 12
+[Sun Apr 07 01:18:49 2013] [error] [client 24.18.143.237] PHP Stack trace:
+[Sun Apr 07 01:18:49 2013] [error] [client 24.18.143.237] PHP   1. {main}() /var/www/www.ericrberg.com/public/index.php:0
+[Sun Apr 07 01:18:49 2013] [error] [client 24.18.143.237] PHP   2. require() /var/www/www.ericrberg.com/public/index.php:34
+[Sun Apr 07 01:18:49 2013] [error] [client 24.18.143.237] PHP   3. Laravel\\Routing\\Route->call() /var/www/www.ericrberg.com/laravel/laravel.php:167
+[Sun Apr 07 01:18:49 2013] [error] [client 24.18.143.237] PHP   4. Laravel\\Routing\\Route->response() /var/www/www.ericrberg.com/laravel/routing/route.php:124
+[Sun Apr 07 01:18:49 2013] [error] [client 24.18.143.237] PHP   5. Laravel\\Routing\\Controller::call() /var/www/www.ericrberg.com/laravel/routing/route.php:153
+[Sun Apr 07 01:18:49 2013] [error] [client 24.18.143.237] PHP   6. Laravel\\Routing\\Controller->execute() /var/www/www.ericrberg.com/laravel/routing/controller.php:165
+[Sun Apr 07 01:18:49 2013] [error] [client 24.18.143.237] PHP   7. Laravel\\Routing\\Controller->response() /var/www/www.ericrberg.com/laravel/routing/controller.php:285
+[Sun Apr 07 01:18:49 2013] [error] [client 24.18.143.237] PHP   8. call_user_func_array() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Sun Apr 07 01:18:49 2013] [error] [client 24.18.143.237] PHP   9. Admin_Articles_Controller->get_index() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Sun Apr 07 02:14:56 2013] [error] [client 24.18.143.237] PHP Fatal error:  Call to a member function toJson() on a non-object in /var/www/www.ericrberg.com/application/controllers/admin/articles.php on line 12
+[Sun Apr 07 02:14:56 2013] [error] [client 24.18.143.237] PHP Stack trace:
+[Sun Apr 07 02:14:56 2013] [error] [client 24.18.143.237] PHP   1. {main}() /var/www/www.ericrberg.com/public/index.php:0
+[Sun Apr 07 02:14:56 2013] [error] [client 24.18.143.237] PHP   2. require() /var/www/www.ericrberg.com/public/index.php:34
+[Sun Apr 07 02:14:56 2013] [error] [client 24.18.143.237] PHP   3. Laravel\\Routing\\Route->call() /var/www/www.ericrberg.com/laravel/laravel.php:167
+[Sun Apr 07 02:14:56 2013] [error] [client 24.18.143.237] PHP   4. Laravel\\Routing\\Route->response() /var/www/www.ericrberg.com/laravel/routing/route.php:124
+[Sun Apr 07 02:14:56 2013] [error] [client 24.18.143.237] PHP   5. Laravel\\Routing\\Controller::call() /var/www/www.ericrberg.com/laravel/routing/route.php:153
+[Sun Apr 07 02:14:56 2013] [error] [client 24.18.143.237] PHP   6. Laravel\\Routing\\Controller->execute() /var/www/www.ericrberg.com/laravel/routing/controller.php:165
+[Sun Apr 07 02:14:56 2013] [error] [client 24.18.143.237] PHP   7. Laravel\\Routing\\Controller->response() /var/www/www.ericrberg.com/laravel/routing/controller.php:285
+[Sun Apr 07 02:14:56 2013] [error] [client 24.18.143.237] PHP   8. call_user_func_array() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Sun Apr 07 02:14:56 2013] [error] [client 24.18.143.237] PHP   9. Admin_Articles_Controller->get_index() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
