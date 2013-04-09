@@ -55,7 +55,7 @@
 		<div id="logo">
 			<img src='/img/logo.png' alt='Circles and Hexagons' width='72' height='86'/></div>
 		<div class="leftfloat"><h1 id="myname"> ERIC BERG </h1></div>
-		<div class="leftfloat"><h2 id="tagline"><span style="margin:0 10;">//</span>web developer</h2></div>
+		<div class="leftfloat"><h2 id="tagline"><span style="margin:0px 10px;">//</span>web developer</h2></div>
 		</div>
 		</div>
 	</div>
@@ -91,8 +91,10 @@
 	
 
 	@section('js')
+	{{ HTML::script('js/jquery.js') }}
 	{{ HTML::script('js/underscore.js') }}
 	{{ HTML::script('js/backbone.js') }}
+	{{ HTML::script('js/base.js') }}
 	@yield_section
 <!-- End Document ================================================== -->
 </body>

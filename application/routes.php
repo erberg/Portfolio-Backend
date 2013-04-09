@@ -1,11 +1,11 @@
 <?php
 
-/*Route::any('admin/articles/(:num?)',
-	array('as' => 'admin.articles',
-		  'uses' => 'admin.articles@index')
+Route::any('api/articles/(:num?)',
+	array('as' => 'api.articles',
+		  'uses' => 'api.articles@index')
 	);
-	*/
-Route::get('admin/articles/(:num?)',function(){
+	
+Route::get('admin',function(){
 	return View::make('articles.index')->
 		with('viewName' , 'Articles');
 });

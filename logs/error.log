@@ -290,3 +290,30 @@
 [Sun Apr 07 02:14:56 2013] [error] [client 24.18.143.237] PHP   7. Laravel\\Routing\\Controller->response() /var/www/www.ericrberg.com/laravel/routing/controller.php:285
 [Sun Apr 07 02:14:56 2013] [error] [client 24.18.143.237] PHP   8. call_user_func_array() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
 [Sun Apr 07 02:14:56 2013] [error] [client 24.18.143.237] PHP   9. Admin_Articles_Controller->get_index() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Sun Apr 07 17:23:24 2013] [error] [client 24.18.143.237] PHP Fatal error:  Class 'Api_Articles_Controller' not found in /var/www/www.ericrberg.com/laravel/routing/controller.php on line 228
+[Sun Apr 07 17:23:24 2013] [error] [client 24.18.143.237] PHP Stack trace:
+[Sun Apr 07 17:23:24 2013] [error] [client 24.18.143.237] PHP   1. {main}() /var/www/www.ericrberg.com/public/index.php:0
+[Sun Apr 07 17:23:24 2013] [error] [client 24.18.143.237] PHP   2. require() /var/www/www.ericrberg.com/public/index.php:34
+[Sun Apr 07 17:23:24 2013] [error] [client 24.18.143.237] PHP   3. Laravel\\Routing\\Route->call() /var/www/www.ericrberg.com/laravel/laravel.php:167
+[Sun Apr 07 17:23:24 2013] [error] [client 24.18.143.237] PHP   4. Laravel\\Routing\\Route->response() /var/www/www.ericrberg.com/laravel/routing/route.php:124
+[Sun Apr 07 17:23:24 2013] [error] [client 24.18.143.237] PHP   5. Laravel\\Routing\\Controller::call() /var/www/www.ericrberg.com/laravel/routing/route.php:153
+[Sun Apr 07 17:23:24 2013] [error] [client 24.18.143.237] PHP   6. Laravel\\Routing\\Controller::resolve() /var/www/www.ericrberg.com/laravel/routing/controller.php:145
+[Sun Apr 07 17:23:25 2013] [error] [client 24.18.143.237] PHP Fatal error:  Class 'Api_Articles_Controller' not found in /var/www/www.ericrberg.com/laravel/routing/controller.php on line 228
+[Sun Apr 07 17:23:25 2013] [error] [client 24.18.143.237] PHP Stack trace:
+[Sun Apr 07 17:23:25 2013] [error] [client 24.18.143.237] PHP   1. {main}() /var/www/www.ericrberg.com/public/index.php:0
+[Sun Apr 07 17:23:25 2013] [error] [client 24.18.143.237] PHP   2. require() /var/www/www.ericrberg.com/public/index.php:34
+[Sun Apr 07 17:23:25 2013] [error] [client 24.18.143.237] PHP   3. Laravel\\Routing\\Route->call() /var/www/www.ericrberg.com/laravel/laravel.php:167
+[Sun Apr 07 17:23:25 2013] [error] [client 24.18.143.237] PHP   4. Laravel\\Routing\\Route->response() /var/www/www.ericrberg.com/laravel/routing/route.php:124
+[Sun Apr 07 17:23:25 2013] [error] [client 24.18.143.237] PHP   5. Laravel\\Routing\\Controller::call() /var/www/www.ericrberg.com/laravel/routing/route.php:153
+[Sun Apr 07 17:23:25 2013] [error] [client 24.18.143.237] PHP   6. Laravel\\Routing\\Controller::resolve() /var/www/www.ericrberg.com/laravel/routing/controller.php:145
+[Sun Apr 07 18:15:09 2013] [error] [client 24.18.143.237] PHP Fatal error:  Call to a member function toJson() on a non-object in /var/www/www.ericrberg.com/application/controllers/api/articles.php on line 12
+[Sun Apr 07 18:15:09 2013] [error] [client 24.18.143.237] PHP Stack trace:
+[Sun Apr 07 18:15:09 2013] [error] [client 24.18.143.237] PHP   1. {main}() /var/www/www.ericrberg.com/public/index.php:0
+[Sun Apr 07 18:15:09 2013] [error] [client 24.18.143.237] PHP   2. require() /var/www/www.ericrberg.com/public/index.php:34
+[Sun Apr 07 18:15:09 2013] [error] [client 24.18.143.237] PHP   3. Laravel\\Routing\\Route->call() /var/www/www.ericrberg.com/laravel/laravel.php:167
+[Sun Apr 07 18:15:09 2013] [error] [client 24.18.143.237] PHP   4. Laravel\\Routing\\Route->response() /var/www/www.ericrberg.com/laravel/routing/route.php:124
+[Sun Apr 07 18:15:09 2013] [error] [client 24.18.143.237] PHP   5. Laravel\\Routing\\Controller::call() /var/www/www.ericrberg.com/laravel/routing/route.php:153
+[Sun Apr 07 18:15:09 2013] [error] [client 24.18.143.237] PHP   6. Laravel\\Routing\\Controller->execute() /var/www/www.ericrberg.com/laravel/routing/controller.php:165
+[Sun Apr 07 18:15:09 2013] [error] [client 24.18.143.237] PHP   7. Laravel\\Routing\\Controller->response() /var/www/www.ericrberg.com/laravel/routing/controller.php:285
+[Sun Apr 07 18:15:09 2013] [error] [client 24.18.143.237] PHP   8. call_user_func_array() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Sun Apr 07 18:15:09 2013] [error] [client 24.18.143.237] PHP   9. Api_Articles_Controller->get_index() /var/www/www.ericrberg.com/laravel/routing/controller.php:325

@@ -52,7 +52,7 @@
 ================================================== */
 	body {
 		background: #fff;
-		background-image:url('/images/debut_light.png');
+		background-image:url('/img/debut_light.png');
 		/*font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 		font-family: 'Open Sans', serif; font-size: 14px; line-height:22px;
 		color: #444;

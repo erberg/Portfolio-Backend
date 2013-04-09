@@ -52,7 +52,7 @@
 	}
 	#greeting-sub { margin-left: 35px; }
 	#nav-selection-image {
-	background-image:url('/images/nav-selection.png');
+	background-image:url('/img/nav-selection.png');
 	background-repeat:no-repeat;
 	height:15px;
 	width:100px;
@@ -92,7 +92,7 @@
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 	@media only screen and (max-width: 479px) {
-		#tagline { margin-top: 0px; }
+		#tagline { margin-top: 0; }
 		#myname { font-size: 30px;  margin-top: 90px; }
 	}
 
