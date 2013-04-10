@@ -18,7 +18,7 @@
         var that = this;
         this.collection.each(function (article,index){
             var template;
-            if(((index+1) % 1)===0){
+            if((index % 2)===0){
                 template = _.template( $('#articleTemplate').html(),article.toJSON());
             } else {
                 template = _.template( $('#articleTemplateAlt').html(),article.toJSON());
