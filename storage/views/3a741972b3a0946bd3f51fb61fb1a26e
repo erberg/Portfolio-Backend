@@ -1,57 +1,104 @@
-<!doctype html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<title>Laravel: A Framework For Web Artisans</title>
-	<meta name="viewport" content="width=device-width">
-	<?php echo  HTML::style('laravel/css/style.css') ; ?>
-</head>
-<body>
-	<div class="wrapper">
-		<header>
-			<h1>Laravel</h1>
-			<h2>A Framework For Web Artisans</h2>
 
-			<p class="intro-text" style="margin-top: 45px;">
-			</p>
-		</header>
-		<div role="main" class="main">
-			<div class="home">
-				<h2>Learn the terrain.</h2>
+<?php \Laravel\Section::start('css'); ?>
+@parent
+<?php \Laravel\Section::stop(); ?>
 
-				<p>
-					You've landed yourself on our default home page. The route that
-					is generating this page lives at:
-				</p>
+<?php \Laravel\Section::start('js'); ?>
+@parent
+<?php \Laravel\Section::stop(); ?>
 
-				<pre><?php echo  path('app') ; ?>routes.php</pre>
+<?php \Laravel\Section::start('content'); ?>
 
-				<p>And the view sitting before you can be found at:</p>
-
-				<pre><?php echo  path('app') ; ?>views/home/index.blade.php</pre>
-
-				<h2>Grow in knowledge.</h2>
-
-				<p>
-					Learning to use Laravel is amazingly simple thanks to
-					its <?php echo  HTML::link('docs', 'wonderful documentation') ; ?>.
-				</p>
-
-				<h2>Create something beautiful.</h2>
-
-				<p>
-					Now that you're up and running, it's time to start creating!
-					Here are some links to help you get started:
-				</p>
-
-				<ul class="out-links">
-					<li><a href="http://laravel.com">Official Website</a></li>
-					<li><a href="http://forums.laravel.com">Laravel Forums</a></li>
-					<li><a href="http://github.com/laravel/laravel">GitHub Repository</a></li>
-				</ul>
-			</div>
-		</div>
+<div class="container">
+	<div class="sixteen columns">
+		<h5 id="greeting-header">Hello! <br/> 
+			<span id="greeting-sub">I’m a software developer living in Seattle, Washington. I love to code, and I’m always excited to improve my skills and work with new technology. These are some of my most recent projects.</span>
+		</h5>
 	</div>
-</body>
-</html>
+</div>
+<div id="article-content"></div>
+
+<script id="articleTemplate" type="text/template">
+	<div class="container article-container">
+		<div class="three columns">
+			<h1 class="article-title"><%= title %></h1>
+			<h4 class="article-sub"><%= subtitle %></h4>
+		</div>
+		<div class="six columns"><%= content %></div>
+		<div class="seven columns"><div class="article-image"><img src="<%= img_location %>" alt="Artist Portfolio Website"/></div></div>
+
+		<div class="two columns"><ul class="square"><%= tech_list %></div>
+	</div><!-- container -->
+</script>
+
+<script id="articleTemplateAlt" type="text/template">
+	<div class="container article-container">
+		<div class="three columns">
+			<h1 class="article-title"><%= title %></h1>
+			<h4 class="article-sub"><%= subtitle %></h4>
+		</div>
+		<div class="five columns"><%= content %></div>
+		<div class="six columns"><div class="article-image"><img src="<%= img_location %>" alt="Artist Portfolio Website"/></div></div>
+
+		<div class="two columns"><ul class="square"><%= tech_list %></div>
+	</div><!-- container -->
+</script>
+
+	<div class="container article-container">
+		<div class="three columns">
+			<h1 class="article-title">Artist Portfolio</h1>
+			<h4 class="article-sub">big-picture website</h4>
+		</div>
+		<div class="six columns">
+			<p>It's good to be bold. Yes, it takes some confidence to put your images up in large format for all of the internet to see... but I definitely think the payoff is worth it. This is a website I created for just that purpose: to display images as large as possible.</p>
+		    <p>On the more technical side of things, I used this project as an opportunity get a better understanding of the model-view-controller (MVC) pattern. There's no better way to understand something than by building it from scratch, and after having completed this project I'm feeling much more knowledgable about the inner workings of MVC's.</p>
+		</div>
+		<div class="seven columns"><div class="article-image"><img src="/img/folio.jpg" alt="Artist Portfolio Website"/></div></div>
+
+		<div class="two columns"><ul class="square"><li>PHP</li><li>Javascript</li><li>jQuery</li><li>MVC</li><li>MySQL</li></ul></div>
+	</div><!-- container -->
+
+	
+	<div class="container article-container">
+		<div class="three columns">
+			<h1 class="article-title">Blackjack</h1>
+			<h4 class="article-sub">game using HTML5</h4>
+		</div>
+		<div class="five columns">
+			<p>I thought blackjack would be fun to make because it’s a classic that just about everyone knows how to play. It turned out to be very rewarding project, as well as a great way to learn some new and interesting technologies.</p>
+		    <p>The game has positions for up to six players, and there is a card counting button as a bonus feature. You can turn the odds in your favor by modifying your play based upon the count. The live site and source code are also available, if you’re into that sort of thing.</p>
+		</div>
+		<div class="six columns"><div class="article-image"><img src="/img/blackjack.jpg" alt="Poker Cards and Chips"></div></div>
+		<div class="two columns"><ul class="square"><li>jQuery</li><li>Node.js</li><li>Socket.io</li><li>Twitter Bootstrap</li></ul></div>
+		</div><!-- container -->
+
+		<div class="container article-container">
+		<div class="three columns">
+			<h1 class="article-title">Conway's Game of Life</h1>
+			<h4 class="article-sub">classic brought to the browser</h4>
+		</div>
+		<div class="six columns">
+			<p>I've always been a fascinated by how this simple set of procedures can create so much complexity. The rules create a delicate balance between life and death, and the result is an eco-system simulation in which complex patterns interact, grow, and die. Besides, who's going to pass up such a great opportunity to play god? </p>
+			<p>Alas, my simulated world is a cruel one. After about 6000 generations it's a pretty desolate universe; populated by just a few spasming pixels. Sorry little guys.</p>
+		</div>
+		<div class="seven columns"><div class="article-image"><img src="/img/gameoflife.jpg" alt="Random Green Pixels"/></div></div>
+		<div class="two columns"><ul class="square"><li>PHP</li><li>Javascript</li><li>jQuery</li><li>Twitter Bootstrap</li></ul></div>
+	</div><!-- container -->
+
+
+
+	<div class="container article-container">
+		<div class="three columns">
+			<h1 class="article-title">Art E-commerce Site</h1>
+			<h4 class="article-sub">art website</h4>
+		</div>
+		<div class="five columns">
+			<p>Sometimes I paint in my spare time. For a time, I was contemplating the idea of starting a business producing and selling abstract paintings. Though I eventually realized that production-style art might actually be the least appealing avenue for my creativity, the experience drove me to create a full Joomla! website.</p>
+			<p>My time on this project was split evenly between front-end template design, modifying the Joomla! content management system to suit my needs, and writing articles about art.</p>
+		</div>
+		<div class="six columns"><div class="article-image"><img src="/img/aura.jpg" alt="E-Commerce Site"/></div></div>
+		<div class="two columns"><ul class="square"><li>PHP</li><li>Joomla! CMS</li><li>MVC</li></ul></div>
+	</div><!-- container -->
+
+<?php \Laravel\Section::stop(); ?>
+<?php echo view('layout._main')->with(get_defined_vars())->render(); ?>

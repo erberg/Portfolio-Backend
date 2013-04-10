@@ -9,5 +9,8 @@
 @endsection
 
 @section('content')
-content
+<div class="container">
+		<div class="sixteen columns" id="articlecontent">
+		</div>
+</div>
 @endsection

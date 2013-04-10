@@ -11,7 +11,7 @@
   ================================================== -->
 	<meta charset="utf-8">
 	<title>Eric Berg // Web Developer</title>
-	<meta name="description" content="This is the professional site of Eric Berg, where you can find out what he's been workin on lately.">
+	<meta name="description" content="This is the professional site of Eric Berg, where you can find out what he's been working on lately.">
 	<meta name="author" content="Eric Berg">
 
 	<!-- Mobile Specific Metas

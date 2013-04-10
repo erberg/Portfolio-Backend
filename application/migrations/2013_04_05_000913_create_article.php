@@ -14,6 +14,7 @@ class Create_Article {
 			$table->string('title',30);
 			$table->string('subtitle',30);
 			$table->string('img_location',30);
+			$table->string('tech_list',120);
 			$table->text('content');
 			$table->timestamps();
 		});

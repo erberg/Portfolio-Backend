@@ -8,6 +8,9 @@
 <?php \Laravel\Section::stop(); ?>
 
 <?php \Laravel\Section::start('content'); ?>
-content
+<div class="container">
+		<div class="sixteen columns" id="articlecontent">
+		</div>
+</div>
 <?php \Laravel\Section::stop(); ?>
 <?php echo view('layout._main')->with(get_defined_vars())->render(); ?>
