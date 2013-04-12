@@ -42,11 +42,21 @@ Route::get('admin',function(){
 |
 */
 
-Route::get('/', function()
-{
+Route::get('/', array('as' => 'home', function(){
 	return View::make('home.index');
-});
+}));
 
+Route::get('tech', array('as' => 'tech', function(){
+	return View::make('tech.index');
+}));
+
+Route::get('about', array('as' => 'about', function(){
+	return View::make('about.index');
+}));
+
+Route::get('contact', array('as' => 'contact', function(){
+	return View::make('contact.index');
+}));
 /*
 |--------------------------------------------------------------------------
 | Application 404 & 500 Error Handlers

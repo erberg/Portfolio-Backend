@@ -3,6 +3,10 @@
 @parent
 <?php \Laravel\Section::stop(); ?>
 
+<?php \Laravel\Section::start('js'); ?>
+@parent
+<?php \Laravel\Section::stop(); ?>
+
 <?php \Laravel\Section::start('content'); ?>
 
 <div class="container">
@@ -48,10 +52,5 @@
 	</div><!-- container -->
 </script>
 
-<?php \Laravel\Section::stop(); ?>
-
-<?php \Laravel\Section::start('js'); ?>
-@parent
-<?php echo  HTML::script('js/base.js') ; ?>
 <?php \Laravel\Section::stop(); ?>
 <?php echo view('layout._main')->with(get_defined_vars())->render(); ?>

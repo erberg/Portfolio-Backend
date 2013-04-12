@@ -31,7 +31,7 @@
 	<!-- Web Fonts
   ================================================== -->
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,800,400italic' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Merriweather:400,700,900' rel='stylesheet' type='text/css'>
 	<!-- Favicons
 	================================================== -->
 	<link rel="shortcut icon" href="images/favicon.ico">
@@ -64,24 +64,32 @@
 		<div class="container">
 			<div class="sixteen columns">
 				<div class= "navbar-link" style="padding-left: 0;">
+					<a href="{{URL::to_route('home')}}">
 					<h3>Home</h3>
 					<h4 class="navbar-sub">sweet home</h4>
+					</a>
 					<div id="nav-selection-image"></div>
 				</div>
 				<div class="navbar-separator"></div>
 				<div class= "navbar-link">
+					<a href="{{URL::to_route('tech')}}">
 					<h3>Technology</h3>
 					<h4 class="navbar-sub">to-do list</h4>
+					</a>
 				</div>
 				<div class="navbar-separator"></div>
 				<div class= "navbar-link">
+					<a href="{{URL::to_route('about')}}">
 					<h3>About</h3>
 					<h4 class="navbar-sub">me</h4>
+					</a>
 				</div>
 				<div class="navbar-separator"></div>
 				<div class= "navbar-link">
+					<a href="{{URL::to_route('contact')}}">
 					<h3>Contact</h3>
 					<h4 class="navbar-sub">by email</h4>
+					</a>
 				</div>
 			</div>
 		</div>
@@ -94,7 +102,6 @@
 	{{ HTML::script('js/jquery.js') }}
 	{{ HTML::script('js/underscore.js') }}
 	{{ HTML::script('js/backbone.js') }}
-	{{ HTML::script('js/base.js') }}
 	@yield_section
 <!-- End Document ================================================== -->
 </body>

@@ -1,9 +1,14 @@
+@layout('layout._main')
 
-<?php \Laravel\Section::start('css'); ?>
+@section('css')
 @parent
-<?php \Laravel\Section::stop(); ?>
+@endsection
 
-<?php \Laravel\Section::start('content'); ?>
+@section('js')
+@parent
+@endsection
+
+@section('content')
 
 <div class="container">
 	<div class="sixteen columns">
@@ -48,10 +53,4 @@
 	</div><!-- container -->
 </script>
 
-<?php \Laravel\Section::stop(); ?>
-
-<?php \Laravel\Section::start('js'); ?>
-@parent
-<?php echo  HTML::script('js/base.js') ; ?>
-<?php \Laravel\Section::stop(); ?>
-<?php echo view('layout._main')->with(get_defined_vars())->render(); ?>
+@endsection
