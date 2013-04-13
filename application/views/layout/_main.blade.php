@@ -68,7 +68,7 @@
 					<h3>Home</h3>
 					<h4 class="navbar-sub">sweet home</h4>
 					</a>
-					<div id="nav-selection-image"></div>
+					<?php if(Request::route()->action['as']=='home'){echo '<div id="nav-selection-image"></div>';}?>
 				</div>
 				<div class="navbar-separator"></div>
 				<div class= "navbar-link">
@@ -76,6 +76,7 @@
 					<h3>Technology</h3>
 					<h4 class="navbar-sub">to-do list</h4>
 					</a>
+					<?php if(Request::route()->action['as']=='tech'){echo '<div id="nav-selection-image"></div>';}?>
 				</div>
 				<div class="navbar-separator"></div>
 				<div class= "navbar-link">
@@ -83,6 +84,7 @@
 					<h3>About</h3>
 					<h4 class="navbar-sub">me</h4>
 					</a>
+					<?php if(Request::route()->action['as']=='about'){echo '<div id="nav-selection-image"></div>';}?>
 				</div>
 				<div class="navbar-separator"></div>
 				<div class= "navbar-link">
@@ -90,6 +92,7 @@
 					<h3>Contact</h3>
 					<h4 class="navbar-sub">by email</h4>
 					</a>
+					<?php if(Request::route()->action['as']=='contact'){echo '<div id="nav-selection-image"></div>';}?>
 				</div>
 			</div>
 		</div>
@@ -97,7 +100,6 @@
 
 	@yield('content')
 	
-
 	@section('js')
 	{{ HTML::script('js/jquery.js') }}
 	{{ HTML::script('js/underscore.js') }}

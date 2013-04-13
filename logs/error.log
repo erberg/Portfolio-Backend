@@ -353,3 +353,351 @@
 [Thu Apr 11 15:35:31 2013] [error] [client 24.18.143.237] PHP   2. trigger_error() /usr/share/phpmyadmin/main.php:304, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=803706aa207f8222d1889ab1665fbb74
 [Thu Apr 11 15:35:31 2013] [error] [client 24.18.143.237] PHP   3. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/main.php:304, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=803706aa207f8222d1889ab1665fbb74
 [Thu Apr 11 15:35:31 2013] [error] [client 24.18.143.237] PHP   4. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=803706aa207f8222d1889ab1665fbb74
+[Fri Apr 12 21:06:12 2013] [error] [client 24.18.143.237] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /var/www/www.ericrberg.com/laravel/view.php(386) : eval()'d code on line 71, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:12 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:12 2013] [error] [client 24.18.143.237] PHP   1. {main}() /var/www/www.ericrberg.com/public/index.php:0, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:12 2013] [error] [client 24.18.143.237] PHP   2. require() /var/www/www.ericrberg.com/public/index.php:34, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:12 2013] [error] [client 24.18.143.237] PHP   3. Laravel\\Response->render() /var/www/www.ericrberg.com/laravel/laravel.php:180, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:12 2013] [error] [client 24.18.143.237] PHP   4. Laravel\\View->__toString() /var/www/www.ericrberg.com/laravel/response.php:268, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:12 2013] [error] [client 24.18.143.237] PHP   5. Laravel\\View->render() /var/www/www.ericrberg.com/laravel/view.php:590, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:12 2013] [error] [client 24.18.143.237] PHP   6. Laravel\\Event::until() /var/www/www.ericrberg.com/laravel/view.php:348, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:12 2013] [error] [client 24.18.143.237] PHP   7. Laravel\\Event::fire() /var/www/www.ericrberg.com/laravel/event.php:138, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:12 2013] [error] [client 24.18.143.237] PHP   8. call_user_func_array() /var/www/www.ericrberg.com/laravel/event.php:199, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:12 2013] [error] [client 24.18.143.237] PHP   9. Laravel\\Blade::Laravel\\{closure}() /var/www/www.ericrberg.com/laravel/event.php:199, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:12 2013] [error] [client 24.18.143.237] PHP  10. Laravel\\View->get() /var/www/www.ericrberg.com/laravel/blade.php:71, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:12 2013] [error] [client 24.18.143.237] PHP  11. eval() /var/www/www.ericrberg.com/laravel/view.php:386, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:12 2013] [error] [client 24.18.143.237] PHP  12. Laravel\\View->render() /var/www/www.ericrberg.com/laravel/view.php(386) : eval()'d code:57, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:12 2013] [error] [client 24.18.143.237] PHP  13. Laravel\\Event::until() /var/www/www.ericrberg.com/laravel/view.php:348, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:12 2013] [error] [client 24.18.143.237] PHP  14. Laravel\\Event::fire() /var/www/www.ericrberg.com/laravel/event.php:138, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:12 2013] [error] [client 24.18.143.237] PHP  15. call_user_func_array() /var/www/www.ericrberg.com/laravel/event.php:199, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:12 2013] [error] [client 24.18.143.237] PHP  16. Laravel\\Blade::Laravel\\{closure}() /var/www/www.ericrberg.com/laravel/event.php:199, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:12 2013] [error] [client 24.18.143.237] PHP  17. Laravel\\View->get() /var/www/www.ericrberg.com/laravel/blade.php:71, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:31 2013] [error] [client 24.18.143.237] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /var/www/www.ericrberg.com/laravel/view.php(386) : eval()'d code on line 71, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:31 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:31 2013] [error] [client 24.18.143.237] PHP   1. {main}() /var/www/www.ericrberg.com/public/index.php:0, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:31 2013] [error] [client 24.18.143.237] PHP   2. require() /var/www/www.ericrberg.com/public/index.php:34, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:31 2013] [error] [client 24.18.143.237] PHP   3. Laravel\\Response->render() /var/www/www.ericrberg.com/laravel/laravel.php:180, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:31 2013] [error] [client 24.18.143.237] PHP   4. Laravel\\View->__toString() /var/www/www.ericrberg.com/laravel/response.php:268, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:31 2013] [error] [client 24.18.143.237] PHP   5. Laravel\\View->render() /var/www/www.ericrberg.com/laravel/view.php:590, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:31 2013] [error] [client 24.18.143.237] PHP   6. Laravel\\Event::until() /var/www/www.ericrberg.com/laravel/view.php:348, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:31 2013] [error] [client 24.18.143.237] PHP   7. Laravel\\Event::fire() /var/www/www.ericrberg.com/laravel/event.php:138, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:31 2013] [error] [client 24.18.143.237] PHP   8. call_user_func_array() /var/www/www.ericrberg.com/laravel/event.php:199, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:31 2013] [error] [client 24.18.143.237] PHP   9. Laravel\\Blade::Laravel\\{closure}() /var/www/www.ericrberg.com/laravel/event.php:199, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:31 2013] [error] [client 24.18.143.237] PHP  10. Laravel\\View->get() /var/www/www.ericrberg.com/laravel/blade.php:71, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:31 2013] [error] [client 24.18.143.237] PHP  11. eval() /var/www/www.ericrberg.com/laravel/view.php:386, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:31 2013] [error] [client 24.18.143.237] PHP  12. Laravel\\View->render() /var/www/www.ericrberg.com/laravel/view.php(386) : eval()'d code:57, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:31 2013] [error] [client 24.18.143.237] PHP  13. Laravel\\Event::until() /var/www/www.ericrberg.com/laravel/view.php:348, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:31 2013] [error] [client 24.18.143.237] PHP  14. Laravel\\Event::fire() /var/www/www.ericrberg.com/laravel/event.php:138, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:31 2013] [error] [client 24.18.143.237] PHP  15. call_user_func_array() /var/www/www.ericrberg.com/laravel/event.php:199, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:31 2013] [error] [client 24.18.143.237] PHP  16. Laravel\\Blade::Laravel\\{closure}() /var/www/www.ericrberg.com/laravel/event.php:199, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:31 2013] [error] [client 24.18.143.237] PHP  17. Laravel\\View->get() /var/www/www.ericrberg.com/laravel/blade.php:71, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:31 2013] [error] [client 24.18.143.237] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /var/www/www.ericrberg.com/laravel/view.php(386) : eval()'d code on line 71, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:31 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:31 2013] [error] [client 24.18.143.237] PHP   1. {main}() /var/www/www.ericrberg.com/public/index.php:0, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:31 2013] [error] [client 24.18.143.237] PHP   2. require() /var/www/www.ericrberg.com/public/index.php:34, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:31 2013] [error] [client 24.18.143.237] PHP   3. Laravel\\Response->render() /var/www/www.ericrberg.com/laravel/laravel.php:180, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:31 2013] [error] [client 24.18.143.237] PHP   4. Laravel\\View->__toString() /var/www/www.ericrberg.com/laravel/response.php:268, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:31 2013] [error] [client 24.18.143.237] PHP   5. Laravel\\View->render() /var/www/www.ericrberg.com/laravel/view.php:590, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:31 2013] [error] [client 24.18.143.237] PHP   6. Laravel\\Event::until() /var/www/www.ericrberg.com/laravel/view.php:348, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:31 2013] [error] [client 24.18.143.237] PHP   7. Laravel\\Event::fire() /var/www/www.ericrberg.com/laravel/event.php:138, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:31 2013] [error] [client 24.18.143.237] PHP   8. call_user_func_array() /var/www/www.ericrberg.com/laravel/event.php:199, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:31 2013] [error] [client 24.18.143.237] PHP   9. Laravel\\Blade::Laravel\\{closure}() /var/www/www.ericrberg.com/laravel/event.php:199, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:31 2013] [error] [client 24.18.143.237] PHP  10. Laravel\\View->get() /var/www/www.ericrberg.com/laravel/blade.php:71, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:31 2013] [error] [client 24.18.143.237] PHP  11. eval() /var/www/www.ericrberg.com/laravel/view.php:386, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:31 2013] [error] [client 24.18.143.237] PHP  12. Laravel\\View->render() /var/www/www.ericrberg.com/laravel/view.php(386) : eval()'d code:57, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:31 2013] [error] [client 24.18.143.237] PHP  13. Laravel\\Event::until() /var/www/www.ericrberg.com/laravel/view.php:348, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:31 2013] [error] [client 24.18.143.237] PHP  14. Laravel\\Event::fire() /var/www/www.ericrberg.com/laravel/event.php:138, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:31 2013] [error] [client 24.18.143.237] PHP  15. call_user_func_array() /var/www/www.ericrberg.com/laravel/event.php:199, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:31 2013] [error] [client 24.18.143.237] PHP  16. Laravel\\Blade::Laravel\\{closure}() /var/www/www.ericrberg.com/laravel/event.php:199, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:31 2013] [error] [client 24.18.143.237] PHP  17. Laravel\\View->get() /var/www/www.ericrberg.com/laravel/blade.php:71, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:48 2013] [error] [client 24.18.143.237] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /var/www/www.ericrberg.com/laravel/view.php(386) : eval()'d code on line 71, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:48 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:48 2013] [error] [client 24.18.143.237] PHP   1. {main}() /var/www/www.ericrberg.com/public/index.php:0, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:48 2013] [error] [client 24.18.143.237] PHP   2. require() /var/www/www.ericrberg.com/public/index.php:34, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:48 2013] [error] [client 24.18.143.237] PHP   3. Laravel\\Response->render() /var/www/www.ericrberg.com/laravel/laravel.php:180, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:48 2013] [error] [client 24.18.143.237] PHP   4. Laravel\\View->__toString() /var/www/www.ericrberg.com/laravel/response.php:268, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:48 2013] [error] [client 24.18.143.237] PHP   5. Laravel\\View->render() /var/www/www.ericrberg.com/laravel/view.php:590, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:48 2013] [error] [client 24.18.143.237] PHP   6. Laravel\\Event::until() /var/www/www.ericrberg.com/laravel/view.php:348, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:48 2013] [error] [client 24.18.143.237] PHP   7. Laravel\\Event::fire() /var/www/www.ericrberg.com/laravel/event.php:138, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:48 2013] [error] [client 24.18.143.237] PHP   8. call_user_func_array() /var/www/www.ericrberg.com/laravel/event.php:199, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:48 2013] [error] [client 24.18.143.237] PHP   9. Laravel\\Blade::Laravel\\{closure}() /var/www/www.ericrberg.com/laravel/event.php:199, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:48 2013] [error] [client 24.18.143.237] PHP  10. Laravel\\View->get() /var/www/www.ericrberg.com/laravel/blade.php:71, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:48 2013] [error] [client 24.18.143.237] PHP  11. eval() /var/www/www.ericrberg.com/laravel/view.php:386, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:48 2013] [error] [client 24.18.143.237] PHP  12. Laravel\\View->render() /var/www/www.ericrberg.com/laravel/view.php(386) : eval()'d code:57, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:48 2013] [error] [client 24.18.143.237] PHP  13. Laravel\\Event::until() /var/www/www.ericrberg.com/laravel/view.php:348, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:48 2013] [error] [client 24.18.143.237] PHP  14. Laravel\\Event::fire() /var/www/www.ericrberg.com/laravel/event.php:138, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:48 2013] [error] [client 24.18.143.237] PHP  15. call_user_func_array() /var/www/www.ericrberg.com/laravel/event.php:199, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:48 2013] [error] [client 24.18.143.237] PHP  16. Laravel\\Blade::Laravel\\{closure}() /var/www/www.ericrberg.com/laravel/event.php:199, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:48 2013] [error] [client 24.18.143.237] PHP  17. Laravel\\View->get() /var/www/www.ericrberg.com/laravel/blade.php:71, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:49 2013] [error] [client 24.18.143.237] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /var/www/www.ericrberg.com/laravel/view.php(386) : eval()'d code on line 71, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:49 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:49 2013] [error] [client 24.18.143.237] PHP   1. {main}() /var/www/www.ericrberg.com/public/index.php:0, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:49 2013] [error] [client 24.18.143.237] PHP   2. require() /var/www/www.ericrberg.com/public/index.php:34, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:49 2013] [error] [client 24.18.143.237] PHP   3. Laravel\\Response->render() /var/www/www.ericrberg.com/laravel/laravel.php:180, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:49 2013] [error] [client 24.18.143.237] PHP   4. Laravel\\View->__toString() /var/www/www.ericrberg.com/laravel/response.php:268, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:49 2013] [error] [client 24.18.143.237] PHP   5. Laravel\\View->render() /var/www/www.ericrberg.com/laravel/view.php:590, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:49 2013] [error] [client 24.18.143.237] PHP   6. Laravel\\Event::until() /var/www/www.ericrberg.com/laravel/view.php:348, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:49 2013] [error] [client 24.18.143.237] PHP   7. Laravel\\Event::fire() /var/www/www.ericrberg.com/laravel/event.php:138, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:49 2013] [error] [client 24.18.143.237] PHP   8. call_user_func_array() /var/www/www.ericrberg.com/laravel/event.php:199, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:49 2013] [error] [client 24.18.143.237] PHP   9. Laravel\\Blade::Laravel\\{closure}() /var/www/www.ericrberg.com/laravel/event.php:199, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:49 2013] [error] [client 24.18.143.237] PHP  10. Laravel\\View->get() /var/www/www.ericrberg.com/laravel/blade.php:71, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:49 2013] [error] [client 24.18.143.237] PHP  11. eval() /var/www/www.ericrberg.com/laravel/view.php:386, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:49 2013] [error] [client 24.18.143.237] PHP  12. Laravel\\View->render() /var/www/www.ericrberg.com/laravel/view.php(386) : eval()'d code:57, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:49 2013] [error] [client 24.18.143.237] PHP  13. Laravel\\Event::until() /var/www/www.ericrberg.com/laravel/view.php:348, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:49 2013] [error] [client 24.18.143.237] PHP  14. Laravel\\Event::fire() /var/www/www.ericrberg.com/laravel/event.php:138, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:49 2013] [error] [client 24.18.143.237] PHP  15. call_user_func_array() /var/www/www.ericrberg.com/laravel/event.php:199, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:49 2013] [error] [client 24.18.143.237] PHP  16. Laravel\\Blade::Laravel\\{closure}() /var/www/www.ericrberg.com/laravel/event.php:199, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:06:49 2013] [error] [client 24.18.143.237] PHP  17. Laravel\\View->get() /var/www/www.ericrberg.com/laravel/blade.php:71, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:07:08 2013] [error] [client 24.18.143.237] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /var/www/www.ericrberg.com/laravel/view.php(386) : eval()'d code on line 71, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:07:08 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:07:08 2013] [error] [client 24.18.143.237] PHP   1. {main}() /var/www/www.ericrberg.com/public/index.php:0, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:07:08 2013] [error] [client 24.18.143.237] PHP   2. require() /var/www/www.ericrberg.com/public/index.php:34, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:07:08 2013] [error] [client 24.18.143.237] PHP   3. Laravel\\Response->render() /var/www/www.ericrberg.com/laravel/laravel.php:180, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:07:08 2013] [error] [client 24.18.143.237] PHP   4. Laravel\\View->__toString() /var/www/www.ericrberg.com/laravel/response.php:268, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:07:08 2013] [error] [client 24.18.143.237] PHP   5. Laravel\\View->render() /var/www/www.ericrberg.com/laravel/view.php:590, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:07:08 2013] [error] [client 24.18.143.237] PHP   6. Laravel\\Event::until() /var/www/www.ericrberg.com/laravel/view.php:348, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:07:08 2013] [error] [client 24.18.143.237] PHP   7. Laravel\\Event::fire() /var/www/www.ericrberg.com/laravel/event.php:138, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:07:08 2013] [error] [client 24.18.143.237] PHP   8. call_user_func_array() /var/www/www.ericrberg.com/laravel/event.php:199, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:07:08 2013] [error] [client 24.18.143.237] PHP   9. Laravel\\Blade::Laravel\\{closure}() /var/www/www.ericrberg.com/laravel/event.php:199, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:07:08 2013] [error] [client 24.18.143.237] PHP  10. Laravel\\View->get() /var/www/www.ericrberg.com/laravel/blade.php:71, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:07:08 2013] [error] [client 24.18.143.237] PHP  11. eval() /var/www/www.ericrberg.com/laravel/view.php:386, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:07:08 2013] [error] [client 24.18.143.237] PHP  12. Laravel\\View->render() /var/www/www.ericrberg.com/laravel/view.php(386) : eval()'d code:57, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:07:08 2013] [error] [client 24.18.143.237] PHP  13. Laravel\\Event::until() /var/www/www.ericrberg.com/laravel/view.php:348, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:07:08 2013] [error] [client 24.18.143.237] PHP  14. Laravel\\Event::fire() /var/www/www.ericrberg.com/laravel/event.php:138, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:07:08 2013] [error] [client 24.18.143.237] PHP  15. call_user_func_array() /var/www/www.ericrberg.com/laravel/event.php:199, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:07:08 2013] [error] [client 24.18.143.237] PHP  16. Laravel\\Blade::Laravel\\{closure}() /var/www/www.ericrberg.com/laravel/event.php:199, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:07:08 2013] [error] [client 24.18.143.237] PHP  17. Laravel\\View->get() /var/www/www.ericrberg.com/laravel/blade.php:71, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:07:09 2013] [error] [client 24.18.143.237] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /var/www/www.ericrberg.com/laravel/view.php(386) : eval()'d code on line 71, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:07:09 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:07:09 2013] [error] [client 24.18.143.237] PHP   1. {main}() /var/www/www.ericrberg.com/public/index.php:0, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:07:09 2013] [error] [client 24.18.143.237] PHP   2. require() /var/www/www.ericrberg.com/public/index.php:34, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:07:09 2013] [error] [client 24.18.143.237] PHP   3. Laravel\\Response->render() /var/www/www.ericrberg.com/laravel/laravel.php:180, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:07:09 2013] [error] [client 24.18.143.237] PHP   4. Laravel\\View->__toString() /var/www/www.ericrberg.com/laravel/response.php:268, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:07:09 2013] [error] [client 24.18.143.237] PHP   5. Laravel\\View->render() /var/www/www.ericrberg.com/laravel/view.php:590, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:07:09 2013] [error] [client 24.18.143.237] PHP   6. Laravel\\Event::until() /var/www/www.ericrberg.com/laravel/view.php:348, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:07:09 2013] [error] [client 24.18.143.237] PHP   7. Laravel\\Event::fire() /var/www/www.ericrberg.com/laravel/event.php:138, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:07:09 2013] [error] [client 24.18.143.237] PHP   8. call_user_func_array() /var/www/www.ericrberg.com/laravel/event.php:199, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:07:09 2013] [error] [client 24.18.143.237] PHP   9. Laravel\\Blade::Laravel\\{closure}() /var/www/www.ericrberg.com/laravel/event.php:199, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:07:09 2013] [error] [client 24.18.143.237] PHP  10. Laravel\\View->get() /var/www/www.ericrberg.com/laravel/blade.php:71, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:07:09 2013] [error] [client 24.18.143.237] PHP  11. eval() /var/www/www.ericrberg.com/laravel/view.php:386, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:07:09 2013] [error] [client 24.18.143.237] PHP  12. Laravel\\View->render() /var/www/www.ericrberg.com/laravel/view.php(386) : eval()'d code:57, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:07:09 2013] [error] [client 24.18.143.237] PHP  13. Laravel\\Event::until() /var/www/www.ericrberg.com/laravel/view.php:348, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:07:09 2013] [error] [client 24.18.143.237] PHP  14. Laravel\\Event::fire() /var/www/www.ericrberg.com/laravel/event.php:138, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:07:09 2013] [error] [client 24.18.143.237] PHP  15. call_user_func_array() /var/www/www.ericrberg.com/laravel/event.php:199, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:07:09 2013] [error] [client 24.18.143.237] PHP  16. Laravel\\Blade::Laravel\\{closure}() /var/www/www.ericrberg.com/laravel/event.php:199, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:07:09 2013] [error] [client 24.18.143.237] PHP  17. Laravel\\View->get() /var/www/www.ericrberg.com/laravel/blade.php:71, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:07:09 2013] [error] [client 24.18.143.237] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /var/www/www.ericrberg.com/laravel/view.php(386) : eval()'d code on line 71, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:07:09 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:07:09 2013] [error] [client 24.18.143.237] PHP   1. {main}() /var/www/www.ericrberg.com/public/index.php:0, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:07:09 2013] [error] [client 24.18.143.237] PHP   2. require() /var/www/www.ericrberg.com/public/index.php:34, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:07:09 2013] [error] [client 24.18.143.237] PHP   3. Laravel\\Response->render() /var/www/www.ericrberg.com/laravel/laravel.php:180, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:07:09 2013] [error] [client 24.18.143.237] PHP   4. Laravel\\View->__toString() /var/www/www.ericrberg.com/laravel/response.php:268, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:07:09 2013] [error] [client 24.18.143.237] PHP   5. Laravel\\View->render() /var/www/www.ericrberg.com/laravel/view.php:590, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:07:09 2013] [error] [client 24.18.143.237] PHP   6. Laravel\\Event::until() /var/www/www.ericrberg.com/laravel/view.php:348, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:07:09 2013] [error] [client 24.18.143.237] PHP   7. Laravel\\Event::fire() /var/www/www.ericrberg.com/laravel/event.php:138, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:07:09 2013] [error] [client 24.18.143.237] PHP   8. call_user_func_array() /var/www/www.ericrberg.com/laravel/event.php:199, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:07:09 2013] [error] [client 24.18.143.237] PHP   9. Laravel\\Blade::Laravel\\{closure}() /var/www/www.ericrberg.com/laravel/event.php:199, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:07:09 2013] [error] [client 24.18.143.237] PHP  10. Laravel\\View->get() /var/www/www.ericrberg.com/laravel/blade.php:71, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:07:09 2013] [error] [client 24.18.143.237] PHP  11. eval() /var/www/www.ericrberg.com/laravel/view.php:386, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:07:09 2013] [error] [client 24.18.143.237] PHP  12. Laravel\\View->render() /var/www/www.ericrberg.com/laravel/view.php(386) : eval()'d code:57, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:07:09 2013] [error] [client 24.18.143.237] PHP  13. Laravel\\Event::until() /var/www/www.ericrberg.com/laravel/view.php:348, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:07:09 2013] [error] [client 24.18.143.237] PHP  14. Laravel\\Event::fire() /var/www/www.ericrberg.com/laravel/event.php:138, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:07:09 2013] [error] [client 24.18.143.237] PHP  15. call_user_func_array() /var/www/www.ericrberg.com/laravel/event.php:199, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:07:09 2013] [error] [client 24.18.143.237] PHP  16. Laravel\\Blade::Laravel\\{closure}() /var/www/www.ericrberg.com/laravel/event.php:199, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:07:09 2013] [error] [client 24.18.143.237] PHP  17. Laravel\\View->get() /var/www/www.ericrberg.com/laravel/blade.php:71, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:01 2013] [error] [client 24.18.143.237] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /var/www/www.ericrberg.com/laravel/view.php(386) : eval()'d code on line 71, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:01 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:01 2013] [error] [client 24.18.143.237] PHP   1. {main}() /var/www/www.ericrberg.com/public/index.php:0, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:01 2013] [error] [client 24.18.143.237] PHP   2. require() /var/www/www.ericrberg.com/public/index.php:34, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:01 2013] [error] [client 24.18.143.237] PHP   3. Laravel\\Response->render() /var/www/www.ericrberg.com/laravel/laravel.php:180, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:01 2013] [error] [client 24.18.143.237] PHP   4. Laravel\\View->__toString() /var/www/www.ericrberg.com/laravel/response.php:268, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:01 2013] [error] [client 24.18.143.237] PHP   5. Laravel\\View->render() /var/www/www.ericrberg.com/laravel/view.php:590, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:01 2013] [error] [client 24.18.143.237] PHP   6. Laravel\\Event::until() /var/www/www.ericrberg.com/laravel/view.php:348, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:01 2013] [error] [client 24.18.143.237] PHP   7. Laravel\\Event::fire() /var/www/www.ericrberg.com/laravel/event.php:138, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:01 2013] [error] [client 24.18.143.237] PHP   8. call_user_func_array() /var/www/www.ericrberg.com/laravel/event.php:199, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:01 2013] [error] [client 24.18.143.237] PHP   9. Laravel\\Blade::Laravel\\{closure}() /var/www/www.ericrberg.com/laravel/event.php:199, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:01 2013] [error] [client 24.18.143.237] PHP  10. Laravel\\View->get() /var/www/www.ericrberg.com/laravel/blade.php:71, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:01 2013] [error] [client 24.18.143.237] PHP  11. eval() /var/www/www.ericrberg.com/laravel/view.php:386, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:01 2013] [error] [client 24.18.143.237] PHP  12. Laravel\\View->render() /var/www/www.ericrberg.com/laravel/view.php(386) : eval()'d code:57, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:01 2013] [error] [client 24.18.143.237] PHP  13. Laravel\\Event::until() /var/www/www.ericrberg.com/laravel/view.php:348, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:01 2013] [error] [client 24.18.143.237] PHP  14. Laravel\\Event::fire() /var/www/www.ericrberg.com/laravel/event.php:138, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:01 2013] [error] [client 24.18.143.237] PHP  15. call_user_func_array() /var/www/www.ericrberg.com/laravel/event.php:199, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:01 2013] [error] [client 24.18.143.237] PHP  16. Laravel\\Blade::Laravel\\{closure}() /var/www/www.ericrberg.com/laravel/event.php:199, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:01 2013] [error] [client 24.18.143.237] PHP  17. Laravel\\View->get() /var/www/www.ericrberg.com/laravel/blade.php:71, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:02 2013] [error] [client 24.18.143.237] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /var/www/www.ericrberg.com/laravel/view.php(386) : eval()'d code on line 71, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:02 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:02 2013] [error] [client 24.18.143.237] PHP   1. {main}() /var/www/www.ericrberg.com/public/index.php:0, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:02 2013] [error] [client 24.18.143.237] PHP   2. require() /var/www/www.ericrberg.com/public/index.php:34, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:02 2013] [error] [client 24.18.143.237] PHP   3. Laravel\\Response->render() /var/www/www.ericrberg.com/laravel/laravel.php:180, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:02 2013] [error] [client 24.18.143.237] PHP   4. Laravel\\View->__toString() /var/www/www.ericrberg.com/laravel/response.php:268, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:02 2013] [error] [client 24.18.143.237] PHP   5. Laravel\\View->render() /var/www/www.ericrberg.com/laravel/view.php:590, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:02 2013] [error] [client 24.18.143.237] PHP   6. Laravel\\Event::until() /var/www/www.ericrberg.com/laravel/view.php:348, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:02 2013] [error] [client 24.18.143.237] PHP   7. Laravel\\Event::fire() /var/www/www.ericrberg.com/laravel/event.php:138, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:02 2013] [error] [client 24.18.143.237] PHP   8. call_user_func_array() /var/www/www.ericrberg.com/laravel/event.php:199, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:02 2013] [error] [client 24.18.143.237] PHP   9. Laravel\\Blade::Laravel\\{closure}() /var/www/www.ericrberg.com/laravel/event.php:199, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:02 2013] [error] [client 24.18.143.237] PHP  10. Laravel\\View->get() /var/www/www.ericrberg.com/laravel/blade.php:71, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:02 2013] [error] [client 24.18.143.237] PHP  11. eval() /var/www/www.ericrberg.com/laravel/view.php:386, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:02 2013] [error] [client 24.18.143.237] PHP  12. Laravel\\View->render() /var/www/www.ericrberg.com/laravel/view.php(386) : eval()'d code:57, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:02 2013] [error] [client 24.18.143.237] PHP  13. Laravel\\Event::until() /var/www/www.ericrberg.com/laravel/view.php:348, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:02 2013] [error] [client 24.18.143.237] PHP  14. Laravel\\Event::fire() /var/www/www.ericrberg.com/laravel/event.php:138, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:02 2013] [error] [client 24.18.143.237] PHP  15. call_user_func_array() /var/www/www.ericrberg.com/laravel/event.php:199, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:02 2013] [error] [client 24.18.143.237] PHP  16. Laravel\\Blade::Laravel\\{closure}() /var/www/www.ericrberg.com/laravel/event.php:199, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:02 2013] [error] [client 24.18.143.237] PHP  17. Laravel\\View->get() /var/www/www.ericrberg.com/laravel/blade.php:71, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:10 2013] [error] [client 24.18.143.237] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /var/www/www.ericrberg.com/laravel/view.php(386) : eval()'d code on line 71, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:10 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:10 2013] [error] [client 24.18.143.237] PHP   1. {main}() /var/www/www.ericrberg.com/public/index.php:0, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:10 2013] [error] [client 24.18.143.237] PHP   2. require() /var/www/www.ericrberg.com/public/index.php:34, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:10 2013] [error] [client 24.18.143.237] PHP   3. Laravel\\Response->render() /var/www/www.ericrberg.com/laravel/laravel.php:180, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:10 2013] [error] [client 24.18.143.237] PHP   4. Laravel\\View->__toString() /var/www/www.ericrberg.com/laravel/response.php:268, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:10 2013] [error] [client 24.18.143.237] PHP   5. Laravel\\View->render() /var/www/www.ericrberg.com/laravel/view.php:590, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:10 2013] [error] [client 24.18.143.237] PHP   6. Laravel\\Event::until() /var/www/www.ericrberg.com/laravel/view.php:348, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:10 2013] [error] [client 24.18.143.237] PHP   7. Laravel\\Event::fire() /var/www/www.ericrberg.com/laravel/event.php:138, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:10 2013] [error] [client 24.18.143.237] PHP   8. call_user_func_array() /var/www/www.ericrberg.com/laravel/event.php:199, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:10 2013] [error] [client 24.18.143.237] PHP   9. Laravel\\Blade::Laravel\\{closure}() /var/www/www.ericrberg.com/laravel/event.php:199, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:10 2013] [error] [client 24.18.143.237] PHP  10. Laravel\\View->get() /var/www/www.ericrberg.com/laravel/blade.php:71, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:10 2013] [error] [client 24.18.143.237] PHP  11. eval() /var/www/www.ericrberg.com/laravel/view.php:386, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:10 2013] [error] [client 24.18.143.237] PHP  12. Laravel\\View->render() /var/www/www.ericrberg.com/laravel/view.php(386) : eval()'d code:57, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:10 2013] [error] [client 24.18.143.237] PHP  13. Laravel\\Event::until() /var/www/www.ericrberg.com/laravel/view.php:348, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:10 2013] [error] [client 24.18.143.237] PHP  14. Laravel\\Event::fire() /var/www/www.ericrberg.com/laravel/event.php:138, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:10 2013] [error] [client 24.18.143.237] PHP  15. call_user_func_array() /var/www/www.ericrberg.com/laravel/event.php:199, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:10 2013] [error] [client 24.18.143.237] PHP  16. Laravel\\Blade::Laravel\\{closure}() /var/www/www.ericrberg.com/laravel/event.php:199, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:10 2013] [error] [client 24.18.143.237] PHP  17. Laravel\\View->get() /var/www/www.ericrberg.com/laravel/blade.php:71, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:11 2013] [error] [client 24.18.143.237] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /var/www/www.ericrberg.com/laravel/view.php(386) : eval()'d code on line 71, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:11 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:11 2013] [error] [client 24.18.143.237] PHP   1. {main}() /var/www/www.ericrberg.com/public/index.php:0, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:11 2013] [error] [client 24.18.143.237] PHP   2. require() /var/www/www.ericrberg.com/public/index.php:34, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:11 2013] [error] [client 24.18.143.237] PHP   3. Laravel\\Response->render() /var/www/www.ericrberg.com/laravel/laravel.php:180, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:11 2013] [error] [client 24.18.143.237] PHP   4. Laravel\\View->__toString() /var/www/www.ericrberg.com/laravel/response.php:268, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:11 2013] [error] [client 24.18.143.237] PHP   5. Laravel\\View->render() /var/www/www.ericrberg.com/laravel/view.php:590, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:11 2013] [error] [client 24.18.143.237] PHP   6. Laravel\\Event::until() /var/www/www.ericrberg.com/laravel/view.php:348, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:11 2013] [error] [client 24.18.143.237] PHP   7. Laravel\\Event::fire() /var/www/www.ericrberg.com/laravel/event.php:138, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:11 2013] [error] [client 24.18.143.237] PHP   8. call_user_func_array() /var/www/www.ericrberg.com/laravel/event.php:199, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:11 2013] [error] [client 24.18.143.237] PHP   9. Laravel\\Blade::Laravel\\{closure}() /var/www/www.ericrberg.com/laravel/event.php:199, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:11 2013] [error] [client 24.18.143.237] PHP  10. Laravel\\View->get() /var/www/www.ericrberg.com/laravel/blade.php:71, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:11 2013] [error] [client 24.18.143.237] PHP  11. eval() /var/www/www.ericrberg.com/laravel/view.php:386, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:11 2013] [error] [client 24.18.143.237] PHP  12. Laravel\\View->render() /var/www/www.ericrberg.com/laravel/view.php(386) : eval()'d code:57, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:11 2013] [error] [client 24.18.143.237] PHP  13. Laravel\\Event::until() /var/www/www.ericrberg.com/laravel/view.php:348, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:11 2013] [error] [client 24.18.143.237] PHP  14. Laravel\\Event::fire() /var/www/www.ericrberg.com/laravel/event.php:138, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:11 2013] [error] [client 24.18.143.237] PHP  15. call_user_func_array() /var/www/www.ericrberg.com/laravel/event.php:199, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:11 2013] [error] [client 24.18.143.237] PHP  16. Laravel\\Blade::Laravel\\{closure}() /var/www/www.ericrberg.com/laravel/event.php:199, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:11 2013] [error] [client 24.18.143.237] PHP  17. Laravel\\View->get() /var/www/www.ericrberg.com/laravel/blade.php:71, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:19 2013] [error] [client 24.18.143.237] PHP Parse error:  syntax error, unexpected '<' in /var/www/www.ericrberg.com/laravel/view.php(386) : eval()'d code on line 71, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:19 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:19 2013] [error] [client 24.18.143.237] PHP   1. {main}() /var/www/www.ericrberg.com/public/index.php:0, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:19 2013] [error] [client 24.18.143.237] PHP   2. require() /var/www/www.ericrberg.com/public/index.php:34, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:19 2013] [error] [client 24.18.143.237] PHP   3. Laravel\\Response->render() /var/www/www.ericrberg.com/laravel/laravel.php:180, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:19 2013] [error] [client 24.18.143.237] PHP   4. Laravel\\View->__toString() /var/www/www.ericrberg.com/laravel/response.php:268, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:19 2013] [error] [client 24.18.143.237] PHP   5. Laravel\\View->render() /var/www/www.ericrberg.com/laravel/view.php:590, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:19 2013] [error] [client 24.18.143.237] PHP   6. Laravel\\Event::until() /var/www/www.ericrberg.com/laravel/view.php:348, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:19 2013] [error] [client 24.18.143.237] PHP   7. Laravel\\Event::fire() /var/www/www.ericrberg.com/laravel/event.php:138, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:19 2013] [error] [client 24.18.143.237] PHP   8. call_user_func_array() /var/www/www.ericrberg.com/laravel/event.php:199, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:19 2013] [error] [client 24.18.143.237] PHP   9. Laravel\\Blade::Laravel\\{closure}() /var/www/www.ericrberg.com/laravel/event.php:199, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:19 2013] [error] [client 24.18.143.237] PHP  10. Laravel\\View->get() /var/www/www.ericrberg.com/laravel/blade.php:71, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:19 2013] [error] [client 24.18.143.237] PHP  11. eval() /var/www/www.ericrberg.com/laravel/view.php:386, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:19 2013] [error] [client 24.18.143.237] PHP  12. Laravel\\View->render() /var/www/www.ericrberg.com/laravel/view.php(386) : eval()'d code:57, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:19 2013] [error] [client 24.18.143.237] PHP  13. Laravel\\Event::until() /var/www/www.ericrberg.com/laravel/view.php:348, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:19 2013] [error] [client 24.18.143.237] PHP  14. Laravel\\Event::fire() /var/www/www.ericrberg.com/laravel/event.php:138, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:19 2013] [error] [client 24.18.143.237] PHP  15. call_user_func_array() /var/www/www.ericrberg.com/laravel/event.php:199, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:19 2013] [error] [client 24.18.143.237] PHP  16. Laravel\\Blade::Laravel\\{closure}() /var/www/www.ericrberg.com/laravel/event.php:199, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:19 2013] [error] [client 24.18.143.237] PHP  17. Laravel\\View->get() /var/www/www.ericrberg.com/laravel/blade.php:71, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:20 2013] [error] [client 24.18.143.237] PHP Parse error:  syntax error, unexpected '<' in /var/www/www.ericrberg.com/laravel/view.php(386) : eval()'d code on line 71, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:20 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:20 2013] [error] [client 24.18.143.237] PHP   1. {main}() /var/www/www.ericrberg.com/public/index.php:0, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:20 2013] [error] [client 24.18.143.237] PHP   2. require() /var/www/www.ericrberg.com/public/index.php:34, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:20 2013] [error] [client 24.18.143.237] PHP   3. Laravel\\Response->render() /var/www/www.ericrberg.com/laravel/laravel.php:180, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:20 2013] [error] [client 24.18.143.237] PHP   4. Laravel\\View->__toString() /var/www/www.ericrberg.com/laravel/response.php:268, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:20 2013] [error] [client 24.18.143.237] PHP   5. Laravel\\View->render() /var/www/www.ericrberg.com/laravel/view.php:590, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:20 2013] [error] [client 24.18.143.237] PHP   6. Laravel\\Event::until() /var/www/www.ericrberg.com/laravel/view.php:348, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:20 2013] [error] [client 24.18.143.237] PHP   7. Laravel\\Event::fire() /var/www/www.ericrberg.com/laravel/event.php:138, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:20 2013] [error] [client 24.18.143.237] PHP   8. call_user_func_array() /var/www/www.ericrberg.com/laravel/event.php:199, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:20 2013] [error] [client 24.18.143.237] PHP   9. Laravel\\Blade::Laravel\\{closure}() /var/www/www.ericrberg.com/laravel/event.php:199, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:20 2013] [error] [client 24.18.143.237] PHP  10. Laravel\\View->get() /var/www/www.ericrberg.com/laravel/blade.php:71, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:20 2013] [error] [client 24.18.143.237] PHP  11. eval() /var/www/www.ericrberg.com/laravel/view.php:386, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:20 2013] [error] [client 24.18.143.237] PHP  12. Laravel\\View->render() /var/www/www.ericrberg.com/laravel/view.php(386) : eval()'d code:57, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:20 2013] [error] [client 24.18.143.237] PHP  13. Laravel\\Event::until() /var/www/www.ericrberg.com/laravel/view.php:348, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:20 2013] [error] [client 24.18.143.237] PHP  14. Laravel\\Event::fire() /var/www/www.ericrberg.com/laravel/event.php:138, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:20 2013] [error] [client 24.18.143.237] PHP  15. call_user_func_array() /var/www/www.ericrberg.com/laravel/event.php:199, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:20 2013] [error] [client 24.18.143.237] PHP  16. Laravel\\Blade::Laravel\\{closure}() /var/www/www.ericrberg.com/laravel/event.php:199, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:20 2013] [error] [client 24.18.143.237] PHP  17. Laravel\\View->get() /var/www/www.ericrberg.com/laravel/blade.php:71, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:31 2013] [error] [client 24.18.143.237] PHP Parse error:  syntax error, unexpected ';' in /var/www/www.ericrberg.com/laravel/view.php(386) : eval()'d code on line 71, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:31 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:31 2013] [error] [client 24.18.143.237] PHP   1. {main}() /var/www/www.ericrberg.com/public/index.php:0, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:31 2013] [error] [client 24.18.143.237] PHP   2. require() /var/www/www.ericrberg.com/public/index.php:34, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:31 2013] [error] [client 24.18.143.237] PHP   3. Laravel\\Response->render() /var/www/www.ericrberg.com/laravel/laravel.php:180, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:31 2013] [error] [client 24.18.143.237] PHP   4. Laravel\\View->__toString() /var/www/www.ericrberg.com/laravel/response.php:268, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:31 2013] [error] [client 24.18.143.237] PHP   5. Laravel\\View->render() /var/www/www.ericrberg.com/laravel/view.php:590, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:31 2013] [error] [client 24.18.143.237] PHP   6. Laravel\\Event::until() /var/www/www.ericrberg.com/laravel/view.php:348, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:31 2013] [error] [client 24.18.143.237] PHP   7. Laravel\\Event::fire() /var/www/www.ericrberg.com/laravel/event.php:138, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:31 2013] [error] [client 24.18.143.237] PHP   8. call_user_func_array() /var/www/www.ericrberg.com/laravel/event.php:199, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:31 2013] [error] [client 24.18.143.237] PHP   9. Laravel\\Blade::Laravel\\{closure}() /var/www/www.ericrberg.com/laravel/event.php:199, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:31 2013] [error] [client 24.18.143.237] PHP  10. Laravel\\View->get() /var/www/www.ericrberg.com/laravel/blade.php:71, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:31 2013] [error] [client 24.18.143.237] PHP  11. eval() /var/www/www.ericrberg.com/laravel/view.php:386, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:31 2013] [error] [client 24.18.143.237] PHP  12. Laravel\\View->render() /var/www/www.ericrberg.com/laravel/view.php(386) : eval()'d code:57, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:31 2013] [error] [client 24.18.143.237] PHP  13. Laravel\\Event::until() /var/www/www.ericrberg.com/laravel/view.php:348, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:31 2013] [error] [client 24.18.143.237] PHP  14. Laravel\\Event::fire() /var/www/www.ericrberg.com/laravel/event.php:138, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:31 2013] [error] [client 24.18.143.237] PHP  15. call_user_func_array() /var/www/www.ericrberg.com/laravel/event.php:199, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:31 2013] [error] [client 24.18.143.237] PHP  16. Laravel\\Blade::Laravel\\{closure}() /var/www/www.ericrberg.com/laravel/event.php:199, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:31 2013] [error] [client 24.18.143.237] PHP  17. Laravel\\View->get() /var/www/www.ericrberg.com/laravel/blade.php:71, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:31 2013] [error] [client 24.18.143.237] PHP Parse error:  syntax error, unexpected ';' in /var/www/www.ericrberg.com/laravel/view.php(386) : eval()'d code on line 71, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:31 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:31 2013] [error] [client 24.18.143.237] PHP   1. {main}() /var/www/www.ericrberg.com/public/index.php:0, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:31 2013] [error] [client 24.18.143.237] PHP   2. require() /var/www/www.ericrberg.com/public/index.php:34, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:31 2013] [error] [client 24.18.143.237] PHP   3. Laravel\\Response->render() /var/www/www.ericrberg.com/laravel/laravel.php:180, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:31 2013] [error] [client 24.18.143.237] PHP   4. Laravel\\View->__toString() /var/www/www.ericrberg.com/laravel/response.php:268, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:31 2013] [error] [client 24.18.143.237] PHP   5. Laravel\\View->render() /var/www/www.ericrberg.com/laravel/view.php:590, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:31 2013] [error] [client 24.18.143.237] PHP   6. Laravel\\Event::until() /var/www/www.ericrberg.com/laravel/view.php:348, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:31 2013] [error] [client 24.18.143.237] PHP   7. Laravel\\Event::fire() /var/www/www.ericrberg.com/laravel/event.php:138, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:31 2013] [error] [client 24.18.143.237] PHP   8. call_user_func_array() /var/www/www.ericrberg.com/laravel/event.php:199, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:31 2013] [error] [client 24.18.143.237] PHP   9. Laravel\\Blade::Laravel\\{closure}() /var/www/www.ericrberg.com/laravel/event.php:199, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:31 2013] [error] [client 24.18.143.237] PHP  10. Laravel\\View->get() /var/www/www.ericrberg.com/laravel/blade.php:71, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:31 2013] [error] [client 24.18.143.237] PHP  11. eval() /var/www/www.ericrberg.com/laravel/view.php:386, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:31 2013] [error] [client 24.18.143.237] PHP  12. Laravel\\View->render() /var/www/www.ericrberg.com/laravel/view.php(386) : eval()'d code:57, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:31 2013] [error] [client 24.18.143.237] PHP  13. Laravel\\Event::until() /var/www/www.ericrberg.com/laravel/view.php:348, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:31 2013] [error] [client 24.18.143.237] PHP  14. Laravel\\Event::fire() /var/www/www.ericrberg.com/laravel/event.php:138, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:31 2013] [error] [client 24.18.143.237] PHP  15. call_user_func_array() /var/www/www.ericrberg.com/laravel/event.php:199, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:31 2013] [error] [client 24.18.143.237] PHP  16. Laravel\\Blade::Laravel\\{closure}() /var/www/www.ericrberg.com/laravel/event.php:199, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:31 2013] [error] [client 24.18.143.237] PHP  17. Laravel\\View->get() /var/www/www.ericrberg.com/laravel/blade.php:71, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:32 2013] [error] [client 24.18.143.237] PHP Parse error:  syntax error, unexpected ';' in /var/www/www.ericrberg.com/laravel/view.php(386) : eval()'d code on line 71, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:32 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:32 2013] [error] [client 24.18.143.237] PHP   1. {main}() /var/www/www.ericrberg.com/public/index.php:0, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:32 2013] [error] [client 24.18.143.237] PHP   2. require() /var/www/www.ericrberg.com/public/index.php:34, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:32 2013] [error] [client 24.18.143.237] PHP   3. Laravel\\Response->render() /var/www/www.ericrberg.com/laravel/laravel.php:180, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:32 2013] [error] [client 24.18.143.237] PHP   4. Laravel\\View->__toString() /var/www/www.ericrberg.com/laravel/response.php:268, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:32 2013] [error] [client 24.18.143.237] PHP   5. Laravel\\View->render() /var/www/www.ericrberg.com/laravel/view.php:590, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:32 2013] [error] [client 24.18.143.237] PHP   6. Laravel\\Event::until() /var/www/www.ericrberg.com/laravel/view.php:348, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:32 2013] [error] [client 24.18.143.237] PHP   7. Laravel\\Event::fire() /var/www/www.ericrberg.com/laravel/event.php:138, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:32 2013] [error] [client 24.18.143.237] PHP   8. call_user_func_array() /var/www/www.ericrberg.com/laravel/event.php:199, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:32 2013] [error] [client 24.18.143.237] PHP   9. Laravel\\Blade::Laravel\\{closure}() /var/www/www.ericrberg.com/laravel/event.php:199, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:32 2013] [error] [client 24.18.143.237] PHP  10. Laravel\\View->get() /var/www/www.ericrberg.com/laravel/blade.php:71, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:32 2013] [error] [client 24.18.143.237] PHP  11. eval() /var/www/www.ericrberg.com/laravel/view.php:386, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:32 2013] [error] [client 24.18.143.237] PHP  12. Laravel\\View->render() /var/www/www.ericrberg.com/laravel/view.php(386) : eval()'d code:57, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:32 2013] [error] [client 24.18.143.237] PHP  13. Laravel\\Event::until() /var/www/www.ericrberg.com/laravel/view.php:348, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:32 2013] [error] [client 24.18.143.237] PHP  14. Laravel\\Event::fire() /var/www/www.ericrberg.com/laravel/event.php:138, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:32 2013] [error] [client 24.18.143.237] PHP  15. call_user_func_array() /var/www/www.ericrberg.com/laravel/event.php:199, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:32 2013] [error] [client 24.18.143.237] PHP  16. Laravel\\Blade::Laravel\\{closure}() /var/www/www.ericrberg.com/laravel/event.php:199, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:32 2013] [error] [client 24.18.143.237] PHP  17. Laravel\\View->get() /var/www/www.ericrberg.com/laravel/blade.php:71, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:32 2013] [error] [client 24.18.143.237] PHP Parse error:  syntax error, unexpected ';' in /var/www/www.ericrberg.com/laravel/view.php(386) : eval()'d code on line 71, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:32 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:32 2013] [error] [client 24.18.143.237] PHP   1. {main}() /var/www/www.ericrberg.com/public/index.php:0, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:32 2013] [error] [client 24.18.143.237] PHP   2. require() /var/www/www.ericrberg.com/public/index.php:34, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:32 2013] [error] [client 24.18.143.237] PHP   3. Laravel\\Response->render() /var/www/www.ericrberg.com/laravel/laravel.php:180, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:32 2013] [error] [client 24.18.143.237] PHP   4. Laravel\\View->__toString() /var/www/www.ericrberg.com/laravel/response.php:268, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:32 2013] [error] [client 24.18.143.237] PHP   5. Laravel\\View->render() /var/www/www.ericrberg.com/laravel/view.php:590, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:32 2013] [error] [client 24.18.143.237] PHP   6. Laravel\\Event::until() /var/www/www.ericrberg.com/laravel/view.php:348, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:32 2013] [error] [client 24.18.143.237] PHP   7. Laravel\\Event::fire() /var/www/www.ericrberg.com/laravel/event.php:138, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:32 2013] [error] [client 24.18.143.237] PHP   8. call_user_func_array() /var/www/www.ericrberg.com/laravel/event.php:199, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:32 2013] [error] [client 24.18.143.237] PHP   9. Laravel\\Blade::Laravel\\{closure}() /var/www/www.ericrberg.com/laravel/event.php:199, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:32 2013] [error] [client 24.18.143.237] PHP  10. Laravel\\View->get() /var/www/www.ericrberg.com/laravel/blade.php:71, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:32 2013] [error] [client 24.18.143.237] PHP  11. eval() /var/www/www.ericrberg.com/laravel/view.php:386, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:32 2013] [error] [client 24.18.143.237] PHP  12. Laravel\\View->render() /var/www/www.ericrberg.com/laravel/view.php(386) : eval()'d code:57, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:32 2013] [error] [client 24.18.143.237] PHP  13. Laravel\\Event::until() /var/www/www.ericrberg.com/laravel/view.php:348, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:32 2013] [error] [client 24.18.143.237] PHP  14. Laravel\\Event::fire() /var/www/www.ericrberg.com/laravel/event.php:138, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:32 2013] [error] [client 24.18.143.237] PHP  15. call_user_func_array() /var/www/www.ericrberg.com/laravel/event.php:199, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:32 2013] [error] [client 24.18.143.237] PHP  16. Laravel\\Blade::Laravel\\{closure}() /var/www/www.ericrberg.com/laravel/event.php:199, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:09:32 2013] [error] [client 24.18.143.237] PHP  17. Laravel\\View->get() /var/www/www.ericrberg.com/laravel/blade.php:71, referer: http://www.ericrberg.com/tech
+[Fri Apr 12 21:54:06 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=f9908799b465559784357d1c63b3947d
+[Fri Apr 12 21:54:06 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=f9908799b465559784357d1c63b3947d
+[Fri Apr 12 21:54:06 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/main.php:0, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=f9908799b465559784357d1c63b3947d
+[Fri Apr 12 21:54:06 2013] [error] [client 24.18.143.237] PHP   2. trigger_error() /usr/share/phpmyadmin/main.php:304, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=f9908799b465559784357d1c63b3947d
+[Fri Apr 12 21:54:06 2013] [error] [client 24.18.143.237] PHP   3. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/main.php:304, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=f9908799b465559784357d1c63b3947d
+[Fri Apr 12 21:54:06 2013] [error] [client 24.18.143.237] PHP   4. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=f9908799b465559784357d1c63b3947d

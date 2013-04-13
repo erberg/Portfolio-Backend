@@ -5,10 +5,10 @@ Route::any('api/articles/(:num?)',
 		  'uses' => 'api.articles@index')
 	);
 	
-Route::get('admin',function(){
+/* Route::get('admin',function(){ ***WILL USE LATER FOR ADMIN BACKEND
 	return View::make('articles.index')->
 		with('viewName' , 'Articles');
-});
+}); */
 
 /*
 |--------------------------------------------------------------------------

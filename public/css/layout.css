@@ -51,14 +51,14 @@
 	}
 	#greeting-sub { margin-left: 35px; }
 	#nav-selection-image {
-	background-image:url('/img/nav-selection.png');
-	background-position:center;
-	background-repeat:no-repeat;
-	height:15px;
-	width:100%;
-	bottom:-6px;
-	position:relative;
-	z-index:-1;
+		background-image:url('/img/nav-selection.png');
+		background-position:center;
+		background-repeat:no-repeat;
+		height:15px;
+		width:100%;
+		bottom:-6px;
+		position:relative;
+		z-index:-1;
 	}
 
 
