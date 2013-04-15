@@ -6,51 +6,26 @@
 
 @section('js')
 @parent
+{{ HTML::script('js/helpers/emailform.js') }}
 @endsection
 
 @section('content')
-
 <div class="container">
 	<div class="sixteen columns">
-		<h5 id="greeting-header">Hello! <br/> 
-			<span id="greeting-sub">I’m a web developer living in Seattle, Washington. I love to code, and I’m always excited to improve my skills and work with new technology. These are some of my most recent projects.</span>
-		</h5>
+		<h5 id="greeting-header">Send me some email using this form, if you like.</h5>
 	</div>
 </div>
-<div class="container" id="article-content">&nbsp;</div>
-<script id="articleTemplate" type="text/template">
-	<div class="container article-container">
-		<div class="three columns">
-			<h1 class="article-title"><%= title %></h1>
-			<h4 class="article-sub"><%= subtitle %></h4>
-		</div>
-		<div class="six columns"><%= content %>
-			<div style="margin-bottom:10px;">
-				<a href="<%= url_to_live %>" style="margin-right:30px;">View the site</a>
-				<% if (url_to_code) { %> <a href="<%= url_to_code %>">See the code</a> <% } %> 
-			</div>
-		</div>
+<div class="container">
+	<div class="four columns">
+		<input type="text" style="width:100%;" value="Email" onfocus="EMAILFORM.clearDefault();" id="email" name="Email">
+		<input type="text" style="width:100%;" value="Subject" onfocus="EMAILFORM.clearDefault();" id="subject" name="Subject">
+	</div>
+	<div class="eight columns">
+		<textarea type="text" style="width:100%; height: 200px;" onfocus="EMAILFORM.clearDefault();" id="message" name="Message"/>Message</textarea>
+		<input type="submit" value="Send E-mail"></input>
+		<p style="margin-top:20px;">If you'd rather use your own e-mail client, my address is <a href="mailto:berg.ericr@gmail.com">berg.ericr@gmail.com</a>.</p>
+	</div> 
 
-		<div class="seven columns"><div class="article-image"><img src="<%= img_location %>" alt="Artist Portfolio Website"/></div></div>
-		<div class="two columns"><ul class="square"><%= tech_list %></ul></div>
-	</div><!-- container -->
-</script>
-
-<script id="articleTemplateAlt" type="text/template">
-	<div class="container article-container">
-		<div class="three columns">
-			<h1 class="article-title"><%= title %></h1>
-			<h4 class="article-sub"><%= subtitle %></h4>
-		</div>
-		<div class="five columns"><%= content %>
-			<div style="margin-bottom:10px;">
-				<a href="<%= url_to_live %>" style="margin-right:30px;">View the site</a>
-				<% if (url_to_code) { %> <a href="<%= url_to_code %>">See the code</a> <% } %>
-			</div>
-		</div>
-		<div class="six columns"><div class="article-image"><img src="<%= img_location %>" alt="Artist Portfolio Website"/></div></div>
-		<div class="two columns"><ul class="square"><%= tech_list %></ul></div>
-	</div><!-- container -->
-</script>
+</div><!-- container -->
 
 @endsection
