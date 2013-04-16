@@ -9,14 +9,58 @@
 @endsection
 
 @section('content')
-
 <div class="container">
 	<div class="sixteen columns">
-		<h1 class="article-title" style="margin-top:40px;margin-bottom:40px;">Technologies</h1>
-		<h5 id="greeting-header">Right Now<br/> </h5>
-		<h5 id="greeting-header">In The Near Future<br/> </h5>
-		<h5 id="greeting-header">Past Projects<br/> </h5>
+		<h5 id="greeting-header">
+			There are many great options for web developers these days, and its hard work to keep up with this quickly changing industry. 
+			These are the technologies I've elected to spend my time with lately.
+		</h5>
 	</div>
+</div>
+<div class="container article container">
+
+	<div class="five columns"><h1 class="article-title">Currently Using<br/></h1>
+		<p>
+			<ul class="square">
+				<li>Backbone.js</li>
+				<li>Git Version Control</li>
+				<li>Javascript</li>
+				<li>jQuery</li>
+				<li>LAMP Stack</li>
+				<li>Laravel Framework</li>
+				<li>PHP</li>
+				<li>Skeleton Responsive Boilerplate</li>
+				<li>Sublime Text 2</li>
+				<li>Underscore.js</li>
+			</ul>
+		</p>
+	</div>
+
+	<div class="five columns"><h1 class="article-title">Recently Used<br/></h1>
+		<p>
+			<ul class="square">
+				<li>Adobe Suite</li>
+				<li>Joomla CMS</li>
+				<li>jQuery-UI</li>
+				<li>Node.js</li>
+				<li>Twitter Bootstrap</li>
+			</ul>
+		</p>
+	</div>
+	<div class="five columns"><h1 class="article-title">Learning Soon<br/></h1>
+		<p>
+			<ul class="square">
+				<li>Coffeescript</li>
+				<li>LESS or SASS</li>
+				<li>Mobile App Development</li>
+				<li>Require.js</li>
+				<li>Ruby</li>
+				<li>Unit Testing</li>
+			</ul>
+		</p>
+	</div>
+
+
 </div>
 
 @endsection

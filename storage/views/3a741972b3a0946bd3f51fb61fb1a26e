@@ -52,6 +52,6 @@
 
 <?php \Laravel\Section::start('js'); ?>
 @parent
-<?php echo  HTML::script('js/base.js') ; ?>
+<?php echo  HTML::script('js/backbone/articles.js') ; ?>
 <?php \Laravel\Section::stop(); ?>
 <?php echo view('layout._main')->with(get_defined_vars())->render(); ?>

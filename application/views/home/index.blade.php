@@ -53,5 +53,5 @@
 
 @section('js')
 @parent
-{{ HTML::script('js/base.js') }}
+{{ HTML::script('js/backbone/articles.js') }}
 @endsection

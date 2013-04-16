@@ -29,7 +29,7 @@
 	<![endif]-->
 
 	<!-- Web Fonts
-  ================================================== -->
+  	================================================== -->
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,800,400italic' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Merriweather:400,700,900' rel='stylesheet' type='text/css'>
 	<!-- Favicons
@@ -44,10 +44,8 @@
 
 
 
-	<!-- Primary Page Layout
+	<!-- Header Layout
 	================================================== -->
-
-	<!-- Delete everything in this .container and get started on your own site! -->
 
 	<div class="header">
 		<div class="sixteen columns">
@@ -59,6 +57,9 @@
 		</div>
 		</div>
 	</div>
+
+	<!-- Navbar Layout
+	================================================== -->
 
 	<div class="navbar">
 		<div class="container">
@@ -74,7 +75,7 @@
 				<div class= "navbar-link">
 					<a href="{{URL::to_route('tech')}}">
 					<h3>Technology</h3>
-					<h4 class="navbar-sub">to-do list</h4>
+					<h4 class="navbar-sub">I'm using</h4>
 					</a>
 					<?php if(Request::route()->action['as']=='tech'){echo '<div id="nav-selection-image"></div>';}?>
 				</div>
@@ -98,12 +99,15 @@
 		</div>
 	</div>
 
+	<!-- Content Layout
+	================================================== -->
+
 	@yield('content')
 	
 	@section('js')
 	{{ HTML::script('js/jquery.js') }}
 	{{ HTML::script('js/underscore.js') }}
-	{{ HTML::script('js/backbone.js') }}
+	{{ HTML::script('js/backbone/backbone.js') }}
 	@yield_section
 <!-- End Document ================================================== -->
 </body>
