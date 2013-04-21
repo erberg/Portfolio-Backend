@@ -7,27 +7,23 @@
     });
 
     var TechListsView = Backbone.View.extend({
-        el : $('#article-content'),
+        el : $('#techlist-content'),
         initialize : function (){
         var that = this;
         this.collection = new TechListsCollection();
-        this.collection.fetch({ success: function (articles) { that.render(); }});
+        this.collection.fetch({ success: function () { that.render(); }});
         },
 
         render: function () {
         var that = this;
-        this.collection.each(function (article,index){
-            var template;
-            if((index % 2)===0){
-                template = _.template( $('#articleTemplate').html(),article.toJSON());
-            } else {
-                template = _.template( $('#articleTemplateAlt').html(),article.toJSON());
-                }
+        this.collection.each(function (techlist,index){
+            var template=_.template( $('#techTemplate').html(),techlist.toJSON());
             that.$el.append(template);
             });
         }
 
     });
 
-    var articleView = new TechListsView();
+    //var techView = new TechListsView();
+    //Not ready to render this yet.
 })(jQuery);

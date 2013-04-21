@@ -15,6 +15,7 @@ class Api_Articles_Controller extends Base_Controller {
 	}
 
 	public function post_index(){
+		/* COMMENTED UNTIL AUTHENTICATION IS IMPLEMENTED (LOGIC SHOULD BE MOVED TO MODELS ANYWAY)
 		$articles = Input::json();
 		$dbArticles = new Article();
 		$dbArticles -> title=$articles -> title;
@@ -22,9 +23,11 @@ class Api_Articles_Controller extends Base_Controller {
 		$dbArticles -> img_location=$articles -> img_location;
 		$dbArticles -> content=$articles -> content;
 		return $dbArticles -> toJson();
+		*/
 	}
 
 	public function put_index(){
+		/*
 		$articles = Input::json();
 		$dbArticle = Articles::find($articles->id);
 		$dbArticle -> title=$articles -> title;
@@ -33,11 +36,14 @@ class Api_Articles_Controller extends Base_Controller {
 		$dbArticle -> content=$articles -> content;
 		$dbArticle -> save();
 		return $dbArticles->toJson();
+		*/
 	}
 
-	public function delete_index($id=null) {
+	public function delete_index($id = null) {
+		/*
 		$dbArticles = Articles::find($id);
 		$dbArticles -> delete();
+		*/
 	}
 }
 ?>

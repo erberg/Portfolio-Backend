@@ -11,7 +11,7 @@
         initialize : function (){
         var that = this;
         this.collection = new ArticlesCollection();
-        this.collection.fetch({ success: function (articles) { that.render(); }});
+        this.collection.fetch({ success: function () { that.render(); }});
         },
 
         render: function () {

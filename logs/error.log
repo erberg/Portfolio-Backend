@@ -707,3 +707,370 @@
 [Mon Apr 15 23:10:46 2013] [error] [client 24.18.143.237] PHP   2. trigger_error() /usr/share/phpmyadmin/main.php:304, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=2f060679934b12ff829d4620cf3cce69
 [Mon Apr 15 23:10:46 2013] [error] [client 24.18.143.237] PHP   3. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/main.php:304, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=2f060679934b12ff829d4620cf3cce69
 [Mon Apr 15 23:10:46 2013] [error] [client 24.18.143.237] PHP   4. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=2f060679934b12ff829d4620cf3cce69
+[Wed Apr 17 02:42:11 2013] [error] [client 50.116.3.109] PHP Parse error:  syntax error, unexpected '$mailTo' (T_VARIABLE), expecting function (T_FUNCTION) in /var/www/www.ericrberg.com/application/models/sendmail.php on line 8
+[Wed Apr 17 02:42:11 2013] [error] [client 50.116.3.109] PHP Stack trace:
+[Wed Apr 17 02:42:11 2013] [error] [client 50.116.3.109] PHP   1. {main}() /var/www/www.ericrberg.com/public/index.php:0
+[Wed Apr 17 02:42:11 2013] [error] [client 50.116.3.109] PHP   2. require() /var/www/www.ericrberg.com/public/index.php:34
+[Wed Apr 17 02:42:11 2013] [error] [client 50.116.3.109] PHP   3. Laravel\\Routing\\Route->call() /var/www/www.ericrberg.com/laravel/laravel.php:167
+[Wed Apr 17 02:42:11 2013] [error] [client 50.116.3.109] PHP   4. Laravel\\Routing\\Route->response() /var/www/www.ericrberg.com/laravel/routing/route.php:124
+[Wed Apr 17 02:42:11 2013] [error] [client 50.116.3.109] PHP   5. Laravel\\Routing\\Controller::call() /var/www/www.ericrberg.com/laravel/routing/route.php:153
+[Wed Apr 17 02:42:11 2013] [error] [client 50.116.3.109] PHP   6. Laravel\\Routing\\Controller->execute() /var/www/www.ericrberg.com/laravel/routing/controller.php:165
+[Wed Apr 17 02:42:11 2013] [error] [client 50.116.3.109] PHP   7. Laravel\\Routing\\Controller->response() /var/www/www.ericrberg.com/laravel/routing/controller.php:285
+[Wed Apr 17 02:42:11 2013] [error] [client 50.116.3.109] PHP   8. call_user_func_array() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Wed Apr 17 02:42:11 2013] [error] [client 50.116.3.109] PHP   9. Api_SendMail_Controller->post_index() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Wed Apr 17 02:42:11 2013] [error] [client 50.116.3.109] PHP  10. Laravel\\Autoloader::load() /var/www/www.ericrberg.com/laravel/routing/controller.php:0
+[Wed Apr 17 02:42:11 2013] [error] [client 50.116.3.109] PHP  11. Laravel\\Autoloader::load_psr() /var/www/www.ericrberg.com/laravel/autoloader.php:79
+[Wed Apr 17 02:43:00 2013] [error] [client 50.116.3.109] PHP Parse error:  syntax error, unexpected '$mailTo' (T_VARIABLE), expecting function (T_FUNCTION) in /var/www/www.ericrberg.com/application/models/sendmail.php on line 4
+[Wed Apr 17 02:43:00 2013] [error] [client 50.116.3.109] PHP Stack trace:
+[Wed Apr 17 02:43:00 2013] [error] [client 50.116.3.109] PHP   1. {main}() /var/www/www.ericrberg.com/public/index.php:0
+[Wed Apr 17 02:43:00 2013] [error] [client 50.116.3.109] PHP   2. require() /var/www/www.ericrberg.com/public/index.php:34
+[Wed Apr 17 02:43:00 2013] [error] [client 50.116.3.109] PHP   3. Laravel\\Routing\\Route->call() /var/www/www.ericrberg.com/laravel/laravel.php:167
+[Wed Apr 17 02:43:00 2013] [error] [client 50.116.3.109] PHP   4. Laravel\\Routing\\Route->response() /var/www/www.ericrberg.com/laravel/routing/route.php:124
+[Wed Apr 17 02:43:00 2013] [error] [client 50.116.3.109] PHP   5. Laravel\\Routing\\Controller::call() /var/www/www.ericrberg.com/laravel/routing/route.php:153
+[Wed Apr 17 02:43:00 2013] [error] [client 50.116.3.109] PHP   6. Laravel\\Routing\\Controller->execute() /var/www/www.ericrberg.com/laravel/routing/controller.php:165
+[Wed Apr 17 02:43:00 2013] [error] [client 50.116.3.109] PHP   7. Laravel\\Routing\\Controller->response() /var/www/www.ericrberg.com/laravel/routing/controller.php:285
+[Wed Apr 17 02:43:00 2013] [error] [client 50.116.3.109] PHP   8. call_user_func_array() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Wed Apr 17 02:43:00 2013] [error] [client 50.116.3.109] PHP   9. Api_SendMail_Controller->post_index() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Wed Apr 17 02:43:00 2013] [error] [client 50.116.3.109] PHP  10. Laravel\\Autoloader::load() /var/www/www.ericrberg.com/laravel/routing/controller.php:0
+[Wed Apr 17 02:43:00 2013] [error] [client 50.116.3.109] PHP  11. Laravel\\Autoloader::load_psr() /var/www/www.ericrberg.com/laravel/autoloader.php:79
+[Wed Apr 17 02:43:29 2013] [error] [client 50.116.3.109] PHP Parse error:  syntax error, unexpected '$mailTo' (T_VARIABLE), expecting function (T_FUNCTION) in /var/www/www.ericrberg.com/application/models/sendmail.php on line 4
+[Wed Apr 17 02:43:29 2013] [error] [client 50.116.3.109] PHP Stack trace:
+[Wed Apr 17 02:43:29 2013] [error] [client 50.116.3.109] PHP   1. {main}() /var/www/www.ericrberg.com/public/index.php:0
+[Wed Apr 17 02:43:29 2013] [error] [client 50.116.3.109] PHP   2. require() /var/www/www.ericrberg.com/public/index.php:34
+[Wed Apr 17 02:43:29 2013] [error] [client 50.116.3.109] PHP   3. Laravel\\Routing\\Route->call() /var/www/www.ericrberg.com/laravel/laravel.php:167
+[Wed Apr 17 02:43:29 2013] [error] [client 50.116.3.109] PHP   4. Laravel\\Routing\\Route->response() /var/www/www.ericrberg.com/laravel/routing/route.php:124
+[Wed Apr 17 02:43:29 2013] [error] [client 50.116.3.109] PHP   5. Laravel\\Routing\\Controller::call() /var/www/www.ericrberg.com/laravel/routing/route.php:153
+[Wed Apr 17 02:43:29 2013] [error] [client 50.116.3.109] PHP   6. Laravel\\Routing\\Controller->execute() /var/www/www.ericrberg.com/laravel/routing/controller.php:165
+[Wed Apr 17 02:43:29 2013] [error] [client 50.116.3.109] PHP   7. Laravel\\Routing\\Controller->response() /var/www/www.ericrberg.com/laravel/routing/controller.php:285
+[Wed Apr 17 02:43:29 2013] [error] [client 50.116.3.109] PHP   8. call_user_func_array() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Wed Apr 17 02:43:29 2013] [error] [client 50.116.3.109] PHP   9. Api_SendMail_Controller->post_index() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Wed Apr 17 02:43:29 2013] [error] [client 50.116.3.109] PHP  10. Laravel\\Autoloader::load() /var/www/www.ericrberg.com/laravel/routing/controller.php:0
+[Wed Apr 17 02:43:29 2013] [error] [client 50.116.3.109] PHP  11. Laravel\\Autoloader::load_psr() /var/www/www.ericrberg.com/laravel/autoloader.php:79
+[Wed Apr 17 02:43:57 2013] [error] [client 50.116.3.109] PHP Parse error:  syntax error, unexpected '$mailTo' (T_VARIABLE), expecting function (T_FUNCTION) in /var/www/www.ericrberg.com/application/models/sendmail.php on line 4
+[Wed Apr 17 02:43:57 2013] [error] [client 50.116.3.109] PHP Stack trace:
+[Wed Apr 17 02:43:57 2013] [error] [client 50.116.3.109] PHP   1. {main}() /var/www/www.ericrberg.com/public/index.php:0
+[Wed Apr 17 02:43:57 2013] [error] [client 50.116.3.109] PHP   2. require() /var/www/www.ericrberg.com/public/index.php:34
+[Wed Apr 17 02:43:57 2013] [error] [client 50.116.3.109] PHP   3. Laravel\\Routing\\Route->call() /var/www/www.ericrberg.com/laravel/laravel.php:167
+[Wed Apr 17 02:43:57 2013] [error] [client 50.116.3.109] PHP   4. Laravel\\Routing\\Route->response() /var/www/www.ericrberg.com/laravel/routing/route.php:124
+[Wed Apr 17 02:43:57 2013] [error] [client 50.116.3.109] PHP   5. Laravel\\Routing\\Controller::call() /var/www/www.ericrberg.com/laravel/routing/route.php:153
+[Wed Apr 17 02:43:57 2013] [error] [client 50.116.3.109] PHP   6. Laravel\\Routing\\Controller->execute() /var/www/www.ericrberg.com/laravel/routing/controller.php:165
+[Wed Apr 17 02:43:57 2013] [error] [client 50.116.3.109] PHP   7. Laravel\\Routing\\Controller->response() /var/www/www.ericrberg.com/laravel/routing/controller.php:285
+[Wed Apr 17 02:43:57 2013] [error] [client 50.116.3.109] PHP   8. call_user_func_array() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Wed Apr 17 02:43:57 2013] [error] [client 50.116.3.109] PHP   9. Api_SendMail_Controller->post_index() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Wed Apr 17 02:43:57 2013] [error] [client 50.116.3.109] PHP  10. Laravel\\Autoloader::load() /var/www/www.ericrberg.com/laravel/routing/controller.php:0
+[Wed Apr 17 02:43:57 2013] [error] [client 50.116.3.109] PHP  11. Laravel\\Autoloader::load_psr() /var/www/www.ericrberg.com/laravel/autoloader.php:79
+[Wed Apr 17 02:44:20 2013] [error] [client 50.116.3.109] PHP Parse error:  syntax error, unexpected '$mail' (T_VARIABLE), expecting function (T_FUNCTION) in /var/www/www.ericrberg.com/application/models/sendmail.php on line 4
+[Wed Apr 17 02:44:20 2013] [error] [client 50.116.3.109] PHP Stack trace:
+[Wed Apr 17 02:44:20 2013] [error] [client 50.116.3.109] PHP   1. {main}() /var/www/www.ericrberg.com/public/index.php:0
+[Wed Apr 17 02:44:20 2013] [error] [client 50.116.3.109] PHP   2. require() /var/www/www.ericrberg.com/public/index.php:34
+[Wed Apr 17 02:44:20 2013] [error] [client 50.116.3.109] PHP   3. Laravel\\Routing\\Route->call() /var/www/www.ericrberg.com/laravel/laravel.php:167
+[Wed Apr 17 02:44:20 2013] [error] [client 50.116.3.109] PHP   4. Laravel\\Routing\\Route->response() /var/www/www.ericrberg.com/laravel/routing/route.php:124
+[Wed Apr 17 02:44:20 2013] [error] [client 50.116.3.109] PHP   5. Laravel\\Routing\\Controller::call() /var/www/www.ericrberg.com/laravel/routing/route.php:153
+[Wed Apr 17 02:44:20 2013] [error] [client 50.116.3.109] PHP   6. Laravel\\Routing\\Controller->execute() /var/www/www.ericrberg.com/laravel/routing/controller.php:165
+[Wed Apr 17 02:44:20 2013] [error] [client 50.116.3.109] PHP   7. Laravel\\Routing\\Controller->response() /var/www/www.ericrberg.com/laravel/routing/controller.php:285
+[Wed Apr 17 02:44:20 2013] [error] [client 50.116.3.109] PHP   8. call_user_func_array() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Wed Apr 17 02:44:20 2013] [error] [client 50.116.3.109] PHP   9. Api_SendMail_Controller->post_index() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Wed Apr 17 02:44:20 2013] [error] [client 50.116.3.109] PHP  10. Laravel\\Autoloader::load() /var/www/www.ericrberg.com/laravel/routing/controller.php:0
+[Wed Apr 17 02:44:20 2013] [error] [client 50.116.3.109] PHP  11. Laravel\\Autoloader::load_psr() /var/www/www.ericrberg.com/laravel/autoloader.php:79
+[Wed Apr 17 02:46:13 2013] [error] [client 50.116.3.109] PHP Parse error:  syntax error, unexpected '@' in /var/www/www.ericrberg.com/application/models/sendmail.php on line 6
+[Wed Apr 17 02:46:13 2013] [error] [client 50.116.3.109] PHP Stack trace:
+[Wed Apr 17 02:46:13 2013] [error] [client 50.116.3.109] PHP   1. {main}() /var/www/www.ericrberg.com/public/index.php:0
+[Wed Apr 17 02:46:13 2013] [error] [client 50.116.3.109] PHP   2. require() /var/www/www.ericrberg.com/public/index.php:34
+[Wed Apr 17 02:46:13 2013] [error] [client 50.116.3.109] PHP   3. Laravel\\Routing\\Route->call() /var/www/www.ericrberg.com/laravel/laravel.php:167
+[Wed Apr 17 02:46:13 2013] [error] [client 50.116.3.109] PHP   4. Laravel\\Routing\\Route->response() /var/www/www.ericrberg.com/laravel/routing/route.php:124
+[Wed Apr 17 02:46:13 2013] [error] [client 50.116.3.109] PHP   5. Laravel\\Routing\\Controller::call() /var/www/www.ericrberg.com/laravel/routing/route.php:153
+[Wed Apr 17 02:46:13 2013] [error] [client 50.116.3.109] PHP   6. Laravel\\Routing\\Controller->execute() /var/www/www.ericrberg.com/laravel/routing/controller.php:165
+[Wed Apr 17 02:46:13 2013] [error] [client 50.116.3.109] PHP   7. Laravel\\Routing\\Controller->response() /var/www/www.ericrberg.com/laravel/routing/controller.php:285
+[Wed Apr 17 02:46:13 2013] [error] [client 50.116.3.109] PHP   8. call_user_func_array() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Wed Apr 17 02:46:13 2013] [error] [client 50.116.3.109] PHP   9. Api_SendMail_Controller->post_index() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Wed Apr 17 02:46:13 2013] [error] [client 50.116.3.109] PHP  10. Laravel\\Autoloader::load() /var/www/www.ericrberg.com/laravel/routing/controller.php:0
+[Wed Apr 17 02:46:13 2013] [error] [client 50.116.3.109] PHP  11. Laravel\\Autoloader::load_psr() /var/www/www.ericrberg.com/laravel/autoloader.php:79
+[Wed Apr 17 02:46:40 2013] [error] [client 50.116.3.109] PHP Parse error:  syntax error, unexpected '$mailFrom' (T_VARIABLE) in /var/www/www.ericrberg.com/application/models/sendmail.php on line 11
+[Wed Apr 17 02:46:40 2013] [error] [client 50.116.3.109] PHP Stack trace:
+[Wed Apr 17 02:46:40 2013] [error] [client 50.116.3.109] PHP   1. {main}() /var/www/www.ericrberg.com/public/index.php:0
+[Wed Apr 17 02:46:40 2013] [error] [client 50.116.3.109] PHP   2. require() /var/www/www.ericrberg.com/public/index.php:34
+[Wed Apr 17 02:46:40 2013] [error] [client 50.116.3.109] PHP   3. Laravel\\Routing\\Route->call() /var/www/www.ericrberg.com/laravel/laravel.php:167
+[Wed Apr 17 02:46:40 2013] [error] [client 50.116.3.109] PHP   4. Laravel\\Routing\\Route->response() /var/www/www.ericrberg.com/laravel/routing/route.php:124
+[Wed Apr 17 02:46:40 2013] [error] [client 50.116.3.109] PHP   5. Laravel\\Routing\\Controller::call() /var/www/www.ericrberg.com/laravel/routing/route.php:153
+[Wed Apr 17 02:46:40 2013] [error] [client 50.116.3.109] PHP   6. Laravel\\Routing\\Controller->execute() /var/www/www.ericrberg.com/laravel/routing/controller.php:165
+[Wed Apr 17 02:46:40 2013] [error] [client 50.116.3.109] PHP   7. Laravel\\Routing\\Controller->response() /var/www/www.ericrberg.com/laravel/routing/controller.php:285
+[Wed Apr 17 02:46:40 2013] [error] [client 50.116.3.109] PHP   8. call_user_func_array() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Wed Apr 17 02:46:40 2013] [error] [client 50.116.3.109] PHP   9. Api_SendMail_Controller->post_index() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Wed Apr 17 02:46:40 2013] [error] [client 50.116.3.109] PHP  10. Laravel\\Autoloader::load() /var/www/www.ericrberg.com/laravel/routing/controller.php:0
+[Wed Apr 17 02:46:40 2013] [error] [client 50.116.3.109] PHP  11. Laravel\\Autoloader::load_psr() /var/www/www.ericrberg.com/laravel/autoloader.php:79
+[Wed Apr 17 02:47:23 2013] [error] [client 50.116.3.109] PHP Parse error:  syntax error, unexpected '?>', expecting function (T_FUNCTION) in /var/www/www.ericrberg.com/application/models/sendmail.php on line 31
+[Wed Apr 17 02:47:23 2013] [error] [client 50.116.3.109] PHP Stack trace:
+[Wed Apr 17 02:47:23 2013] [error] [client 50.116.3.109] PHP   1. {main}() /var/www/www.ericrberg.com/public/index.php:0
+[Wed Apr 17 02:47:23 2013] [error] [client 50.116.3.109] PHP   2. require() /var/www/www.ericrberg.com/public/index.php:34
+[Wed Apr 17 02:47:23 2013] [error] [client 50.116.3.109] PHP   3. Laravel\\Routing\\Route->call() /var/www/www.ericrberg.com/laravel/laravel.php:167
+[Wed Apr 17 02:47:23 2013] [error] [client 50.116.3.109] PHP   4. Laravel\\Routing\\Route->response() /var/www/www.ericrberg.com/laravel/routing/route.php:124
+[Wed Apr 17 02:47:23 2013] [error] [client 50.116.3.109] PHP   5. Laravel\\Routing\\Controller::call() /var/www/www.ericrberg.com/laravel/routing/route.php:153
+[Wed Apr 17 02:47:23 2013] [error] [client 50.116.3.109] PHP   6. Laravel\\Routing\\Controller->execute() /var/www/www.ericrberg.com/laravel/routing/controller.php:165
+[Wed Apr 17 02:47:23 2013] [error] [client 50.116.3.109] PHP   7. Laravel\\Routing\\Controller->response() /var/www/www.ericrberg.com/laravel/routing/controller.php:285
+[Wed Apr 17 02:47:23 2013] [error] [client 50.116.3.109] PHP   8. call_user_func_array() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Wed Apr 17 02:47:23 2013] [error] [client 50.116.3.109] PHP   9. Api_SendMail_Controller->post_index() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Wed Apr 17 02:47:23 2013] [error] [client 50.116.3.109] PHP  10. Laravel\\Autoloader::load() /var/www/www.ericrberg.com/laravel/routing/controller.php:0
+[Wed Apr 17 02:47:23 2013] [error] [client 50.116.3.109] PHP  11. Laravel\\Autoloader::load_psr() /var/www/www.ericrberg.com/laravel/autoloader.php:79
+[Wed Apr 17 02:47:58 2013] [error] [client 50.116.3.109] PHP Parse error:  syntax error, unexpected '$mailInput' (T_VARIABLE), expecting function (T_FUNCTION) in /var/www/www.ericrberg.com/application/models/sendmail.php on line 4
+[Wed Apr 17 02:47:58 2013] [error] [client 50.116.3.109] PHP Stack trace:
+[Wed Apr 17 02:47:58 2013] [error] [client 50.116.3.109] PHP   1. {main}() /var/www/www.ericrberg.com/public/index.php:0
+[Wed Apr 17 02:47:58 2013] [error] [client 50.116.3.109] PHP   2. require() /var/www/www.ericrberg.com/public/index.php:34
+[Wed Apr 17 02:47:58 2013] [error] [client 50.116.3.109] PHP   3. Laravel\\Routing\\Route->call() /var/www/www.ericrberg.com/laravel/laravel.php:167
+[Wed Apr 17 02:47:58 2013] [error] [client 50.116.3.109] PHP   4. Laravel\\Routing\\Route->response() /var/www/www.ericrberg.com/laravel/routing/route.php:124
+[Wed Apr 17 02:47:58 2013] [error] [client 50.116.3.109] PHP   5. Laravel\\Routing\\Controller::call() /var/www/www.ericrberg.com/laravel/routing/route.php:153
+[Wed Apr 17 02:47:58 2013] [error] [client 50.116.3.109] PHP   6. Laravel\\Routing\\Controller->execute() /var/www/www.ericrberg.com/laravel/routing/controller.php:165
+[Wed Apr 17 02:47:58 2013] [error] [client 50.116.3.109] PHP   7. Laravel\\Routing\\Controller->response() /var/www/www.ericrberg.com/laravel/routing/controller.php:285
+[Wed Apr 17 02:47:58 2013] [error] [client 50.116.3.109] PHP   8. call_user_func_array() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Wed Apr 17 02:47:58 2013] [error] [client 50.116.3.109] PHP   9. Api_SendMail_Controller->post_index() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Wed Apr 17 02:47:58 2013] [error] [client 50.116.3.109] PHP  10. Laravel\\Autoloader::load() /var/www/www.ericrberg.com/laravel/routing/controller.php:0
+[Wed Apr 17 02:47:58 2013] [error] [client 50.116.3.109] PHP  11. Laravel\\Autoloader::load_psr() /var/www/www.ericrberg.com/laravel/autoloader.php:79
+[Wed Apr 17 02:50:19 2013] [error] [client 50.116.3.109] PHP Parse error:  syntax error, unexpected 'Input' (T_STRING), expecting '{' in /var/www/www.ericrberg.com/application/models/sendmail.php on line 2
+[Wed Apr 17 02:50:19 2013] [error] [client 50.116.3.109] PHP Stack trace:
+[Wed Apr 17 02:50:19 2013] [error] [client 50.116.3.109] PHP   1. {main}() /var/www/www.ericrberg.com/public/index.php:0
+[Wed Apr 17 02:50:19 2013] [error] [client 50.116.3.109] PHP   2. require() /var/www/www.ericrberg.com/public/index.php:34
+[Wed Apr 17 02:50:19 2013] [error] [client 50.116.3.109] PHP   3. Laravel\\Routing\\Route->call() /var/www/www.ericrberg.com/laravel/laravel.php:167
+[Wed Apr 17 02:50:19 2013] [error] [client 50.116.3.109] PHP   4. Laravel\\Routing\\Route->response() /var/www/www.ericrberg.com/laravel/routing/route.php:124
+[Wed Apr 17 02:50:19 2013] [error] [client 50.116.3.109] PHP   5. Laravel\\Routing\\Controller::call() /var/www/www.ericrberg.com/laravel/routing/route.php:153
+[Wed Apr 17 02:50:19 2013] [error] [client 50.116.3.109] PHP   6. Laravel\\Routing\\Controller->execute() /var/www/www.ericrberg.com/laravel/routing/controller.php:165
+[Wed Apr 17 02:50:19 2013] [error] [client 50.116.3.109] PHP   7. Laravel\\Routing\\Controller->response() /var/www/www.ericrberg.com/laravel/routing/controller.php:285
+[Wed Apr 17 02:50:19 2013] [error] [client 50.116.3.109] PHP   8. call_user_func_array() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Wed Apr 17 02:50:19 2013] [error] [client 50.116.3.109] PHP   9. Api_SendMail_Controller->post_index() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Wed Apr 17 02:50:19 2013] [error] [client 50.116.3.109] PHP  10. Laravel\\Autoloader::load() /var/www/www.ericrberg.com/laravel/routing/controller.php:0
+[Wed Apr 17 02:50:19 2013] [error] [client 50.116.3.109] PHP  11. Laravel\\Autoloader::load_psr() /var/www/www.ericrberg.com/laravel/autoloader.php:79
+[Wed Apr 17 02:50:46 2013] [error] [client 50.116.3.109] PHP Parse error:  syntax error, unexpected 'extends' (T_EXTENDS), expecting '{' in /var/www/www.ericrberg.com/application/models/sendmail.php on line 2
+[Wed Apr 17 02:50:46 2013] [error] [client 50.116.3.109] PHP Stack trace:
+[Wed Apr 17 02:50:46 2013] [error] [client 50.116.3.109] PHP   1. {main}() /var/www/www.ericrberg.com/public/index.php:0
+[Wed Apr 17 02:50:46 2013] [error] [client 50.116.3.109] PHP   2. require() /var/www/www.ericrberg.com/public/index.php:34
+[Wed Apr 17 02:50:46 2013] [error] [client 50.116.3.109] PHP   3. Laravel\\Routing\\Route->call() /var/www/www.ericrberg.com/laravel/laravel.php:167
+[Wed Apr 17 02:50:46 2013] [error] [client 50.116.3.109] PHP   4. Laravel\\Routing\\Route->response() /var/www/www.ericrberg.com/laravel/routing/route.php:124
+[Wed Apr 17 02:50:46 2013] [error] [client 50.116.3.109] PHP   5. Laravel\\Routing\\Controller::call() /var/www/www.ericrberg.com/laravel/routing/route.php:153
+[Wed Apr 17 02:50:46 2013] [error] [client 50.116.3.109] PHP   6. Laravel\\Routing\\Controller->execute() /var/www/www.ericrberg.com/laravel/routing/controller.php:165
+[Wed Apr 17 02:50:46 2013] [error] [client 50.116.3.109] PHP   7. Laravel\\Routing\\Controller->response() /var/www/www.ericrberg.com/laravel/routing/controller.php:285
+[Wed Apr 17 02:50:46 2013] [error] [client 50.116.3.109] PHP   8. call_user_func_array() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Wed Apr 17 02:50:46 2013] [error] [client 50.116.3.109] PHP   9. Api_SendMail_Controller->post_index() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Wed Apr 17 02:50:46 2013] [error] [client 50.116.3.109] PHP  10. Laravel\\Autoloader::load() /var/www/www.ericrberg.com/laravel/routing/controller.php:0
+[Wed Apr 17 02:50:46 2013] [error] [client 50.116.3.109] PHP  11. Laravel\\Autoloader::load_psr() /var/www/www.ericrberg.com/laravel/autoloader.php:79
+[Wed Apr 17 02:52:14 2013] [error] [client 50.116.3.109] PHP Parse error:  syntax error, unexpected '$mailTo' (T_VARIABLE), expecting function (T_FUNCTION) in /var/www/www.ericrberg.com/application/models/sendmail.php on line 5
+[Wed Apr 17 02:52:14 2013] [error] [client 50.116.3.109] PHP Stack trace:
+[Wed Apr 17 02:52:14 2013] [error] [client 50.116.3.109] PHP   1. {main}() /var/www/www.ericrberg.com/public/index.php:0
+[Wed Apr 17 02:52:14 2013] [error] [client 50.116.3.109] PHP   2. require() /var/www/www.ericrberg.com/public/index.php:34
+[Wed Apr 17 02:52:14 2013] [error] [client 50.116.3.109] PHP   3. Laravel\\Routing\\Route->call() /var/www/www.ericrberg.com/laravel/laravel.php:167
+[Wed Apr 17 02:52:14 2013] [error] [client 50.116.3.109] PHP   4. Laravel\\Routing\\Route->response() /var/www/www.ericrberg.com/laravel/routing/route.php:124
+[Wed Apr 17 02:52:14 2013] [error] [client 50.116.3.109] PHP   5. Laravel\\Routing\\Controller::call() /var/www/www.ericrberg.com/laravel/routing/route.php:153
+[Wed Apr 17 02:52:14 2013] [error] [client 50.116.3.109] PHP   6. Laravel\\Routing\\Controller->execute() /var/www/www.ericrberg.com/laravel/routing/controller.php:165
+[Wed Apr 17 02:52:14 2013] [error] [client 50.116.3.109] PHP   7. Laravel\\Routing\\Controller->response() /var/www/www.ericrberg.com/laravel/routing/controller.php:285
+[Wed Apr 17 02:52:14 2013] [error] [client 50.116.3.109] PHP   8. call_user_func_array() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Wed Apr 17 02:52:14 2013] [error] [client 50.116.3.109] PHP   9. Api_SendMail_Controller->post_index() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Wed Apr 17 02:52:14 2013] [error] [client 50.116.3.109] PHP  10. Laravel\\Autoloader::load() /var/www/www.ericrberg.com/laravel/routing/controller.php:0
+[Wed Apr 17 02:52:14 2013] [error] [client 50.116.3.109] PHP  11. Laravel\\Autoloader::load_psr() /var/www/www.ericrberg.com/laravel/autoloader.php:79
+[Wed Apr 17 02:52:24 2013] [error] [client 50.116.3.109] PHP Parse error:  syntax error, unexpected '$mailTo' (T_VARIABLE), expecting function (T_FUNCTION) in /var/www/www.ericrberg.com/application/models/sendmail.php on line 5
+[Wed Apr 17 02:52:24 2013] [error] [client 50.116.3.109] PHP Stack trace:
+[Wed Apr 17 02:52:24 2013] [error] [client 50.116.3.109] PHP   1. {main}() /var/www/www.ericrberg.com/public/index.php:0
+[Wed Apr 17 02:52:24 2013] [error] [client 50.116.3.109] PHP   2. require() /var/www/www.ericrberg.com/public/index.php:34
+[Wed Apr 17 02:52:24 2013] [error] [client 50.116.3.109] PHP   3. Laravel\\Routing\\Route->call() /var/www/www.ericrberg.com/laravel/laravel.php:167
+[Wed Apr 17 02:52:24 2013] [error] [client 50.116.3.109] PHP   4. Laravel\\Routing\\Route->response() /var/www/www.ericrberg.com/laravel/routing/route.php:124
+[Wed Apr 17 02:52:24 2013] [error] [client 50.116.3.109] PHP   5. Laravel\\Routing\\Controller::call() /var/www/www.ericrberg.com/laravel/routing/route.php:153
+[Wed Apr 17 02:52:24 2013] [error] [client 50.116.3.109] PHP   6. Laravel\\Routing\\Controller->execute() /var/www/www.ericrberg.com/laravel/routing/controller.php:165
+[Wed Apr 17 02:52:24 2013] [error] [client 50.116.3.109] PHP   7. Laravel\\Routing\\Controller->response() /var/www/www.ericrberg.com/laravel/routing/controller.php:285
+[Wed Apr 17 02:52:24 2013] [error] [client 50.116.3.109] PHP   8. call_user_func_array() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Wed Apr 17 02:52:24 2013] [error] [client 50.116.3.109] PHP   9. Api_SendMail_Controller->post_index() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Wed Apr 17 02:52:24 2013] [error] [client 50.116.3.109] PHP  10. Laravel\\Autoloader::load() /var/www/www.ericrberg.com/laravel/routing/controller.php:0
+[Wed Apr 17 02:52:24 2013] [error] [client 50.116.3.109] PHP  11. Laravel\\Autoloader::load_psr() /var/www/www.ericrberg.com/laravel/autoloader.php:79
+[Wed Apr 17 02:52:46 2013] [error] [client 50.116.3.109] PHP Parse error:  syntax error, unexpected '$mailTos' (T_VARIABLE), expecting function (T_FUNCTION) in /var/www/www.ericrberg.com/application/models/sendmail.php on line 5
+[Wed Apr 17 02:52:46 2013] [error] [client 50.116.3.109] PHP Stack trace:
+[Wed Apr 17 02:52:46 2013] [error] [client 50.116.3.109] PHP   1. {main}() /var/www/www.ericrberg.com/public/index.php:0
+[Wed Apr 17 02:52:46 2013] [error] [client 50.116.3.109] PHP   2. require() /var/www/www.ericrberg.com/public/index.php:34
+[Wed Apr 17 02:52:46 2013] [error] [client 50.116.3.109] PHP   3. Laravel\\Routing\\Route->call() /var/www/www.ericrberg.com/laravel/laravel.php:167
+[Wed Apr 17 02:52:46 2013] [error] [client 50.116.3.109] PHP   4. Laravel\\Routing\\Route->response() /var/www/www.ericrberg.com/laravel/routing/route.php:124
+[Wed Apr 17 02:52:46 2013] [error] [client 50.116.3.109] PHP   5. Laravel\\Routing\\Controller::call() /var/www/www.ericrberg.com/laravel/routing/route.php:153
+[Wed Apr 17 02:52:46 2013] [error] [client 50.116.3.109] PHP   6. Laravel\\Routing\\Controller->execute() /var/www/www.ericrberg.com/laravel/routing/controller.php:165
+[Wed Apr 17 02:52:46 2013] [error] [client 50.116.3.109] PHP   7. Laravel\\Routing\\Controller->response() /var/www/www.ericrberg.com/laravel/routing/controller.php:285
+[Wed Apr 17 02:52:46 2013] [error] [client 50.116.3.109] PHP   8. call_user_func_array() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Wed Apr 17 02:52:46 2013] [error] [client 50.116.3.109] PHP   9. Api_SendMail_Controller->post_index() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Wed Apr 17 02:52:46 2013] [error] [client 50.116.3.109] PHP  10. Laravel\\Autoloader::load() /var/www/www.ericrberg.com/laravel/routing/controller.php:0
+[Wed Apr 17 02:52:46 2013] [error] [client 50.116.3.109] PHP  11. Laravel\\Autoloader::load_psr() /var/www/www.ericrberg.com/laravel/autoloader.php:79
+[Wed Apr 17 02:53:32 2013] [error] [client 50.116.3.109] PHP Parse error:  syntax error, unexpected '$mailTos' (T_VARIABLE), expecting function (T_FUNCTION) in /var/www/www.ericrberg.com/application/models/sendmail.php on line 5
+[Wed Apr 17 02:53:32 2013] [error] [client 50.116.3.109] PHP Stack trace:
+[Wed Apr 17 02:53:32 2013] [error] [client 50.116.3.109] PHP   1. {main}() /var/www/www.ericrberg.com/public/index.php:0
+[Wed Apr 17 02:53:32 2013] [error] [client 50.116.3.109] PHP   2. require() /var/www/www.ericrberg.com/public/index.php:34
+[Wed Apr 17 02:53:32 2013] [error] [client 50.116.3.109] PHP   3. Laravel\\Routing\\Route->call() /var/www/www.ericrberg.com/laravel/laravel.php:167
+[Wed Apr 17 02:53:32 2013] [error] [client 50.116.3.109] PHP   4. Laravel\\Routing\\Route->response() /var/www/www.ericrberg.com/laravel/routing/route.php:124
+[Wed Apr 17 02:53:32 2013] [error] [client 50.116.3.109] PHP   5. Laravel\\Routing\\Controller::call() /var/www/www.ericrberg.com/laravel/routing/route.php:153
+[Wed Apr 17 02:53:32 2013] [error] [client 50.116.3.109] PHP   6. Laravel\\Routing\\Controller->execute() /var/www/www.ericrberg.com/laravel/routing/controller.php:165
+[Wed Apr 17 02:53:32 2013] [error] [client 50.116.3.109] PHP   7. Laravel\\Routing\\Controller->response() /var/www/www.ericrberg.com/laravel/routing/controller.php:285
+[Wed Apr 17 02:53:32 2013] [error] [client 50.116.3.109] PHP   8. call_user_func_array() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Wed Apr 17 02:53:32 2013] [error] [client 50.116.3.109] PHP   9. Api_SendMail_Controller->post_index() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Wed Apr 17 02:53:32 2013] [error] [client 50.116.3.109] PHP  10. Laravel\\Autoloader::load() /var/www/www.ericrberg.com/laravel/routing/controller.php:0
+[Wed Apr 17 02:53:32 2013] [error] [client 50.116.3.109] PHP  11. Laravel\\Autoloader::load_psr() /var/www/www.ericrberg.com/laravel/autoloader.php:79
+[Wed Apr 17 02:54:53 2013] [error] [client 50.116.3.109] PHP Parse error:  syntax error, unexpected '$mailFrom' (T_VARIABLE), expecting function (T_FUNCTION) in /var/www/www.ericrberg.com/application/models/sendmail.php on line 6
+[Wed Apr 17 02:54:53 2013] [error] [client 50.116.3.109] PHP Stack trace:
+[Wed Apr 17 02:54:53 2013] [error] [client 50.116.3.109] PHP   1. {main}() /var/www/www.ericrberg.com/public/index.php:0
+[Wed Apr 17 02:54:53 2013] [error] [client 50.116.3.109] PHP   2. require() /var/www/www.ericrberg.com/public/index.php:34
+[Wed Apr 17 02:54:53 2013] [error] [client 50.116.3.109] PHP   3. Laravel\\Routing\\Route->call() /var/www/www.ericrberg.com/laravel/laravel.php:167
+[Wed Apr 17 02:54:53 2013] [error] [client 50.116.3.109] PHP   4. Laravel\\Routing\\Route->response() /var/www/www.ericrberg.com/laravel/routing/route.php:124
+[Wed Apr 17 02:54:53 2013] [error] [client 50.116.3.109] PHP   5. Laravel\\Routing\\Controller::call() /var/www/www.ericrberg.com/laravel/routing/route.php:153
+[Wed Apr 17 02:54:53 2013] [error] [client 50.116.3.109] PHP   6. Laravel\\Routing\\Controller->execute() /var/www/www.ericrberg.com/laravel/routing/controller.php:165
+[Wed Apr 17 02:54:53 2013] [error] [client 50.116.3.109] PHP   7. Laravel\\Routing\\Controller->response() /var/www/www.ericrberg.com/laravel/routing/controller.php:285
+[Wed Apr 17 02:54:53 2013] [error] [client 50.116.3.109] PHP   8. call_user_func_array() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Wed Apr 17 02:54:53 2013] [error] [client 50.116.3.109] PHP   9. Api_SendMail_Controller->post_index() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Wed Apr 17 02:54:53 2013] [error] [client 50.116.3.109] PHP  10. Laravel\\Autoloader::load() /var/www/www.ericrberg.com/laravel/routing/controller.php:0
+[Wed Apr 17 02:54:53 2013] [error] [client 50.116.3.109] PHP  11. Laravel\\Autoloader::load_psr() /var/www/www.ericrberg.com/laravel/autoloader.php:79
+[Wed Apr 17 02:55:28 2013] [error] [client 50.116.3.109] PHP Parse error:  syntax error, unexpected '$mailInput' (T_VARIABLE) in /var/www/www.ericrberg.com/application/models/sendmail.php on line 6
+[Wed Apr 17 02:55:28 2013] [error] [client 50.116.3.109] PHP Stack trace:
+[Wed Apr 17 02:55:28 2013] [error] [client 50.116.3.109] PHP   1. {main}() /var/www/www.ericrberg.com/public/index.php:0
+[Wed Apr 17 02:55:28 2013] [error] [client 50.116.3.109] PHP   2. require() /var/www/www.ericrberg.com/public/index.php:34
+[Wed Apr 17 02:55:28 2013] [error] [client 50.116.3.109] PHP   3. Laravel\\Routing\\Route->call() /var/www/www.ericrberg.com/laravel/laravel.php:167
+[Wed Apr 17 02:55:28 2013] [error] [client 50.116.3.109] PHP   4. Laravel\\Routing\\Route->response() /var/www/www.ericrberg.com/laravel/routing/route.php:124
+[Wed Apr 17 02:55:28 2013] [error] [client 50.116.3.109] PHP   5. Laravel\\Routing\\Controller::call() /var/www/www.ericrberg.com/laravel/routing/route.php:153
+[Wed Apr 17 02:55:28 2013] [error] [client 50.116.3.109] PHP   6. Laravel\\Routing\\Controller->execute() /var/www/www.ericrberg.com/laravel/routing/controller.php:165
+[Wed Apr 17 02:55:28 2013] [error] [client 50.116.3.109] PHP   7. Laravel\\Routing\\Controller->response() /var/www/www.ericrberg.com/laravel/routing/controller.php:285
+[Wed Apr 17 02:55:28 2013] [error] [client 50.116.3.109] PHP   8. call_user_func_array() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Wed Apr 17 02:55:28 2013] [error] [client 50.116.3.109] PHP   9. Api_SendMail_Controller->post_index() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Wed Apr 17 02:55:28 2013] [error] [client 50.116.3.109] PHP  10. Laravel\\Autoloader::load() /var/www/www.ericrberg.com/laravel/routing/controller.php:0
+[Wed Apr 17 02:55:28 2013] [error] [client 50.116.3.109] PHP  11. Laravel\\Autoloader::load_psr() /var/www/www.ericrberg.com/laravel/autoloader.php:79
+[Wed Apr 17 02:55:48 2013] [error] [client 50.116.3.109] PHP Parse error:  syntax error, unexpected '$mailInput' (T_VARIABLE) in /var/www/www.ericrberg.com/application/models/sendmail.php on line 6
+[Wed Apr 17 02:55:48 2013] [error] [client 50.116.3.109] PHP Stack trace:
+[Wed Apr 17 02:55:48 2013] [error] [client 50.116.3.109] PHP   1. {main}() /var/www/www.ericrberg.com/public/index.php:0
+[Wed Apr 17 02:55:48 2013] [error] [client 50.116.3.109] PHP   2. require() /var/www/www.ericrberg.com/public/index.php:34
+[Wed Apr 17 02:55:48 2013] [error] [client 50.116.3.109] PHP   3. Laravel\\Routing\\Route->call() /var/www/www.ericrberg.com/laravel/laravel.php:167
+[Wed Apr 17 02:55:48 2013] [error] [client 50.116.3.109] PHP   4. Laravel\\Routing\\Route->response() /var/www/www.ericrberg.com/laravel/routing/route.php:124
+[Wed Apr 17 02:55:48 2013] [error] [client 50.116.3.109] PHP   5. Laravel\\Routing\\Controller::call() /var/www/www.ericrberg.com/laravel/routing/route.php:153
+[Wed Apr 17 02:55:48 2013] [error] [client 50.116.3.109] PHP   6. Laravel\\Routing\\Controller->execute() /var/www/www.ericrberg.com/laravel/routing/controller.php:165
+[Wed Apr 17 02:55:48 2013] [error] [client 50.116.3.109] PHP   7. Laravel\\Routing\\Controller->response() /var/www/www.ericrberg.com/laravel/routing/controller.php:285
+[Wed Apr 17 02:55:48 2013] [error] [client 50.116.3.109] PHP   8. call_user_func_array() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Wed Apr 17 02:55:48 2013] [error] [client 50.116.3.109] PHP   9. Api_SendMail_Controller->post_index() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Wed Apr 17 02:55:48 2013] [error] [client 50.116.3.109] PHP  10. Laravel\\Autoloader::load() /var/www/www.ericrberg.com/laravel/routing/controller.php:0
+[Wed Apr 17 02:55:48 2013] [error] [client 50.116.3.109] PHP  11. Laravel\\Autoloader::load_psr() /var/www/www.ericrberg.com/laravel/autoloader.php:79
+[Wed Apr 17 02:56:28 2013] [error] [client 50.116.3.109] PHP Parse error:  syntax error, unexpected '$mailInput' (T_VARIABLE), expecting function (T_FUNCTION) in /var/www/www.ericrberg.com/application/models/sendmail.php on line 4
+[Wed Apr 17 02:56:28 2013] [error] [client 50.116.3.109] PHP Stack trace:
+[Wed Apr 17 02:56:28 2013] [error] [client 50.116.3.109] PHP   1. {main}() /var/www/www.ericrberg.com/public/index.php:0
+[Wed Apr 17 02:56:28 2013] [error] [client 50.116.3.109] PHP   2. require() /var/www/www.ericrberg.com/public/index.php:34
+[Wed Apr 17 02:56:28 2013] [error] [client 50.116.3.109] PHP   3. Laravel\\Routing\\Route->call() /var/www/www.ericrberg.com/laravel/laravel.php:167
+[Wed Apr 17 02:56:28 2013] [error] [client 50.116.3.109] PHP   4. Laravel\\Routing\\Route->response() /var/www/www.ericrberg.com/laravel/routing/route.php:124
+[Wed Apr 17 02:56:28 2013] [error] [client 50.116.3.109] PHP   5. Laravel\\Routing\\Controller::call() /var/www/www.ericrberg.com/laravel/routing/route.php:153
+[Wed Apr 17 02:56:28 2013] [error] [client 50.116.3.109] PHP   6. Laravel\\Routing\\Controller->execute() /var/www/www.ericrberg.com/laravel/routing/controller.php:165
+[Wed Apr 17 02:56:28 2013] [error] [client 50.116.3.109] PHP   7. Laravel\\Routing\\Controller->response() /var/www/www.ericrberg.com/laravel/routing/controller.php:285
+[Wed Apr 17 02:56:28 2013] [error] [client 50.116.3.109] PHP   8. call_user_func_array() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Wed Apr 17 02:56:28 2013] [error] [client 50.116.3.109] PHP   9. Api_SendMail_Controller->post_index() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Wed Apr 17 02:56:28 2013] [error] [client 50.116.3.109] PHP  10. Laravel\\Autoloader::load() /var/www/www.ericrberg.com/laravel/routing/controller.php:0
+[Wed Apr 17 02:56:28 2013] [error] [client 50.116.3.109] PHP  11. Laravel\\Autoloader::load_psr() /var/www/www.ericrberg.com/laravel/autoloader.php:79
+[Wed Apr 17 02:56:41 2013] [error] [client 50.116.3.109] PHP Parse error:  syntax error, unexpected '(', expecting ',' or ';' in /var/www/www.ericrberg.com/application/models/sendmail.php on line 4
+[Wed Apr 17 02:56:41 2013] [error] [client 50.116.3.109] PHP Stack trace:
+[Wed Apr 17 02:56:41 2013] [error] [client 50.116.3.109] PHP   1. {main}() /var/www/www.ericrberg.com/public/index.php:0
+[Wed Apr 17 02:56:41 2013] [error] [client 50.116.3.109] PHP   2. require() /var/www/www.ericrberg.com/public/index.php:34
+[Wed Apr 17 02:56:41 2013] [error] [client 50.116.3.109] PHP   3. Laravel\\Routing\\Route->call() /var/www/www.ericrberg.com/laravel/laravel.php:167
+[Wed Apr 17 02:56:41 2013] [error] [client 50.116.3.109] PHP   4. Laravel\\Routing\\Route->response() /var/www/www.ericrberg.com/laravel/routing/route.php:124
+[Wed Apr 17 02:56:41 2013] [error] [client 50.116.3.109] PHP   5. Laravel\\Routing\\Controller::call() /var/www/www.ericrberg.com/laravel/routing/route.php:153
+[Wed Apr 17 02:56:41 2013] [error] [client 50.116.3.109] PHP   6. Laravel\\Routing\\Controller->execute() /var/www/www.ericrberg.com/laravel/routing/controller.php:165
+[Wed Apr 17 02:56:41 2013] [error] [client 50.116.3.109] PHP   7. Laravel\\Routing\\Controller->response() /var/www/www.ericrberg.com/laravel/routing/controller.php:285
+[Wed Apr 17 02:56:41 2013] [error] [client 50.116.3.109] PHP   8. call_user_func_array() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Wed Apr 17 02:56:41 2013] [error] [client 50.116.3.109] PHP   9. Api_SendMail_Controller->post_index() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Wed Apr 17 02:56:41 2013] [error] [client 50.116.3.109] PHP  10. Laravel\\Autoloader::load() /var/www/www.ericrberg.com/laravel/routing/controller.php:0
+[Wed Apr 17 02:56:41 2013] [error] [client 50.116.3.109] PHP  11. Laravel\\Autoloader::load_psr() /var/www/www.ericrberg.com/laravel/autoloader.php:79
+[Wed Apr 17 02:59:07 2013] [error] [client 50.116.3.109] PHP Parse error:  syntax error, unexpected ';', expecting function (T_FUNCTION) in /var/www/www.ericrberg.com/application/models/sendmail.php on line 16
+[Wed Apr 17 02:59:07 2013] [error] [client 50.116.3.109] PHP Stack trace:
+[Wed Apr 17 02:59:07 2013] [error] [client 50.116.3.109] PHP   1. {main}() /var/www/www.ericrberg.com/public/index.php:0
+[Wed Apr 17 02:59:07 2013] [error] [client 50.116.3.109] PHP   2. require() /var/www/www.ericrberg.com/public/index.php:34
+[Wed Apr 17 02:59:07 2013] [error] [client 50.116.3.109] PHP   3. Laravel\\Routing\\Route->call() /var/www/www.ericrberg.com/laravel/laravel.php:167
+[Wed Apr 17 02:59:07 2013] [error] [client 50.116.3.109] PHP   4. Laravel\\Routing\\Route->response() /var/www/www.ericrberg.com/laravel/routing/route.php:124
+[Wed Apr 17 02:59:07 2013] [error] [client 50.116.3.109] PHP   5. Laravel\\Routing\\Controller::call() /var/www/www.ericrberg.com/laravel/routing/route.php:153
+[Wed Apr 17 02:59:07 2013] [error] [client 50.116.3.109] PHP   6. Laravel\\Routing\\Controller->execute() /var/www/www.ericrberg.com/laravel/routing/controller.php:165
+[Wed Apr 17 02:59:07 2013] [error] [client 50.116.3.109] PHP   7. Laravel\\Routing\\Controller->response() /var/www/www.ericrberg.com/laravel/routing/controller.php:285
+[Wed Apr 17 02:59:07 2013] [error] [client 50.116.3.109] PHP   8. call_user_func_array() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Wed Apr 17 02:59:07 2013] [error] [client 50.116.3.109] PHP   9. Api_SendMail_Controller->post_index() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Wed Apr 17 02:59:07 2013] [error] [client 50.116.3.109] PHP  10. Laravel\\Autoloader::load() /var/www/www.ericrberg.com/laravel/routing/controller.php:0
+[Wed Apr 17 02:59:07 2013] [error] [client 50.116.3.109] PHP  11. Laravel\\Autoloader::load_psr() /var/www/www.ericrberg.com/laravel/autoloader.php:79
+[Wed Apr 17 03:01:43 2013] [error] [client 50.116.3.109] PHP Parse error:  syntax error, unexpected '$mailTo' (T_VARIABLE), expecting function (T_FUNCTION) in /var/www/www.ericrberg.com/application/models/sendmail.php on line 4
+[Wed Apr 17 03:01:43 2013] [error] [client 50.116.3.109] PHP Stack trace:
+[Wed Apr 17 03:01:43 2013] [error] [client 50.116.3.109] PHP   1. {main}() /var/www/www.ericrberg.com/public/index.php:0
+[Wed Apr 17 03:01:43 2013] [error] [client 50.116.3.109] PHP   2. require() /var/www/www.ericrberg.com/public/index.php:34
+[Wed Apr 17 03:01:43 2013] [error] [client 50.116.3.109] PHP   3. Laravel\\Routing\\Route->call() /var/www/www.ericrberg.com/laravel/laravel.php:167
+[Wed Apr 17 03:01:43 2013] [error] [client 50.116.3.109] PHP   4. Laravel\\Routing\\Route->response() /var/www/www.ericrberg.com/laravel/routing/route.php:124
+[Wed Apr 17 03:01:43 2013] [error] [client 50.116.3.109] PHP   5. Laravel\\Routing\\Controller::call() /var/www/www.ericrberg.com/laravel/routing/route.php:153
+[Wed Apr 17 03:01:43 2013] [error] [client 50.116.3.109] PHP   6. Laravel\\Routing\\Controller->execute() /var/www/www.ericrberg.com/laravel/routing/controller.php:165
+[Wed Apr 17 03:01:43 2013] [error] [client 50.116.3.109] PHP   7. Laravel\\Routing\\Controller->response() /var/www/www.ericrberg.com/laravel/routing/controller.php:285
+[Wed Apr 17 03:01:43 2013] [error] [client 50.116.3.109] PHP   8. call_user_func_array() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Wed Apr 17 03:01:43 2013] [error] [client 50.116.3.109] PHP   9. Api_SendMail_Controller->post_index() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Wed Apr 17 03:01:43 2013] [error] [client 50.116.3.109] PHP  10. Laravel\\Autoloader::load() /var/www/www.ericrberg.com/laravel/routing/controller.php:0
+[Wed Apr 17 03:01:43 2013] [error] [client 50.116.3.109] PHP  11. Laravel\\Autoloader::load_psr() /var/www/www.ericrberg.com/laravel/autoloader.php:79
+[Wed Apr 17 03:08:40 2013] [error] [client 50.116.3.109] PHP Fatal error:  Call to undefined function inputIsValid() in /var/www/www.ericrberg.com/application/controllers/api/sendmail.php on line 7
+[Wed Apr 17 03:08:40 2013] [error] [client 50.116.3.109] PHP Stack trace:
+[Wed Apr 17 03:08:40 2013] [error] [client 50.116.3.109] PHP   1. {main}() /var/www/www.ericrberg.com/public/index.php:0
+[Wed Apr 17 03:08:40 2013] [error] [client 50.116.3.109] PHP   2. require() /var/www/www.ericrberg.com/public/index.php:34
+[Wed Apr 17 03:08:40 2013] [error] [client 50.116.3.109] PHP   3. Laravel\\Routing\\Route->call() /var/www/www.ericrberg.com/laravel/laravel.php:167
+[Wed Apr 17 03:08:40 2013] [error] [client 50.116.3.109] PHP   4. Laravel\\Routing\\Route->response() /var/www/www.ericrberg.com/laravel/routing/route.php:124
+[Wed Apr 17 03:08:40 2013] [error] [client 50.116.3.109] PHP   5. Laravel\\Routing\\Controller::call() /var/www/www.ericrberg.com/laravel/routing/route.php:153
+[Wed Apr 17 03:08:40 2013] [error] [client 50.116.3.109] PHP   6. Laravel\\Routing\\Controller->execute() /var/www/www.ericrberg.com/laravel/routing/controller.php:165
+[Wed Apr 17 03:08:40 2013] [error] [client 50.116.3.109] PHP   7. Laravel\\Routing\\Controller->response() /var/www/www.ericrberg.com/laravel/routing/controller.php:285
+[Wed Apr 17 03:08:40 2013] [error] [client 50.116.3.109] PHP   8. call_user_func_array() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Wed Apr 17 03:08:40 2013] [error] [client 50.116.3.109] PHP   9. Api_SendMail_Controller->post_index() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Wed Apr 17 03:09:50 2013] [error] [client 50.116.3.109] PHP Fatal error:  Call to undefined function toJSON() in /var/www/www.ericrberg.com/application/controllers/api/sendmail.php on line 7
+[Wed Apr 17 03:09:50 2013] [error] [client 50.116.3.109] PHP Stack trace:
+[Wed Apr 17 03:09:50 2013] [error] [client 50.116.3.109] PHP   1. {main}() /var/www/www.ericrberg.com/public/index.php:0
+[Wed Apr 17 03:09:50 2013] [error] [client 50.116.3.109] PHP   2. require() /var/www/www.ericrberg.com/public/index.php:34
+[Wed Apr 17 03:09:50 2013] [error] [client 50.116.3.109] PHP   3. Laravel\\Routing\\Route->call() /var/www/www.ericrberg.com/laravel/laravel.php:167
+[Wed Apr 17 03:09:50 2013] [error] [client 50.116.3.109] PHP   4. Laravel\\Routing\\Route->response() /var/www/www.ericrberg.com/laravel/routing/route.php:124
+[Wed Apr 17 03:09:50 2013] [error] [client 50.116.3.109] PHP   5. Laravel\\Routing\\Controller::call() /var/www/www.ericrberg.com/laravel/routing/route.php:153
+[Wed Apr 17 03:09:50 2013] [error] [client 50.116.3.109] PHP   6. Laravel\\Routing\\Controller->execute() /var/www/www.ericrberg.com/laravel/routing/controller.php:165
+[Wed Apr 17 03:09:50 2013] [error] [client 50.116.3.109] PHP   7. Laravel\\Routing\\Controller->response() /var/www/www.ericrberg.com/laravel/routing/controller.php:285
+[Wed Apr 17 03:09:50 2013] [error] [client 50.116.3.109] PHP   8. call_user_func_array() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Wed Apr 17 03:09:50 2013] [error] [client 50.116.3.109] PHP   9. Api_SendMail_Controller->post_index() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Wed Apr 17 03:10:40 2013] [error] [client 50.116.3.109] PHP Fatal error:  Call to undefined function toJSON() in /var/www/www.ericrberg.com/application/controllers/api/sendmail.php on line 7
+[Wed Apr 17 03:10:40 2013] [error] [client 50.116.3.109] PHP Stack trace:
+[Wed Apr 17 03:10:40 2013] [error] [client 50.116.3.109] PHP   1. {main}() /var/www/www.ericrberg.com/public/index.php:0
+[Wed Apr 17 03:10:40 2013] [error] [client 50.116.3.109] PHP   2. require() /var/www/www.ericrberg.com/public/index.php:34
+[Wed Apr 17 03:10:40 2013] [error] [client 50.116.3.109] PHP   3. Laravel\\Routing\\Route->call() /var/www/www.ericrberg.com/laravel/laravel.php:167
+[Wed Apr 17 03:10:40 2013] [error] [client 50.116.3.109] PHP   4. Laravel\\Routing\\Route->response() /var/www/www.ericrberg.com/laravel/routing/route.php:124
+[Wed Apr 17 03:10:40 2013] [error] [client 50.116.3.109] PHP   5. Laravel\\Routing\\Controller::call() /var/www/www.ericrberg.com/laravel/routing/route.php:153
+[Wed Apr 17 03:10:40 2013] [error] [client 50.116.3.109] PHP   6. Laravel\\Routing\\Controller->execute() /var/www/www.ericrberg.com/laravel/routing/controller.php:165
+[Wed Apr 17 03:10:40 2013] [error] [client 50.116.3.109] PHP   7. Laravel\\Routing\\Controller->response() /var/www/www.ericrberg.com/laravel/routing/controller.php:285
+[Wed Apr 17 03:10:40 2013] [error] [client 50.116.3.109] PHP   8. call_user_func_array() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Wed Apr 17 03:10:40 2013] [error] [client 50.116.3.109] PHP   9. Api_SendMail_Controller->post_index() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Wed Apr 17 03:11:21 2013] [error] [client 50.116.3.109] PHP Fatal error:  Call to undefined function inputIsValid() in /var/www/www.ericrberg.com/application/controllers/api/sendmail.php on line 7
+[Wed Apr 17 03:11:21 2013] [error] [client 50.116.3.109] PHP Stack trace:
+[Wed Apr 17 03:11:21 2013] [error] [client 50.116.3.109] PHP   1. {main}() /var/www/www.ericrberg.com/public/index.php:0
+[Wed Apr 17 03:11:21 2013] [error] [client 50.116.3.109] PHP   2. require() /var/www/www.ericrberg.com/public/index.php:34
+[Wed Apr 17 03:11:21 2013] [error] [client 50.116.3.109] PHP   3. Laravel\\Routing\\Route->call() /var/www/www.ericrberg.com/laravel/laravel.php:167
+[Wed Apr 17 03:11:21 2013] [error] [client 50.116.3.109] PHP   4. Laravel\\Routing\\Route->response() /var/www/www.ericrberg.com/laravel/routing/route.php:124
+[Wed Apr 17 03:11:21 2013] [error] [client 50.116.3.109] PHP   5. Laravel\\Routing\\Controller::call() /var/www/www.ericrberg.com/laravel/routing/route.php:153
+[Wed Apr 17 03:11:21 2013] [error] [client 50.116.3.109] PHP   6. Laravel\\Routing\\Controller->execute() /var/www/www.ericrberg.com/laravel/routing/controller.php:165
+[Wed Apr 17 03:11:21 2013] [error] [client 50.116.3.109] PHP   7. Laravel\\Routing\\Controller->response() /var/www/www.ericrberg.com/laravel/routing/controller.php:285
+[Wed Apr 17 03:11:21 2013] [error] [client 50.116.3.109] PHP   8. call_user_func_array() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Wed Apr 17 03:11:21 2013] [error] [client 50.116.3.109] PHP   9. Api_SendMail_Controller->post_index() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Wed Apr 17 03:12:18 2013] [error] [client 50.116.3.109] PHP Fatal error:  Call to undefined function inputIsValid() in /var/www/www.ericrberg.com/application/controllers/api/sendmail.php on line 7
+[Wed Apr 17 03:12:18 2013] [error] [client 50.116.3.109] PHP Stack trace:
+[Wed Apr 17 03:12:18 2013] [error] [client 50.116.3.109] PHP   1. {main}() /var/www/www.ericrberg.com/public/index.php:0
+[Wed Apr 17 03:12:18 2013] [error] [client 50.116.3.109] PHP   2. require() /var/www/www.ericrberg.com/public/index.php:34
+[Wed Apr 17 03:12:18 2013] [error] [client 50.116.3.109] PHP   3. Laravel\\Routing\\Route->call() /var/www/www.ericrberg.com/laravel/laravel.php:167
+[Wed Apr 17 03:12:18 2013] [error] [client 50.116.3.109] PHP   4. Laravel\\Routing\\Route->response() /var/www/www.ericrberg.com/laravel/routing/route.php:124
+[Wed Apr 17 03:12:18 2013] [error] [client 50.116.3.109] PHP   5. Laravel\\Routing\\Controller::call() /var/www/www.ericrberg.com/laravel/routing/route.php:153
+[Wed Apr 17 03:12:18 2013] [error] [client 50.116.3.109] PHP   6. Laravel\\Routing\\Controller->execute() /var/www/www.ericrberg.com/laravel/routing/controller.php:165
+[Wed Apr 17 03:12:18 2013] [error] [client 50.116.3.109] PHP   7. Laravel\\Routing\\Controller->response() /var/www/www.ericrberg.com/laravel/routing/controller.php:285
+[Wed Apr 17 03:12:18 2013] [error] [client 50.116.3.109] PHP   8. call_user_func_array() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Wed Apr 17 03:12:18 2013] [error] [client 50.116.3.109] PHP   9. Api_SendMail_Controller->post_index() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Wed Apr 17 04:25:30 2013] [error] [client 50.116.3.109] PHP Parse error:  syntax error, unexpected '$mailTo' (T_VARIABLE), expecting function (T_FUNCTION) in /var/www/www.ericrberg.com/application/models/sendmail.php on line 4
+[Wed Apr 17 04:25:30 2013] [error] [client 50.116.3.109] PHP Stack trace:
+[Wed Apr 17 04:25:30 2013] [error] [client 50.116.3.109] PHP   1. {main}() /var/www/www.ericrberg.com/public/index.php:0
+[Wed Apr 17 04:25:30 2013] [error] [client 50.116.3.109] PHP   2. require() /var/www/www.ericrberg.com/public/index.php:34
+[Wed Apr 17 04:25:30 2013] [error] [client 50.116.3.109] PHP   3. Laravel\\Routing\\Route->call() /var/www/www.ericrberg.com/laravel/laravel.php:167
+[Wed Apr 17 04:25:30 2013] [error] [client 50.116.3.109] PHP   4. Laravel\\Routing\\Route->response() /var/www/www.ericrberg.com/laravel/routing/route.php:124
+[Wed Apr 17 04:25:30 2013] [error] [client 50.116.3.109] PHP   5. Laravel\\Routing\\Controller::call() /var/www/www.ericrberg.com/laravel/routing/route.php:153
+[Wed Apr 17 04:25:30 2013] [error] [client 50.116.3.109] PHP   6. Laravel\\Routing\\Controller->execute() /var/www/www.ericrberg.com/laravel/routing/controller.php:165
+[Wed Apr 17 04:25:30 2013] [error] [client 50.116.3.109] PHP   7. Laravel\\Routing\\Controller->response() /var/www/www.ericrberg.com/laravel/routing/controller.php:285
+[Wed Apr 17 04:25:30 2013] [error] [client 50.116.3.109] PHP   8. call_user_func_array() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Wed Apr 17 04:25:30 2013] [error] [client 50.116.3.109] PHP   9. Api_SendMail_Controller->post_index() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Wed Apr 17 04:25:30 2013] [error] [client 50.116.3.109] PHP  10. Laravel\\Autoloader::load() /var/www/www.ericrberg.com/laravel/routing/controller.php:0
+[Wed Apr 17 04:25:30 2013] [error] [client 50.116.3.109] PHP  11. Laravel\\Autoloader::load_psr() /var/www/www.ericrberg.com/laravel/autoloader.php:79
+[Wed Apr 17 04:26:24 2013] [error] [client 50.116.3.109] PHP Parse error:  syntax error, unexpected '{' in /var/www/www.ericrberg.com/application/models/sendmail.php on line 20
+[Wed Apr 17 04:26:24 2013] [error] [client 50.116.3.109] PHP Stack trace:
+[Wed Apr 17 04:26:24 2013] [error] [client 50.116.3.109] PHP   1. {main}() /var/www/www.ericrberg.com/public/index.php:0
+[Wed Apr 17 04:26:24 2013] [error] [client 50.116.3.109] PHP   2. require() /var/www/www.ericrberg.com/public/index.php:34
+[Wed Apr 17 04:26:24 2013] [error] [client 50.116.3.109] PHP   3. Laravel\\Routing\\Route->call() /var/www/www.ericrberg.com/laravel/laravel.php:167
+[Wed Apr 17 04:26:24 2013] [error] [client 50.116.3.109] PHP   4. Laravel\\Routing\\Route->response() /var/www/www.ericrberg.com/laravel/routing/route.php:124
+[Wed Apr 17 04:26:24 2013] [error] [client 50.116.3.109] PHP   5. Laravel\\Routing\\Controller::call() /var/www/www.ericrberg.com/laravel/routing/route.php:153
+[Wed Apr 17 04:26:24 2013] [error] [client 50.116.3.109] PHP   6. Laravel\\Routing\\Controller->execute() /var/www/www.ericrberg.com/laravel/routing/controller.php:165
+[Wed Apr 17 04:26:24 2013] [error] [client 50.116.3.109] PHP   7. Laravel\\Routing\\Controller->response() /var/www/www.ericrberg.com/laravel/routing/controller.php:285
+[Wed Apr 17 04:26:24 2013] [error] [client 50.116.3.109] PHP   8. call_user_func_array() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Wed Apr 17 04:26:24 2013] [error] [client 50.116.3.109] PHP   9. Api_SendMail_Controller->post_index() /var/www/www.ericrberg.com/laravel/routing/controller.php:325
+[Wed Apr 17 04:26:24 2013] [error] [client 50.116.3.109] PHP  10. Laravel\\Autoloader::load() /var/www/www.ericrberg.com/laravel/routing/controller.php:0
+[Wed Apr 17 04:26:24 2013] [error] [client 50.116.3.109] PHP  11. Laravel\\Autoloader::load_psr() /var/www/www.ericrberg.com/laravel/autoloader.php:79

@@ -1,14 +1,11 @@
 <?php
 
-Route::any('api/articles/(:num?)',
-	array('as' => 'api.articles',
-		  'uses' => 'api.articles@index')
-	);
 	
 /* Route::get('admin',function(){ ***WILL USE LATER FOR ADMIN BACKEND
 	return View::make('articles.index')->
 		with('viewName' , 'Articles');
 }); */
+
 
 /*
 |--------------------------------------------------------------------------
@@ -41,6 +38,16 @@ Route::any('api/articles/(:num?)',
 |		});
 |
 */
+Route::any('api/articles/(:num?)',
+	array('as' => 'api.articles',
+		  'uses' => 'api.articles@index')
+	);
+
+Route::post('api/sendmail',
+	array('as' => 'api.sendmail',
+		  'uses' => 'api.sendmail@index')
+);
+
 
 Route::get('/', array('as' => 'home', function(){
 	return View::make('home.index');
@@ -57,6 +64,7 @@ Route::get('about', array('as' => 'about', function(){
 Route::get('contact', array('as' => 'contact', function(){
 	return View::make('contact.index');
 }));
+
 /*
 |--------------------------------------------------------------------------
 | Application 404 & 500 Error Handlers
