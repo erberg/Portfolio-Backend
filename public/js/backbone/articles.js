@@ -3,7 +3,8 @@
     var ArticleModel = Backbone.Model.extend();
     var ArticlesCollection = Backbone.Collection.extend({
         url: '/api/articles',
-        model: ArticleModel
+        model: ArticleModel,
+        comparator : function(article) { return article.get("order"); }
     });
 
     var ArticlesView = Backbone.View.extend({

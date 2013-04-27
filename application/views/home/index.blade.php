@@ -38,7 +38,7 @@
 			<h1 class="article-title"><%= title %></h1>
 			<h4 class="article-sub"><%= subtitle %></h4>
 		</div>
-		<div class="five columns"><%= content %>
+		<div class="five home columns"><%= content %>
 			<div style="margin-bottom:10px;">
 				<a href="<%= url_to_live %>" style="margin-right:30px;">View the site</a>
 				<% if (url_to_code) { %> <a href="<%= url_to_code %>">See the code</a> <% } %>

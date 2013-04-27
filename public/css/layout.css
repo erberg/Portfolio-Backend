@@ -74,8 +74,8 @@
 
 	/* Tablet Portrait size to standard 960 (devices and browsers) */
 	@media only screen and (min-width: 768px) and (max-width: 959px) {
-			.container .four.columns                    { width: 316px; } /*widen four-column to six column width*/
-			.container .five.columns                    { width: 316px; } /*widen five-column to six column width*/
+			.container .four.columns .home                    { width: 316px; } /*widen four-column to six column width*/
+			.container .five.columns .home                    { width: 316px; } /*widen five-column to six column width*/
 
 
 	}

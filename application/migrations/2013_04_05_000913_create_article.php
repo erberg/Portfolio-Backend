@@ -17,6 +17,7 @@ class Create_Article {
 			$table->string('tech_list',120);
 			$table->string('url_to_code',120);
 			$table->string('url_to_live',120);
+			$table->int('order');
 			$table->text('content');
 			$table->timestamps();
 		});

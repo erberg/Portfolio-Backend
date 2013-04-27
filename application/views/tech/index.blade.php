@@ -47,7 +47,7 @@
 			</ul>
 		</p>
 	</div>
-	<div class="five columns"><h1 class="article-title">Learning Soon<br/></h1>
+	<div class="five columns"><h1 class="article-title">Learning Next<br/></h1>
 		<p>
 			<ul class="square">
 				<li>Coffeescript</li>
