@@ -1247,3 +1247,660 @@
 [Sat Apr 27 19:28:14 2013] [error] [client 24.18.143.237] PHP   2. trigger_error() /usr/share/phpmyadmin/main.php:304, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=6bcaaaa04a9b4ec23308c7592c136c0b
 [Sat Apr 27 19:28:14 2013] [error] [client 24.18.143.237] PHP   3. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/main.php:304, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=6bcaaaa04a9b4ec23308c7592c136c0b
 [Sat Apr 27 19:28:14 2013] [error] [client 24.18.143.237] PHP   4. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=6bcaaaa04a9b4ec23308c7592c136c0b
+[Sat Apr 27 21:14:50 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=97c62705192c94a244b9636cebb8a405
+[Sat Apr 27 21:14:50 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=97c62705192c94a244b9636cebb8a405
+[Sat Apr 27 21:14:50 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/main.php:0, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=97c62705192c94a244b9636cebb8a405
+[Sat Apr 27 21:14:50 2013] [error] [client 24.18.143.237] PHP   2. trigger_error() /usr/share/phpmyadmin/main.php:304, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=97c62705192c94a244b9636cebb8a405
+[Sat Apr 27 21:14:50 2013] [error] [client 24.18.143.237] PHP   3. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/main.php:304, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=97c62705192c94a244b9636cebb8a405
+[Sat Apr 27 21:14:50 2013] [error] [client 24.18.143.237] PHP   4. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=97c62705192c94a244b9636cebb8a405
+[Sat Apr 27 21:15:37 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=97c62705192c94a244b9636cebb8a405
+[Sat Apr 27 21:15:37 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=97c62705192c94a244b9636cebb8a405
+[Sat Apr 27 21:15:37 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/main.php:0, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=97c62705192c94a244b9636cebb8a405
+[Sat Apr 27 21:15:37 2013] [error] [client 24.18.143.237] PHP   2. trigger_error() /usr/share/phpmyadmin/main.php:304, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=97c62705192c94a244b9636cebb8a405
+[Sat Apr 27 21:15:37 2013] [error] [client 24.18.143.237] PHP   3. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/main.php:304, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=97c62705192c94a244b9636cebb8a405
+[Sat Apr 27 21:15:37 2013] [error] [client 24.18.143.237] PHP   4. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=97c62705192c94a244b9636cebb8a405
+[Sat Apr 27 21:15:47 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/db_structure.php?token=97c62705192c94a244b9636cebb8a405&db=folioMVC
+[Sat Apr 27 21:15:47 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/db_structure.php?token=97c62705192c94a244b9636cebb8a405&db=folioMVC
+[Sat Apr 27 21:15:47 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/main.php:0, referer: http://www.ericrberg.com/phpmyadmin/db_structure.php?token=97c62705192c94a244b9636cebb8a405&db=folioMVC
+[Sat Apr 27 21:15:47 2013] [error] [client 24.18.143.237] PHP   2. trigger_error() /usr/share/phpmyadmin/main.php:304, referer: http://www.ericrberg.com/phpmyadmin/db_structure.php?token=97c62705192c94a244b9636cebb8a405&db=folioMVC
+[Sat Apr 27 21:15:47 2013] [error] [client 24.18.143.237] PHP   3. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/main.php:304, referer: http://www.ericrberg.com/phpmyadmin/db_structure.php?token=97c62705192c94a244b9636cebb8a405&db=folioMVC
+[Sat Apr 27 21:15:47 2013] [error] [client 24.18.143.237] PHP   4. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/db_structure.php?token=97c62705192c94a244b9636cebb8a405&db=folioMVC
+[Sat Apr 27 21:16:23 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/db_structure.php?token=97c62705192c94a244b9636cebb8a405&db=folioMVC
+[Sat Apr 27 21:16:23 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/db_structure.php?token=97c62705192c94a244b9636cebb8a405&db=folioMVC
+[Sat Apr 27 21:16:23 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/main.php:0, referer: http://www.ericrberg.com/phpmyadmin/db_structure.php?token=97c62705192c94a244b9636cebb8a405&db=folioMVC
+[Sat Apr 27 21:16:23 2013] [error] [client 24.18.143.237] PHP   2. trigger_error() /usr/share/phpmyadmin/main.php:304, referer: http://www.ericrberg.com/phpmyadmin/db_structure.php?token=97c62705192c94a244b9636cebb8a405&db=folioMVC
+[Sat Apr 27 21:16:23 2013] [error] [client 24.18.143.237] PHP   3. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/main.php:304, referer: http://www.ericrberg.com/phpmyadmin/db_structure.php?token=97c62705192c94a244b9636cebb8a405&db=folioMVC
+[Sat Apr 27 21:16:23 2013] [error] [client 24.18.143.237] PHP   4. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/db_structure.php?token=97c62705192c94a244b9636cebb8a405&db=folioMVC
+[Sat Apr 27 21:16:27 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/main.php?token=97c62705192c94a244b9636cebb8a405
+[Sat Apr 27 21:16:27 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/main.php?token=97c62705192c94a244b9636cebb8a405
+[Sat Apr 27 21:16:27 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/main.php:0, referer: http://www.ericrberg.com/phpmyadmin/main.php?token=97c62705192c94a244b9636cebb8a405
+[Sat Apr 27 21:16:27 2013] [error] [client 24.18.143.237] PHP   2. trigger_error() /usr/share/phpmyadmin/main.php:304, referer: http://www.ericrberg.com/phpmyadmin/main.php?token=97c62705192c94a244b9636cebb8a405
+[Sat Apr 27 21:16:27 2013] [error] [client 24.18.143.237] PHP   3. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/main.php:304, referer: http://www.ericrberg.com/phpmyadmin/main.php?token=97c62705192c94a244b9636cebb8a405
+[Sat Apr 27 21:16:27 2013] [error] [client 24.18.143.237] PHP   4. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/main.php?token=97c62705192c94a244b9636cebb8a405
+[Sat Apr 27 21:17:14 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/user_password.php?token=97c62705192c94a244b9636cebb8a405
+[Sat Apr 27 21:17:14 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/user_password.php?token=97c62705192c94a244b9636cebb8a405
+[Sat Apr 27 21:17:14 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/user_password.php:0, referer: http://www.ericrberg.com/phpmyadmin/user_password.php?token=97c62705192c94a244b9636cebb8a405
+[Sat Apr 27 21:17:14 2013] [error] [client 24.18.143.237] PHP   2. PMA_blowfish_encrypt() /usr/share/phpmyadmin/user_password.php:100, referer: http://www.ericrberg.com/phpmyadmin/user_password.php?token=97c62705192c94a244b9636cebb8a405
+[Sat Apr 27 21:17:14 2013] [error] [client 24.18.143.237] PHP   3. mcrypt_encrypt() /usr/share/phpmyadmin/libraries/auth/cookie.auth.lib.php:60, referer: http://www.ericrberg.com/phpmyadmin/user_password.php?token=97c62705192c94a244b9636cebb8a405
+[Sat Apr 27 21:17:14 2013] [error] [client 24.18.143.237] PHP   4. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/libraries/auth/cookie.auth.lib.php:60, referer: http://www.ericrberg.com/phpmyadmin/user_password.php?token=97c62705192c94a244b9636cebb8a405
+[Sat Apr 27 21:17:14 2013] [error] [client 24.18.143.237] PHP   5. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/user_password.php?token=97c62705192c94a244b9636cebb8a405
+[Sat Apr 27 21:35:40 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=97c62705192c94a244b9636cebb8a405
+[Sat Apr 27 21:35:40 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=97c62705192c94a244b9636cebb8a405
+[Sat Apr 27 21:35:40 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/main.php:0, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=97c62705192c94a244b9636cebb8a405
+[Sat Apr 27 21:35:40 2013] [error] [client 24.18.143.237] PHP   2. trigger_error() /usr/share/phpmyadmin/main.php:304, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=97c62705192c94a244b9636cebb8a405
+[Sat Apr 27 21:35:40 2013] [error] [client 24.18.143.237] PHP   3. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/main.php:304, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=97c62705192c94a244b9636cebb8a405
+[Sat Apr 27 21:35:40 2013] [error] [client 24.18.143.237] PHP   4. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=97c62705192c94a244b9636cebb8a405
+[Sat Apr 27 21:35:47 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/user_password.php?token=97c62705192c94a244b9636cebb8a405
+[Sat Apr 27 21:35:47 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/user_password.php?token=97c62705192c94a244b9636cebb8a405
+[Sat Apr 27 21:35:47 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/user_password.php:0, referer: http://www.ericrberg.com/phpmyadmin/user_password.php?token=97c62705192c94a244b9636cebb8a405
+[Sat Apr 27 21:35:47 2013] [error] [client 24.18.143.237] PHP   2. PMA_blowfish_encrypt() /usr/share/phpmyadmin/user_password.php:100, referer: http://www.ericrberg.com/phpmyadmin/user_password.php?token=97c62705192c94a244b9636cebb8a405
+[Sat Apr 27 21:35:47 2013] [error] [client 24.18.143.237] PHP   3. mcrypt_encrypt() /usr/share/phpmyadmin/libraries/auth/cookie.auth.lib.php:60, referer: http://www.ericrberg.com/phpmyadmin/user_password.php?token=97c62705192c94a244b9636cebb8a405
+[Sat Apr 27 21:35:47 2013] [error] [client 24.18.143.237] PHP   4. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/libraries/auth/cookie.auth.lib.php:60, referer: http://www.ericrberg.com/phpmyadmin/user_password.php?token=97c62705192c94a244b9636cebb8a405
+[Sat Apr 27 21:35:47 2013] [error] [client 24.18.143.237] PHP   5. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/user_password.php?token=97c62705192c94a244b9636cebb8a405
+[Sun Apr 28 03:16:48 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=44db79d0d3eb7240a03ab98859bf4cb3
+[Sun Apr 28 03:16:48 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=44db79d0d3eb7240a03ab98859bf4cb3
+[Sun Apr 28 03:16:48 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/main.php:0, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=44db79d0d3eb7240a03ab98859bf4cb3
+[Sun Apr 28 03:16:48 2013] [error] [client 24.18.143.237] PHP   2. trigger_error() /usr/share/phpmyadmin/main.php:304, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=44db79d0d3eb7240a03ab98859bf4cb3
+[Sun Apr 28 03:16:48 2013] [error] [client 24.18.143.237] PHP   3. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/main.php:304, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=44db79d0d3eb7240a03ab98859bf4cb3
+[Sun Apr 28 03:16:48 2013] [error] [client 24.18.143.237] PHP   4. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=44db79d0d3eb7240a03ab98859bf4cb3
+[Sun Apr 28 03:23:47 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/db_structure.php?db=ericrberg&token=44db79d0d3eb7240a03ab98859bf4cb3
+[Sun Apr 28 03:23:47 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/db_structure.php?db=ericrberg&token=44db79d0d3eb7240a03ab98859bf4cb3
+[Sun Apr 28 03:23:47 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/main.php:0, referer: http://www.ericrberg.com/phpmyadmin/db_structure.php?db=ericrberg&token=44db79d0d3eb7240a03ab98859bf4cb3
+[Sun Apr 28 03:23:47 2013] [error] [client 24.18.143.237] PHP   2. trigger_error() /usr/share/phpmyadmin/main.php:304, referer: http://www.ericrberg.com/phpmyadmin/db_structure.php?db=ericrberg&token=44db79d0d3eb7240a03ab98859bf4cb3
+[Sun Apr 28 03:23:47 2013] [error] [client 24.18.143.237] PHP   3. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/main.php:304, referer: http://www.ericrberg.com/phpmyadmin/db_structure.php?db=ericrberg&token=44db79d0d3eb7240a03ab98859bf4cb3
+[Sun Apr 28 03:23:47 2013] [error] [client 24.18.143.237] PHP   4. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/db_structure.php?db=ericrberg&token=44db79d0d3eb7240a03ab98859bf4cb3
+[Sun Apr 28 03:24:48 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/user_password.php?token=44db79d0d3eb7240a03ab98859bf4cb3
+[Sun Apr 28 03:24:48 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/user_password.php?token=44db79d0d3eb7240a03ab98859bf4cb3
+[Sun Apr 28 03:24:48 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/user_password.php:0, referer: http://www.ericrberg.com/phpmyadmin/user_password.php?token=44db79d0d3eb7240a03ab98859bf4cb3
+[Sun Apr 28 03:24:48 2013] [error] [client 24.18.143.237] PHP   2. PMA_blowfish_encrypt() /usr/share/phpmyadmin/user_password.php:100, referer: http://www.ericrberg.com/phpmyadmin/user_password.php?token=44db79d0d3eb7240a03ab98859bf4cb3
+[Sun Apr 28 03:24:48 2013] [error] [client 24.18.143.237] PHP   3. mcrypt_encrypt() /usr/share/phpmyadmin/libraries/auth/cookie.auth.lib.php:60, referer: http://www.ericrberg.com/phpmyadmin/user_password.php?token=44db79d0d3eb7240a03ab98859bf4cb3
+[Sun Apr 28 03:24:48 2013] [error] [client 24.18.143.237] PHP   4. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/libraries/auth/cookie.auth.lib.php:60, referer: http://www.ericrberg.com/phpmyadmin/user_password.php?token=44db79d0d3eb7240a03ab98859bf4cb3
+[Sun Apr 28 03:24:48 2013] [error] [client 24.18.143.237] PHP   5. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/user_password.php?token=44db79d0d3eb7240a03ab98859bf4cb3
+[Sun Apr 28 03:27:01 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:01 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:01 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/index.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:01 2013] [error] [client 24.18.143.237] PHP   2. require_once() /usr/share/phpmyadmin/index.php:35, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:01 2013] [error] [client 24.18.143.237] PHP   3. require_once() /usr/share/phpmyadmin/libraries/common.inc.php:295, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:01 2013] [error] [client 24.18.143.237] PHP   4. PMA_fatalError() /usr/share/phpmyadmin/libraries/session.inc.php:78, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:01 2013] [error] [client 24.18.143.237] PHP   5. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/libraries/session.inc.php:266, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:01 2013] [error] [client 24.18.143.237] PHP   6. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:01 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:01 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:01 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/index.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:01 2013] [error] [client 24.18.143.237] PHP   2. require_once() /usr/share/phpmyadmin/index.php:35, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:01 2013] [error] [client 24.18.143.237] PHP   3. require_once() /usr/share/phpmyadmin/libraries/common.inc.php:295, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:01 2013] [error] [client 24.18.143.237] PHP   4. PMA_fatalError() /usr/share/phpmyadmin/libraries/session.inc.php:78, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:01 2013] [error] [client 24.18.143.237] PHP   5. require() /usr/share/phpmyadmin/libraries/core.lib.php:274, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:01 2013] [error] [client 24.18.143.237] PHP   6. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/libraries/core.lib.php:53, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:01 2013] [error] [client 24.18.143.237] PHP   7. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:01 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:01 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:01 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/index.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:01 2013] [error] [client 24.18.143.237] PHP   2. require_once() /usr/share/phpmyadmin/index.php:35, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:01 2013] [error] [client 24.18.143.237] PHP   3. require_once() /usr/share/phpmyadmin/libraries/common.inc.php:295, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:01 2013] [error] [client 24.18.143.237] PHP   4. PMA_fatalError() /usr/share/phpmyadmin/libraries/session.inc.php:78, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:01 2013] [error] [client 24.18.143.237] PHP   5. PMA_Error_Handler->__destruct() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:01 2013] [error] [client 24.18.143.237] PHP   6. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:56, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:01 2013] [error] [client 24.18.143.237] PHP   7. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:13 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:13 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:13 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/index.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:13 2013] [error] [client 24.18.143.237] PHP   2. require_once() /usr/share/phpmyadmin/index.php:35, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:13 2013] [error] [client 24.18.143.237] PHP   3. require_once() /usr/share/phpmyadmin/libraries/common.inc.php:295, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:13 2013] [error] [client 24.18.143.237] PHP   4. PMA_fatalError() /usr/share/phpmyadmin/libraries/session.inc.php:78, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:13 2013] [error] [client 24.18.143.237] PHP   5. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/libraries/session.inc.php:266, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:13 2013] [error] [client 24.18.143.237] PHP   6. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:13 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:13 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:13 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/index.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:13 2013] [error] [client 24.18.143.237] PHP   2. require_once() /usr/share/phpmyadmin/index.php:35, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:13 2013] [error] [client 24.18.143.237] PHP   3. require_once() /usr/share/phpmyadmin/libraries/common.inc.php:295, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:13 2013] [error] [client 24.18.143.237] PHP   4. PMA_fatalError() /usr/share/phpmyadmin/libraries/session.inc.php:78, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:13 2013] [error] [client 24.18.143.237] PHP   5. require() /usr/share/phpmyadmin/libraries/core.lib.php:274, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:13 2013] [error] [client 24.18.143.237] PHP   6. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/libraries/core.lib.php:53, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:13 2013] [error] [client 24.18.143.237] PHP   7. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:13 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:13 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:13 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/index.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:13 2013] [error] [client 24.18.143.237] PHP   2. require_once() /usr/share/phpmyadmin/index.php:35, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:13 2013] [error] [client 24.18.143.237] PHP   3. require_once() /usr/share/phpmyadmin/libraries/common.inc.php:295, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:13 2013] [error] [client 24.18.143.237] PHP   4. PMA_fatalError() /usr/share/phpmyadmin/libraries/session.inc.php:78, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:13 2013] [error] [client 24.18.143.237] PHP   5. PMA_Error_Handler->__destruct() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:13 2013] [error] [client 24.18.143.237] PHP   6. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:56, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:13 2013] [error] [client 24.18.143.237] PHP   7. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:13 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:13 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:13 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/index.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:13 2013] [error] [client 24.18.143.237] PHP   2. require_once() /usr/share/phpmyadmin/index.php:35, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:13 2013] [error] [client 24.18.143.237] PHP   3. require_once() /usr/share/phpmyadmin/libraries/common.inc.php:295, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:13 2013] [error] [client 24.18.143.237] PHP   4. PMA_fatalError() /usr/share/phpmyadmin/libraries/session.inc.php:78, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:13 2013] [error] [client 24.18.143.237] PHP   5. PMA_Error_Handler->__destruct() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:13 2013] [error] [client 24.18.143.237] PHP   6. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:56, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:13 2013] [error] [client 24.18.143.237] PHP   7. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:18 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:18 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:18 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/index.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:18 2013] [error] [client 24.18.143.237] PHP   2. require_once() /usr/share/phpmyadmin/index.php:35, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:18 2013] [error] [client 24.18.143.237] PHP   3. require_once() /usr/share/phpmyadmin/libraries/common.inc.php:295, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:18 2013] [error] [client 24.18.143.237] PHP   4. PMA_fatalError() /usr/share/phpmyadmin/libraries/session.inc.php:78, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:18 2013] [error] [client 24.18.143.237] PHP   5. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/libraries/session.inc.php:266, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:18 2013] [error] [client 24.18.143.237] PHP   6. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:18 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:18 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:18 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/index.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:18 2013] [error] [client 24.18.143.237] PHP   2. require_once() /usr/share/phpmyadmin/index.php:35, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:18 2013] [error] [client 24.18.143.237] PHP   3. require_once() /usr/share/phpmyadmin/libraries/common.inc.php:295, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:18 2013] [error] [client 24.18.143.237] PHP   4. PMA_fatalError() /usr/share/phpmyadmin/libraries/session.inc.php:78, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:18 2013] [error] [client 24.18.143.237] PHP   5. require() /usr/share/phpmyadmin/libraries/core.lib.php:274, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:18 2013] [error] [client 24.18.143.237] PHP   6. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/libraries/core.lib.php:53, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:18 2013] [error] [client 24.18.143.237] PHP   7. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:18 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:18 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:18 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/index.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:18 2013] [error] [client 24.18.143.237] PHP   2. require_once() /usr/share/phpmyadmin/index.php:35, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:18 2013] [error] [client 24.18.143.237] PHP   3. require_once() /usr/share/phpmyadmin/libraries/common.inc.php:295, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:18 2013] [error] [client 24.18.143.237] PHP   4. PMA_fatalError() /usr/share/phpmyadmin/libraries/session.inc.php:78, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:18 2013] [error] [client 24.18.143.237] PHP   5. PMA_Error_Handler->__destruct() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:18 2013] [error] [client 24.18.143.237] PHP   6. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:56, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:18 2013] [error] [client 24.18.143.237] PHP   7. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:18 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:18 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:18 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/index.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:18 2013] [error] [client 24.18.143.237] PHP   2. require_once() /usr/share/phpmyadmin/index.php:35, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:18 2013] [error] [client 24.18.143.237] PHP   3. require_once() /usr/share/phpmyadmin/libraries/common.inc.php:295, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:18 2013] [error] [client 24.18.143.237] PHP   4. PMA_fatalError() /usr/share/phpmyadmin/libraries/session.inc.php:78, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:18 2013] [error] [client 24.18.143.237] PHP   5. PMA_Error_Handler->__destruct() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:18 2013] [error] [client 24.18.143.237] PHP   6. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:56, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:18 2013] [error] [client 24.18.143.237] PHP   7. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:38 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:38 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:38 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/index.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:38 2013] [error] [client 24.18.143.237] PHP   2. require_once() /usr/share/phpmyadmin/index.php:35, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:38 2013] [error] [client 24.18.143.237] PHP   3. require_once() /usr/share/phpmyadmin/libraries/common.inc.php:295, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:38 2013] [error] [client 24.18.143.237] PHP   4. PMA_fatalError() /usr/share/phpmyadmin/libraries/session.inc.php:78, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:38 2013] [error] [client 24.18.143.237] PHP   5. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/libraries/session.inc.php:266, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:38 2013] [error] [client 24.18.143.237] PHP   6. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:38 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:38 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:38 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/index.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:38 2013] [error] [client 24.18.143.237] PHP   2. require_once() /usr/share/phpmyadmin/index.php:35, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:38 2013] [error] [client 24.18.143.237] PHP   3. require_once() /usr/share/phpmyadmin/libraries/common.inc.php:295, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:38 2013] [error] [client 24.18.143.237] PHP   4. PMA_fatalError() /usr/share/phpmyadmin/libraries/session.inc.php:78, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:38 2013] [error] [client 24.18.143.237] PHP   5. require() /usr/share/phpmyadmin/libraries/core.lib.php:274, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:38 2013] [error] [client 24.18.143.237] PHP   6. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/libraries/core.lib.php:53, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:38 2013] [error] [client 24.18.143.237] PHP   7. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:38 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:38 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:38 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/index.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:38 2013] [error] [client 24.18.143.237] PHP   2. require_once() /usr/share/phpmyadmin/index.php:35, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:38 2013] [error] [client 24.18.143.237] PHP   3. require_once() /usr/share/phpmyadmin/libraries/common.inc.php:295, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:38 2013] [error] [client 24.18.143.237] PHP   4. PMA_fatalError() /usr/share/phpmyadmin/libraries/session.inc.php:78, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:38 2013] [error] [client 24.18.143.237] PHP   5. PMA_Error_Handler->__destruct() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:38 2013] [error] [client 24.18.143.237] PHP   6. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:56, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:38 2013] [error] [client 24.18.143.237] PHP   7. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:38 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:38 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:38 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/index.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:38 2013] [error] [client 24.18.143.237] PHP   2. require_once() /usr/share/phpmyadmin/index.php:35, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:38 2013] [error] [client 24.18.143.237] PHP   3. require_once() /usr/share/phpmyadmin/libraries/common.inc.php:295, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:38 2013] [error] [client 24.18.143.237] PHP   4. PMA_fatalError() /usr/share/phpmyadmin/libraries/session.inc.php:78, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:38 2013] [error] [client 24.18.143.237] PHP   5. PMA_Error_Handler->__destruct() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:38 2013] [error] [client 24.18.143.237] PHP   6. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:56, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:38 2013] [error] [client 24.18.143.237] PHP   7. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:44 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:44 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:44 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/index.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:44 2013] [error] [client 24.18.143.237] PHP   2. require_once() /usr/share/phpmyadmin/index.php:35, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:44 2013] [error] [client 24.18.143.237] PHP   3. require_once() /usr/share/phpmyadmin/libraries/common.inc.php:295, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:44 2013] [error] [client 24.18.143.237] PHP   4. PMA_fatalError() /usr/share/phpmyadmin/libraries/session.inc.php:78, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:44 2013] [error] [client 24.18.143.237] PHP   5. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/libraries/session.inc.php:266, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:44 2013] [error] [client 24.18.143.237] PHP   6. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:44 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:44 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:44 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/index.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:44 2013] [error] [client 24.18.143.237] PHP   2. require_once() /usr/share/phpmyadmin/index.php:35, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:44 2013] [error] [client 24.18.143.237] PHP   3. require_once() /usr/share/phpmyadmin/libraries/common.inc.php:295, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:44 2013] [error] [client 24.18.143.237] PHP   4. PMA_fatalError() /usr/share/phpmyadmin/libraries/session.inc.php:78, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:44 2013] [error] [client 24.18.143.237] PHP   5. require() /usr/share/phpmyadmin/libraries/core.lib.php:274, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:44 2013] [error] [client 24.18.143.237] PHP   6. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/libraries/core.lib.php:53, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:44 2013] [error] [client 24.18.143.237] PHP   7. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:44 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:44 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:44 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/index.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:44 2013] [error] [client 24.18.143.237] PHP   2. require_once() /usr/share/phpmyadmin/index.php:35, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:44 2013] [error] [client 24.18.143.237] PHP   3. require_once() /usr/share/phpmyadmin/libraries/common.inc.php:295, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:44 2013] [error] [client 24.18.143.237] PHP   4. PMA_fatalError() /usr/share/phpmyadmin/libraries/session.inc.php:78, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:44 2013] [error] [client 24.18.143.237] PHP   5. PMA_Error_Handler->__destruct() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:44 2013] [error] [client 24.18.143.237] PHP   6. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:56, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:44 2013] [error] [client 24.18.143.237] PHP   7. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:44 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:44 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:44 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/index.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:44 2013] [error] [client 24.18.143.237] PHP   2. require_once() /usr/share/phpmyadmin/index.php:35, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:44 2013] [error] [client 24.18.143.237] PHP   3. require_once() /usr/share/phpmyadmin/libraries/common.inc.php:295, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:44 2013] [error] [client 24.18.143.237] PHP   4. PMA_fatalError() /usr/share/phpmyadmin/libraries/session.inc.php:78, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:44 2013] [error] [client 24.18.143.237] PHP   5. PMA_Error_Handler->__destruct() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:44 2013] [error] [client 24.18.143.237] PHP   6. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:56, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:44 2013] [error] [client 24.18.143.237] PHP   7. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:59 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:59 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:59 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/index.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:59 2013] [error] [client 24.18.143.237] PHP   2. require_once() /usr/share/phpmyadmin/index.php:35, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:59 2013] [error] [client 24.18.143.237] PHP   3. require_once() /usr/share/phpmyadmin/libraries/common.inc.php:295, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:59 2013] [error] [client 24.18.143.237] PHP   4. PMA_fatalError() /usr/share/phpmyadmin/libraries/session.inc.php:78, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:59 2013] [error] [client 24.18.143.237] PHP   5. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/libraries/session.inc.php:266, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:59 2013] [error] [client 24.18.143.237] PHP   6. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:59 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:59 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:59 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/index.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:59 2013] [error] [client 24.18.143.237] PHP   2. require_once() /usr/share/phpmyadmin/index.php:35, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:59 2013] [error] [client 24.18.143.237] PHP   3. require_once() /usr/share/phpmyadmin/libraries/common.inc.php:295, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:59 2013] [error] [client 24.18.143.237] PHP   4. PMA_fatalError() /usr/share/phpmyadmin/libraries/session.inc.php:78, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:59 2013] [error] [client 24.18.143.237] PHP   5. require() /usr/share/phpmyadmin/libraries/core.lib.php:274, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:59 2013] [error] [client 24.18.143.237] PHP   6. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/libraries/core.lib.php:53, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:59 2013] [error] [client 24.18.143.237] PHP   7. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:59 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:59 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:59 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/index.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:59 2013] [error] [client 24.18.143.237] PHP   2. require_once() /usr/share/phpmyadmin/index.php:35, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:59 2013] [error] [client 24.18.143.237] PHP   3. require_once() /usr/share/phpmyadmin/libraries/common.inc.php:295, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:59 2013] [error] [client 24.18.143.237] PHP   4. PMA_fatalError() /usr/share/phpmyadmin/libraries/session.inc.php:78, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:59 2013] [error] [client 24.18.143.237] PHP   5. PMA_Error_Handler->__destruct() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:59 2013] [error] [client 24.18.143.237] PHP   6. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:56, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:59 2013] [error] [client 24.18.143.237] PHP   7. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:59 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:59 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:59 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/index.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:59 2013] [error] [client 24.18.143.237] PHP   2. require_once() /usr/share/phpmyadmin/index.php:35, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:59 2013] [error] [client 24.18.143.237] PHP   3. require_once() /usr/share/phpmyadmin/libraries/common.inc.php:295, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:59 2013] [error] [client 24.18.143.237] PHP   4. PMA_fatalError() /usr/share/phpmyadmin/libraries/session.inc.php:78, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:59 2013] [error] [client 24.18.143.237] PHP   5. PMA_Error_Handler->__destruct() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:59 2013] [error] [client 24.18.143.237] PHP   6. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:56, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:27:59 2013] [error] [client 24.18.143.237] PHP   7. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:28:05 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:28:05 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:28:05 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/index.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:28:05 2013] [error] [client 24.18.143.237] PHP   2. require_once() /usr/share/phpmyadmin/index.php:35, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:28:05 2013] [error] [client 24.18.143.237] PHP   3. require_once() /usr/share/phpmyadmin/libraries/common.inc.php:295, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:28:05 2013] [error] [client 24.18.143.237] PHP   4. PMA_fatalError() /usr/share/phpmyadmin/libraries/session.inc.php:78, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:28:05 2013] [error] [client 24.18.143.237] PHP   5. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/libraries/session.inc.php:266, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:28:05 2013] [error] [client 24.18.143.237] PHP   6. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:28:05 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:28:05 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:28:05 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/index.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:28:05 2013] [error] [client 24.18.143.237] PHP   2. require_once() /usr/share/phpmyadmin/index.php:35, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:28:05 2013] [error] [client 24.18.143.237] PHP   3. require_once() /usr/share/phpmyadmin/libraries/common.inc.php:295, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:28:05 2013] [error] [client 24.18.143.237] PHP   4. PMA_fatalError() /usr/share/phpmyadmin/libraries/session.inc.php:78, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:28:05 2013] [error] [client 24.18.143.237] PHP   5. require() /usr/share/phpmyadmin/libraries/core.lib.php:274, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:28:05 2013] [error] [client 24.18.143.237] PHP   6. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/libraries/core.lib.php:53, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:28:05 2013] [error] [client 24.18.143.237] PHP   7. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:28:05 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:28:05 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:28:05 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/index.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:28:05 2013] [error] [client 24.18.143.237] PHP   2. require_once() /usr/share/phpmyadmin/index.php:35, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:28:05 2013] [error] [client 24.18.143.237] PHP   3. require_once() /usr/share/phpmyadmin/libraries/common.inc.php:295, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:28:05 2013] [error] [client 24.18.143.237] PHP   4. PMA_fatalError() /usr/share/phpmyadmin/libraries/session.inc.php:78, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:28:05 2013] [error] [client 24.18.143.237] PHP   5. PMA_Error_Handler->__destruct() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:28:05 2013] [error] [client 24.18.143.237] PHP   6. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:56, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:28:05 2013] [error] [client 24.18.143.237] PHP   7. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:28:05 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:28:05 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:28:05 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/index.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:28:05 2013] [error] [client 24.18.143.237] PHP   2. require_once() /usr/share/phpmyadmin/index.php:35, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:28:05 2013] [error] [client 24.18.143.237] PHP   3. require_once() /usr/share/phpmyadmin/libraries/common.inc.php:295, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:28:05 2013] [error] [client 24.18.143.237] PHP   4. PMA_fatalError() /usr/share/phpmyadmin/libraries/session.inc.php:78, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:28:05 2013] [error] [client 24.18.143.237] PHP   5. PMA_Error_Handler->__destruct() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:28:05 2013] [error] [client 24.18.143.237] PHP   6. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:56, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:28:05 2013] [error] [client 24.18.143.237] PHP   7. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:28:43 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:28:43 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:28:43 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/index.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:28:43 2013] [error] [client 24.18.143.237] PHP   2. require_once() /usr/share/phpmyadmin/index.php:35, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:28:43 2013] [error] [client 24.18.143.237] PHP   3. require_once() /usr/share/phpmyadmin/libraries/common.inc.php:295, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:28:43 2013] [error] [client 24.18.143.237] PHP   4. PMA_fatalError() /usr/share/phpmyadmin/libraries/session.inc.php:78, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:28:43 2013] [error] [client 24.18.143.237] PHP   5. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/libraries/session.inc.php:266, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:28:43 2013] [error] [client 24.18.143.237] PHP   6. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:28:43 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:28:43 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:28:43 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/index.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:28:43 2013] [error] [client 24.18.143.237] PHP   2. require_once() /usr/share/phpmyadmin/index.php:35, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:28:43 2013] [error] [client 24.18.143.237] PHP   3. require_once() /usr/share/phpmyadmin/libraries/common.inc.php:295, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:28:43 2013] [error] [client 24.18.143.237] PHP   4. PMA_fatalError() /usr/share/phpmyadmin/libraries/session.inc.php:78, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:28:43 2013] [error] [client 24.18.143.237] PHP   5. require() /usr/share/phpmyadmin/libraries/core.lib.php:274, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:28:43 2013] [error] [client 24.18.143.237] PHP   6. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/libraries/core.lib.php:53, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:28:43 2013] [error] [client 24.18.143.237] PHP   7. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:28:43 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:28:43 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:28:43 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/index.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:28:43 2013] [error] [client 24.18.143.237] PHP   2. require_once() /usr/share/phpmyadmin/index.php:35, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:28:43 2013] [error] [client 24.18.143.237] PHP   3. require_once() /usr/share/phpmyadmin/libraries/common.inc.php:295, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:28:43 2013] [error] [client 24.18.143.237] PHP   4. PMA_fatalError() /usr/share/phpmyadmin/libraries/session.inc.php:78, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:28:43 2013] [error] [client 24.18.143.237] PHP   5. PMA_Error_Handler->__destruct() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:28:43 2013] [error] [client 24.18.143.237] PHP   6. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:56, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:28:43 2013] [error] [client 24.18.143.237] PHP   7. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:28:43 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:28:43 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:28:43 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/index.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:28:43 2013] [error] [client 24.18.143.237] PHP   2. require_once() /usr/share/phpmyadmin/index.php:35, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:28:43 2013] [error] [client 24.18.143.237] PHP   3. require_once() /usr/share/phpmyadmin/libraries/common.inc.php:295, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:28:43 2013] [error] [client 24.18.143.237] PHP   4. PMA_fatalError() /usr/share/phpmyadmin/libraries/session.inc.php:78, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:28:43 2013] [error] [client 24.18.143.237] PHP   5. PMA_Error_Handler->__destruct() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:28:43 2013] [error] [client 24.18.143.237] PHP   6. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:56, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:28:43 2013] [error] [client 24.18.143.237] PHP   7. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:30:50 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:30:50 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:30:50 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/index.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:30:50 2013] [error] [client 24.18.143.237] PHP   2. require_once() /usr/share/phpmyadmin/index.php:35, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:30:50 2013] [error] [client 24.18.143.237] PHP   3. require_once() /usr/share/phpmyadmin/libraries/common.inc.php:295, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:30:50 2013] [error] [client 24.18.143.237] PHP   4. PMA_fatalError() /usr/share/phpmyadmin/libraries/session.inc.php:78, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:30:50 2013] [error] [client 24.18.143.237] PHP   5. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/libraries/session.inc.php:266, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:30:50 2013] [error] [client 24.18.143.237] PHP   6. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:30:50 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:30:50 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:30:50 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/index.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:30:50 2013] [error] [client 24.18.143.237] PHP   2. require_once() /usr/share/phpmyadmin/index.php:35, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:30:50 2013] [error] [client 24.18.143.237] PHP   3. require_once() /usr/share/phpmyadmin/libraries/common.inc.php:295, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:30:50 2013] [error] [client 24.18.143.237] PHP   4. PMA_fatalError() /usr/share/phpmyadmin/libraries/session.inc.php:78, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:30:50 2013] [error] [client 24.18.143.237] PHP   5. require() /usr/share/phpmyadmin/libraries/core.lib.php:274, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:30:50 2013] [error] [client 24.18.143.237] PHP   6. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/libraries/core.lib.php:53, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:30:50 2013] [error] [client 24.18.143.237] PHP   7. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:30:50 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:30:50 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:30:50 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/index.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:30:50 2013] [error] [client 24.18.143.237] PHP   2. require_once() /usr/share/phpmyadmin/index.php:35, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:30:50 2013] [error] [client 24.18.143.237] PHP   3. require_once() /usr/share/phpmyadmin/libraries/common.inc.php:295, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:30:50 2013] [error] [client 24.18.143.237] PHP   4. PMA_fatalError() /usr/share/phpmyadmin/libraries/session.inc.php:78, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:30:50 2013] [error] [client 24.18.143.237] PHP   5. PMA_Error_Handler->__destruct() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:30:50 2013] [error] [client 24.18.143.237] PHP   6. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:56, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:30:50 2013] [error] [client 24.18.143.237] PHP   7. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:30:50 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:30:50 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:30:50 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/index.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:30:50 2013] [error] [client 24.18.143.237] PHP   2. require_once() /usr/share/phpmyadmin/index.php:35, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:30:50 2013] [error] [client 24.18.143.237] PHP   3. require_once() /usr/share/phpmyadmin/libraries/common.inc.php:295, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:30:50 2013] [error] [client 24.18.143.237] PHP   4. PMA_fatalError() /usr/share/phpmyadmin/libraries/session.inc.php:78, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:30:50 2013] [error] [client 24.18.143.237] PHP   5. PMA_Error_Handler->__destruct() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:30:50 2013] [error] [client 24.18.143.237] PHP   6. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:56, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:30:50 2013] [error] [client 24.18.143.237] PHP   7. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:30:56 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:30:56 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:30:56 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/index.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:30:56 2013] [error] [client 24.18.143.237] PHP   2. require_once() /usr/share/phpmyadmin/index.php:35, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:30:56 2013] [error] [client 24.18.143.237] PHP   3. require_once() /usr/share/phpmyadmin/libraries/common.inc.php:295, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:30:56 2013] [error] [client 24.18.143.237] PHP   4. PMA_fatalError() /usr/share/phpmyadmin/libraries/session.inc.php:78, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:30:56 2013] [error] [client 24.18.143.237] PHP   5. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/libraries/session.inc.php:266, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:30:56 2013] [error] [client 24.18.143.237] PHP   6. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:30:56 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:30:56 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:30:56 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/index.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:30:56 2013] [error] [client 24.18.143.237] PHP   2. require_once() /usr/share/phpmyadmin/index.php:35, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:30:56 2013] [error] [client 24.18.143.237] PHP   3. require_once() /usr/share/phpmyadmin/libraries/common.inc.php:295, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:30:56 2013] [error] [client 24.18.143.237] PHP   4. PMA_fatalError() /usr/share/phpmyadmin/libraries/session.inc.php:78, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:30:56 2013] [error] [client 24.18.143.237] PHP   5. require() /usr/share/phpmyadmin/libraries/core.lib.php:274, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:30:56 2013] [error] [client 24.18.143.237] PHP   6. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/libraries/core.lib.php:53, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:30:56 2013] [error] [client 24.18.143.237] PHP   7. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:30:56 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:30:56 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:30:56 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/index.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:30:56 2013] [error] [client 24.18.143.237] PHP   2. require_once() /usr/share/phpmyadmin/index.php:35, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:30:56 2013] [error] [client 24.18.143.237] PHP   3. require_once() /usr/share/phpmyadmin/libraries/common.inc.php:295, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:30:56 2013] [error] [client 24.18.143.237] PHP   4. PMA_fatalError() /usr/share/phpmyadmin/libraries/session.inc.php:78, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:30:56 2013] [error] [client 24.18.143.237] PHP   5. PMA_Error_Handler->__destruct() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:30:56 2013] [error] [client 24.18.143.237] PHP   6. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:56, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:30:56 2013] [error] [client 24.18.143.237] PHP   7. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:30:56 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:30:56 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:30:56 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/index.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:30:56 2013] [error] [client 24.18.143.237] PHP   2. require_once() /usr/share/phpmyadmin/index.php:35, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:30:56 2013] [error] [client 24.18.143.237] PHP   3. require_once() /usr/share/phpmyadmin/libraries/common.inc.php:295, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:30:56 2013] [error] [client 24.18.143.237] PHP   4. PMA_fatalError() /usr/share/phpmyadmin/libraries/session.inc.php:78, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:30:56 2013] [error] [client 24.18.143.237] PHP   5. PMA_Error_Handler->__destruct() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:30:56 2013] [error] [client 24.18.143.237] PHP   6. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:56, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:30:56 2013] [error] [client 24.18.143.237] PHP   7. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:32:47 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:32:47 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:32:47 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/index.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:32:47 2013] [error] [client 24.18.143.237] PHP   2. require_once() /usr/share/phpmyadmin/index.php:35, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:32:47 2013] [error] [client 24.18.143.237] PHP   3. require_once() /usr/share/phpmyadmin/libraries/common.inc.php:295, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:32:47 2013] [error] [client 24.18.143.237] PHP   4. PMA_fatalError() /usr/share/phpmyadmin/libraries/session.inc.php:78, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:32:47 2013] [error] [client 24.18.143.237] PHP   5. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/libraries/session.inc.php:266, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:32:47 2013] [error] [client 24.18.143.237] PHP   6. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:32:47 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:32:47 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:32:47 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/index.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:32:47 2013] [error] [client 24.18.143.237] PHP   2. require_once() /usr/share/phpmyadmin/index.php:35, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:32:47 2013] [error] [client 24.18.143.237] PHP   3. require_once() /usr/share/phpmyadmin/libraries/common.inc.php:295, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:32:47 2013] [error] [client 24.18.143.237] PHP   4. PMA_fatalError() /usr/share/phpmyadmin/libraries/session.inc.php:78, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:32:47 2013] [error] [client 24.18.143.237] PHP   5. require() /usr/share/phpmyadmin/libraries/core.lib.php:274, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:32:47 2013] [error] [client 24.18.143.237] PHP   6. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/libraries/core.lib.php:53, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:32:47 2013] [error] [client 24.18.143.237] PHP   7. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:32:47 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:32:47 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:32:47 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/index.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:32:47 2013] [error] [client 24.18.143.237] PHP   2. require_once() /usr/share/phpmyadmin/index.php:35, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:32:47 2013] [error] [client 24.18.143.237] PHP   3. require_once() /usr/share/phpmyadmin/libraries/common.inc.php:295, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:32:47 2013] [error] [client 24.18.143.237] PHP   4. PMA_fatalError() /usr/share/phpmyadmin/libraries/session.inc.php:78, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:32:47 2013] [error] [client 24.18.143.237] PHP   5. PMA_Error_Handler->__destruct() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:32:47 2013] [error] [client 24.18.143.237] PHP   6. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:56, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:32:47 2013] [error] [client 24.18.143.237] PHP   7. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:32:47 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:32:47 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:32:47 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/index.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:32:47 2013] [error] [client 24.18.143.237] PHP   2. require_once() /usr/share/phpmyadmin/index.php:35, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:32:47 2013] [error] [client 24.18.143.237] PHP   3. require_once() /usr/share/phpmyadmin/libraries/common.inc.php:295, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:32:47 2013] [error] [client 24.18.143.237] PHP   4. PMA_fatalError() /usr/share/phpmyadmin/libraries/session.inc.php:78, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:32:47 2013] [error] [client 24.18.143.237] PHP   5. PMA_Error_Handler->__destruct() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:32:47 2013] [error] [client 24.18.143.237] PHP   6. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:56, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:32:47 2013] [error] [client 24.18.143.237] PHP   7. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:35:25 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:35:25 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:35:25 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/index.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:35:25 2013] [error] [client 24.18.143.237] PHP   2. require_once() /usr/share/phpmyadmin/index.php:35, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:35:25 2013] [error] [client 24.18.143.237] PHP   3. require_once() /usr/share/phpmyadmin/libraries/common.inc.php:295, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:35:25 2013] [error] [client 24.18.143.237] PHP   4. PMA_fatalError() /usr/share/phpmyadmin/libraries/session.inc.php:78, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:35:25 2013] [error] [client 24.18.143.237] PHP   5. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/libraries/session.inc.php:266, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:35:25 2013] [error] [client 24.18.143.237] PHP   6. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:35:25 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:35:25 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:35:25 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/index.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:35:25 2013] [error] [client 24.18.143.237] PHP   2. require_once() /usr/share/phpmyadmin/index.php:35, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:35:25 2013] [error] [client 24.18.143.237] PHP   3. require_once() /usr/share/phpmyadmin/libraries/common.inc.php:295, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:35:25 2013] [error] [client 24.18.143.237] PHP   4. PMA_fatalError() /usr/share/phpmyadmin/libraries/session.inc.php:78, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:35:25 2013] [error] [client 24.18.143.237] PHP   5. require() /usr/share/phpmyadmin/libraries/core.lib.php:274, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:35:25 2013] [error] [client 24.18.143.237] PHP   6. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/libraries/core.lib.php:53, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:35:25 2013] [error] [client 24.18.143.237] PHP   7. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:35:25 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:35:25 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:35:25 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/index.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:35:25 2013] [error] [client 24.18.143.237] PHP   2. require_once() /usr/share/phpmyadmin/index.php:35, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:35:25 2013] [error] [client 24.18.143.237] PHP   3. require_once() /usr/share/phpmyadmin/libraries/common.inc.php:295, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:35:25 2013] [error] [client 24.18.143.237] PHP   4. PMA_fatalError() /usr/share/phpmyadmin/libraries/session.inc.php:78, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:35:25 2013] [error] [client 24.18.143.237] PHP   5. PMA_Error_Handler->__destruct() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:35:25 2013] [error] [client 24.18.143.237] PHP   6. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:56, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:35:25 2013] [error] [client 24.18.143.237] PHP   7. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:35:25 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:35:25 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:35:25 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/index.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:35:25 2013] [error] [client 24.18.143.237] PHP   2. require_once() /usr/share/phpmyadmin/index.php:35, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:35:25 2013] [error] [client 24.18.143.237] PHP   3. require_once() /usr/share/phpmyadmin/libraries/common.inc.php:295, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:35:25 2013] [error] [client 24.18.143.237] PHP   4. PMA_fatalError() /usr/share/phpmyadmin/libraries/session.inc.php:78, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:35:25 2013] [error] [client 24.18.143.237] PHP   5. PMA_Error_Handler->__destruct() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:35:25 2013] [error] [client 24.18.143.237] PHP   6. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:56, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:35:25 2013] [error] [client 24.18.143.237] PHP   7. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:35:28 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:35:28 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:35:28 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/index.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:35:28 2013] [error] [client 24.18.143.237] PHP   2. require_once() /usr/share/phpmyadmin/index.php:35, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:35:28 2013] [error] [client 24.18.143.237] PHP   3. require_once() /usr/share/phpmyadmin/libraries/common.inc.php:295, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:35:28 2013] [error] [client 24.18.143.237] PHP   4. PMA_fatalError() /usr/share/phpmyadmin/libraries/session.inc.php:78, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:35:28 2013] [error] [client 24.18.143.237] PHP   5. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/libraries/session.inc.php:266, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:35:28 2013] [error] [client 24.18.143.237] PHP   6. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:35:28 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:35:28 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:35:28 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/index.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:35:28 2013] [error] [client 24.18.143.237] PHP   2. require_once() /usr/share/phpmyadmin/index.php:35, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:35:28 2013] [error] [client 24.18.143.237] PHP   3. require_once() /usr/share/phpmyadmin/libraries/common.inc.php:295, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:35:28 2013] [error] [client 24.18.143.237] PHP   4. PMA_fatalError() /usr/share/phpmyadmin/libraries/session.inc.php:78, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:35:28 2013] [error] [client 24.18.143.237] PHP   5. require() /usr/share/phpmyadmin/libraries/core.lib.php:274, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:35:28 2013] [error] [client 24.18.143.237] PHP   6. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/libraries/core.lib.php:53, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:35:28 2013] [error] [client 24.18.143.237] PHP   7. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:35:28 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:35:28 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:35:28 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/index.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:35:28 2013] [error] [client 24.18.143.237] PHP   2. require_once() /usr/share/phpmyadmin/index.php:35, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:35:28 2013] [error] [client 24.18.143.237] PHP   3. require_once() /usr/share/phpmyadmin/libraries/common.inc.php:295, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:35:28 2013] [error] [client 24.18.143.237] PHP   4. PMA_fatalError() /usr/share/phpmyadmin/libraries/session.inc.php:78, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:35:28 2013] [error] [client 24.18.143.237] PHP   5. PMA_Error_Handler->__destruct() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:35:28 2013] [error] [client 24.18.143.237] PHP   6. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:56, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:35:28 2013] [error] [client 24.18.143.237] PHP   7. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:35:28 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:35:28 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:35:28 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/index.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:35:28 2013] [error] [client 24.18.143.237] PHP   2. require_once() /usr/share/phpmyadmin/index.php:35, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:35:28 2013] [error] [client 24.18.143.237] PHP   3. require_once() /usr/share/phpmyadmin/libraries/common.inc.php:295, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:35:28 2013] [error] [client 24.18.143.237] PHP   4. PMA_fatalError() /usr/share/phpmyadmin/libraries/session.inc.php:78, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:35:28 2013] [error] [client 24.18.143.237] PHP   5. PMA_Error_Handler->__destruct() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:35:28 2013] [error] [client 24.18.143.237] PHP   6. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:56, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:35:28 2013] [error] [client 24.18.143.237] PHP   7. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:36:17 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:36:17 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:36:17 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/index.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:36:17 2013] [error] [client 24.18.143.237] PHP   2. require_once() /usr/share/phpmyadmin/index.php:35, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:36:17 2013] [error] [client 24.18.143.237] PHP   3. require_once() /usr/share/phpmyadmin/libraries/common.inc.php:295, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:36:17 2013] [error] [client 24.18.143.237] PHP   4. PMA_fatalError() /usr/share/phpmyadmin/libraries/session.inc.php:78, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:36:17 2013] [error] [client 24.18.143.237] PHP   5. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/libraries/session.inc.php:266, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:36:17 2013] [error] [client 24.18.143.237] PHP   6. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:36:17 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:36:17 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:36:17 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/index.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:36:17 2013] [error] [client 24.18.143.237] PHP   2. require_once() /usr/share/phpmyadmin/index.php:35, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:36:17 2013] [error] [client 24.18.143.237] PHP   3. require_once() /usr/share/phpmyadmin/libraries/common.inc.php:295, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:36:17 2013] [error] [client 24.18.143.237] PHP   4. PMA_fatalError() /usr/share/phpmyadmin/libraries/session.inc.php:78, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:36:17 2013] [error] [client 24.18.143.237] PHP   5. require() /usr/share/phpmyadmin/libraries/core.lib.php:274, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:36:17 2013] [error] [client 24.18.143.237] PHP   6. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/libraries/core.lib.php:53, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:36:17 2013] [error] [client 24.18.143.237] PHP   7. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:36:17 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:36:17 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:36:17 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/index.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:36:17 2013] [error] [client 24.18.143.237] PHP   2. require_once() /usr/share/phpmyadmin/index.php:35, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:36:17 2013] [error] [client 24.18.143.237] PHP   3. require_once() /usr/share/phpmyadmin/libraries/common.inc.php:295, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:36:17 2013] [error] [client 24.18.143.237] PHP   4. PMA_fatalError() /usr/share/phpmyadmin/libraries/session.inc.php:78, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:36:17 2013] [error] [client 24.18.143.237] PHP   5. PMA_Error_Handler->__destruct() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:36:17 2013] [error] [client 24.18.143.237] PHP   6. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:56, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:36:17 2013] [error] [client 24.18.143.237] PHP   7. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:36:17 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:36:17 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:36:17 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/index.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:36:17 2013] [error] [client 24.18.143.237] PHP   2. require_once() /usr/share/phpmyadmin/index.php:35, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:36:17 2013] [error] [client 24.18.143.237] PHP   3. require_once() /usr/share/phpmyadmin/libraries/common.inc.php:295, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:36:17 2013] [error] [client 24.18.143.237] PHP   4. PMA_fatalError() /usr/share/phpmyadmin/libraries/session.inc.php:78, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:36:17 2013] [error] [client 24.18.143.237] PHP   5. PMA_Error_Handler->__destruct() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:36:17 2013] [error] [client 24.18.143.237] PHP   6. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:56, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:36:17 2013] [error] [client 24.18.143.237] PHP   7. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:38:09 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:38:09 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:38:09 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/index.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:38:09 2013] [error] [client 24.18.143.237] PHP   2. require_once() /usr/share/phpmyadmin/index.php:35, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:38:09 2013] [error] [client 24.18.143.237] PHP   3. require_once() /usr/share/phpmyadmin/libraries/common.inc.php:295, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:38:09 2013] [error] [client 24.18.143.237] PHP   4. PMA_fatalError() /usr/share/phpmyadmin/libraries/session.inc.php:78, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:38:09 2013] [error] [client 24.18.143.237] PHP   5. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/libraries/session.inc.php:266, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:38:09 2013] [error] [client 24.18.143.237] PHP   6. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:38:09 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:38:09 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:38:09 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/index.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:38:09 2013] [error] [client 24.18.143.237] PHP   2. require_once() /usr/share/phpmyadmin/index.php:35, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:38:09 2013] [error] [client 24.18.143.237] PHP   3. require_once() /usr/share/phpmyadmin/libraries/common.inc.php:295, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:38:09 2013] [error] [client 24.18.143.237] PHP   4. PMA_fatalError() /usr/share/phpmyadmin/libraries/session.inc.php:78, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:38:09 2013] [error] [client 24.18.143.237] PHP   5. require() /usr/share/phpmyadmin/libraries/core.lib.php:274, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:38:09 2013] [error] [client 24.18.143.237] PHP   6. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/libraries/core.lib.php:53, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:38:09 2013] [error] [client 24.18.143.237] PHP   7. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:38:09 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:38:09 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:38:09 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/index.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:38:09 2013] [error] [client 24.18.143.237] PHP   2. require_once() /usr/share/phpmyadmin/index.php:35, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:38:09 2013] [error] [client 24.18.143.237] PHP   3. require_once() /usr/share/phpmyadmin/libraries/common.inc.php:295, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:38:09 2013] [error] [client 24.18.143.237] PHP   4. PMA_fatalError() /usr/share/phpmyadmin/libraries/session.inc.php:78, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:38:09 2013] [error] [client 24.18.143.237] PHP   5. PMA_Error_Handler->__destruct() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:38:09 2013] [error] [client 24.18.143.237] PHP   6. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:56, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:38:09 2013] [error] [client 24.18.143.237] PHP   7. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:38:09 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:38:09 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:38:09 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/index.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:38:09 2013] [error] [client 24.18.143.237] PHP   2. require_once() /usr/share/phpmyadmin/index.php:35, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:38:09 2013] [error] [client 24.18.143.237] PHP   3. require_once() /usr/share/phpmyadmin/libraries/common.inc.php:295, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:38:09 2013] [error] [client 24.18.143.237] PHP   4. PMA_fatalError() /usr/share/phpmyadmin/libraries/session.inc.php:78, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:38:09 2013] [error] [client 24.18.143.237] PHP   5. PMA_Error_Handler->__destruct() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:38:09 2013] [error] [client 24.18.143.237] PHP   6. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:56, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:38:09 2013] [error] [client 24.18.143.237] PHP   7. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:39:20 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:39:20 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:39:20 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/index.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:39:20 2013] [error] [client 24.18.143.237] PHP   2. require_once() /usr/share/phpmyadmin/index.php:35, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:39:20 2013] [error] [client 24.18.143.237] PHP   3. require_once() /usr/share/phpmyadmin/libraries/common.inc.php:295, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:39:20 2013] [error] [client 24.18.143.237] PHP   4. PMA_fatalError() /usr/share/phpmyadmin/libraries/session.inc.php:78, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:39:20 2013] [error] [client 24.18.143.237] PHP   5. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/libraries/session.inc.php:266, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:39:20 2013] [error] [client 24.18.143.237] PHP   6. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:39:20 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:39:20 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:39:20 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/index.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:39:20 2013] [error] [client 24.18.143.237] PHP   2. require_once() /usr/share/phpmyadmin/index.php:35, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:39:20 2013] [error] [client 24.18.143.237] PHP   3. require_once() /usr/share/phpmyadmin/libraries/common.inc.php:295, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:39:20 2013] [error] [client 24.18.143.237] PHP   4. PMA_fatalError() /usr/share/phpmyadmin/libraries/session.inc.php:78, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:39:20 2013] [error] [client 24.18.143.237] PHP   5. require() /usr/share/phpmyadmin/libraries/core.lib.php:274, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:39:20 2013] [error] [client 24.18.143.237] PHP   6. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/libraries/core.lib.php:53, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:39:20 2013] [error] [client 24.18.143.237] PHP   7. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:39:20 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:39:20 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:39:20 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/index.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:39:20 2013] [error] [client 24.18.143.237] PHP   2. require_once() /usr/share/phpmyadmin/index.php:35, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:39:20 2013] [error] [client 24.18.143.237] PHP   3. require_once() /usr/share/phpmyadmin/libraries/common.inc.php:295, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:39:20 2013] [error] [client 24.18.143.237] PHP   4. PMA_fatalError() /usr/share/phpmyadmin/libraries/session.inc.php:78, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:39:20 2013] [error] [client 24.18.143.237] PHP   5. PMA_Error_Handler->__destruct() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:39:20 2013] [error] [client 24.18.143.237] PHP   6. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:56, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:39:20 2013] [error] [client 24.18.143.237] PHP   7. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:39:20 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:39:20 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:39:20 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/index.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:39:20 2013] [error] [client 24.18.143.237] PHP   2. require_once() /usr/share/phpmyadmin/index.php:35, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:39:20 2013] [error] [client 24.18.143.237] PHP   3. require_once() /usr/share/phpmyadmin/libraries/common.inc.php:295, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:39:20 2013] [error] [client 24.18.143.237] PHP   4. PMA_fatalError() /usr/share/phpmyadmin/libraries/session.inc.php:78, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:39:20 2013] [error] [client 24.18.143.237] PHP   5. PMA_Error_Handler->__destruct() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:0, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:39:20 2013] [error] [client 24.18.143.237] PHP   6. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:56, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:39:20 2013] [error] [client 24.18.143.237] PHP   7. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/
+[Sun Apr 28 03:43:15 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=d1d4cc8dad597896d2117c02a947053e
+[Sun Apr 28 03:43:15 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=d1d4cc8dad597896d2117c02a947053e
+[Sun Apr 28 03:43:15 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/main.php:0, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=d1d4cc8dad597896d2117c02a947053e
+[Sun Apr 28 03:43:15 2013] [error] [client 24.18.143.237] PHP   2. trigger_error() /usr/share/phpmyadmin/main.php:304, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=d1d4cc8dad597896d2117c02a947053e
+[Sun Apr 28 03:43:15 2013] [error] [client 24.18.143.237] PHP   3. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/main.php:304, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=d1d4cc8dad597896d2117c02a947053e
+[Sun Apr 28 03:43:15 2013] [error] [client 24.18.143.237] PHP   4. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=d1d4cc8dad597896d2117c02a947053e
+[Sun Apr 28 03:43:30 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/db_structure.php?db=ericrberg&server=1&token=d1d4cc8dad597896d2117c02a947053e
+[Sun Apr 28 03:43:30 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/db_structure.php?db=ericrberg&server=1&token=d1d4cc8dad597896d2117c02a947053e
+[Sun Apr 28 03:43:30 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/main.php:0, referer: http://www.ericrberg.com/phpmyadmin/db_structure.php?db=ericrberg&server=1&token=d1d4cc8dad597896d2117c02a947053e
+[Sun Apr 28 03:43:30 2013] [error] [client 24.18.143.237] PHP   2. trigger_error() /usr/share/phpmyadmin/main.php:304, referer: http://www.ericrberg.com/phpmyadmin/db_structure.php?db=ericrberg&server=1&token=d1d4cc8dad597896d2117c02a947053e
+[Sun Apr 28 03:43:30 2013] [error] [client 24.18.143.237] PHP   3. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/main.php:304, referer: http://www.ericrberg.com/phpmyadmin/db_structure.php?db=ericrberg&server=1&token=d1d4cc8dad597896d2117c02a947053e
+[Sun Apr 28 03:43:30 2013] [error] [client 24.18.143.237] PHP   4. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/db_structure.php?db=ericrberg&server=1&token=d1d4cc8dad597896d2117c02a947053e
+[Sun Apr 28 03:44:20 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/user_password.php?token=d1d4cc8dad597896d2117c02a947053e
+[Sun Apr 28 03:44:20 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/user_password.php?token=d1d4cc8dad597896d2117c02a947053e
+[Sun Apr 28 03:44:20 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/user_password.php:0, referer: http://www.ericrberg.com/phpmyadmin/user_password.php?token=d1d4cc8dad597896d2117c02a947053e
+[Sun Apr 28 03:44:20 2013] [error] [client 24.18.143.237] PHP   2. PMA_blowfish_encrypt() /usr/share/phpmyadmin/user_password.php:100, referer: http://www.ericrberg.com/phpmyadmin/user_password.php?token=d1d4cc8dad597896d2117c02a947053e
+[Sun Apr 28 03:44:20 2013] [error] [client 24.18.143.237] PHP   3. mcrypt_encrypt() /usr/share/phpmyadmin/libraries/auth/cookie.auth.lib.php:60, referer: http://www.ericrberg.com/phpmyadmin/user_password.php?token=d1d4cc8dad597896d2117c02a947053e
+[Sun Apr 28 03:44:20 2013] [error] [client 24.18.143.237] PHP   4. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/libraries/auth/cookie.auth.lib.php:60, referer: http://www.ericrberg.com/phpmyadmin/user_password.php?token=d1d4cc8dad597896d2117c02a947053e
+[Sun Apr 28 03:44:20 2013] [error] [client 24.18.143.237] PHP   5. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/user_password.php?token=d1d4cc8dad597896d2117c02a947053e
+[Sun Apr 28 03:45:46 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=d1d4cc8dad597896d2117c02a947053e
+[Sun Apr 28 03:45:46 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=d1d4cc8dad597896d2117c02a947053e
+[Sun Apr 28 03:45:46 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/main.php:0, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=d1d4cc8dad597896d2117c02a947053e
+[Sun Apr 28 03:45:46 2013] [error] [client 24.18.143.237] PHP   2. trigger_error() /usr/share/phpmyadmin/main.php:304, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=d1d4cc8dad597896d2117c02a947053e
+[Sun Apr 28 03:45:46 2013] [error] [client 24.18.143.237] PHP   3. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/main.php:304, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=d1d4cc8dad597896d2117c02a947053e
+[Sun Apr 28 03:45:46 2013] [error] [client 24.18.143.237] PHP   4. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=d1d4cc8dad597896d2117c02a947053e
+[Sun Apr 28 03:45:56 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=d1d4cc8dad597896d2117c02a947053e
+[Sun Apr 28 03:45:56 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=d1d4cc8dad597896d2117c02a947053e
+[Sun Apr 28 03:45:56 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/main.php:0, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=d1d4cc8dad597896d2117c02a947053e
+[Sun Apr 28 03:45:56 2013] [error] [client 24.18.143.237] PHP   2. trigger_error() /usr/share/phpmyadmin/main.php:304, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=d1d4cc8dad597896d2117c02a947053e
+[Sun Apr 28 03:45:56 2013] [error] [client 24.18.143.237] PHP   3. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/main.php:304, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=d1d4cc8dad597896d2117c02a947053e
+[Sun Apr 28 03:45:56 2013] [error] [client 24.18.143.237] PHP   4. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=d1d4cc8dad597896d2117c02a947053e
+[Sun Apr 28 03:46:05 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=d1d4cc8dad597896d2117c02a947053e
+[Sun Apr 28 03:46:05 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=d1d4cc8dad597896d2117c02a947053e
+[Sun Apr 28 03:46:05 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/main.php:0, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=d1d4cc8dad597896d2117c02a947053e
+[Sun Apr 28 03:46:05 2013] [error] [client 24.18.143.237] PHP   2. trigger_error() /usr/share/phpmyadmin/main.php:304, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=d1d4cc8dad597896d2117c02a947053e
+[Sun Apr 28 03:46:05 2013] [error] [client 24.18.143.237] PHP   3. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/main.php:304, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=d1d4cc8dad597896d2117c02a947053e
+[Sun Apr 28 03:46:05 2013] [error] [client 24.18.143.237] PHP   4. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=d1d4cc8dad597896d2117c02a947053e

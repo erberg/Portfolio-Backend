@@ -27,8 +27,7 @@
 
         sendMail: function(){
             var error=this.model.validate();
-            if(!error)
-                {
+            if(!error) {
                     $("#emailresponse").html('E-mail Sent.').css('color', 'green');
                     this.$el.attr("disabled", "disabled");
                     this.model.save();
