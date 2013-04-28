@@ -72,7 +72,7 @@ return array(
 			'host'     => '127.0.0.1',
 			'database' => 'ericrberg',
 			'username' => 'root',
-			'password' => 'cvDy5mLThG5G25eu',
+			'password' => '',
 			'charset'  => 'utf8',
 			'prefix'   => '',
 		),
