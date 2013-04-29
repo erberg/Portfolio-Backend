@@ -19,8 +19,7 @@
 <div class="container article container">
 
 	<div class="five columns"><h1 class="article-title">Currently Using<br/></h1>
-		<p>
-			<ul class="square">
+			<ul class="square" style="margin-top:15px">
 				<li>Backbone.js</li>
 				<li>Git Version Control</li>
 				<li>Javascript</li>
@@ -32,23 +31,19 @@
 				<li>Sublime Text 2</li>
 				<li>Underscore.js</li>
 			</ul>
-		</p>
 	</div>
 
 	<div class="five columns"><h1 class="article-title">Recently Used<br/></h1>
-		<p>
-			<ul class="square">
+			<ul class="square" style="margin-top:15px">
 				<li>Adobe Suite</li>
 				<li>Joomla CMS</li>
 				<li>jQuery-UI</li>
 				<li>Node.js</li>
 				<li>Twitter Bootstrap</li>
 			</ul>
-		</p>
 	</div>
 	<div class="five columns"><h1 class="article-title">Learning Next<br/></h1>
-		<p>
-			<ul class="square">
+			<ul class="square" style="margin-top:15px">
 				<li>Coffeescript</li>
 				<li>LESS or SASS</li>
 				<li>Mobile App Development</li>
@@ -56,7 +51,6 @@
 				<li>Ruby</li>
 				<li>Unit Testing</li>
 			</ul>
-		</p>
 	</div>
 
 

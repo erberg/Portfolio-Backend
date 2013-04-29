@@ -126,6 +126,7 @@
 ================================================== */
 
 	img.scale-with-grid {
+		width: 100%;
 		max-width: 100%;
 		height: auto; }
 
