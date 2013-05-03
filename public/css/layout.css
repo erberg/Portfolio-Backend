@@ -74,9 +74,10 @@
 
 	/* Tablet Portrait size to standard 960 (devices and browsers) */
 	@media only screen and (min-width: 768px) and (max-width: 959px) {
-		    .container .three.columns                     	  { width: 940px; margin-bottom:10px;}
-			/*.container .four.columns .home                    { width: 316px; }*/
-			.container .five.columns                    	  { width: 364px; } /*widen five-column to six column width*/
+		    .container .three.columns                     	  { float:none;}
+		    .article-title 									  { margin-left:10px; }
+		    .article-sub 									  { margin-bottom:10px; margin-left:15px;}
+			.container .five.columns                    	  { width: 364px; } 
 			.container .six.columns                           { width: 364px; }
 
 
@@ -87,7 +88,7 @@
 		.navbar-link { float: left;padding-top: 16px;text-align: center;margin-left: 15px;margin-right: 15px;}
 		#tagline { margin-top: 94px; }
 		#myname { font-size: 30px;  margin-top: 90px; }
-		.container .three.columns                     	  { margin-bottom:8px; }
+		.container .three.columns                     	      { margin-bottom:8px; }
 	}
 
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
