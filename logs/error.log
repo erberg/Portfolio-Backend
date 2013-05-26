@@ -2016,3 +2016,52 @@
 [Fri May 03 02:26:52 2013] [error] [client 24.18.143.237] PHP   2. trigger_error() /usr/share/phpmyadmin/main.php:304, referer: http://www.ericrberg.com/phpmyadmin/
 [Fri May 03 02:26:52 2013] [error] [client 24.18.143.237] PHP   3. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/main.php:304, referer: http://www.ericrberg.com/phpmyadmin/
 [Fri May 03 02:26:52 2013] [error] [client 24.18.143.237] PHP   4. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/
+[Tue May 07 00:43:27 2013] [error] [client 96.224.237.245] Attempt to serve directory: /var/www/www.ericrberg.com/public/js/
+[Tue May 07 00:43:35 2013] [error] [client 96.224.237.245] Attempt to serve directory: /var/www/www.ericrberg.com/public/js/
+[Tue May 07 00:43:39 2013] [error] [client 96.224.237.245] Attempt to serve directory: /var/www/www.ericrberg.com/public/js/
+[Tue May 07 00:43:42 2013] [error] [client 96.224.237.245] Attempt to serve directory: /var/www/www.ericrberg.com/public/js/
+[Tue May 07 00:43:44 2013] [error] [client 96.224.237.245] Attempt to serve directory: /var/www/www.ericrberg.com/public/js/
+[Tue May 07 00:43:45 2013] [error] [client 96.224.237.245] Attempt to serve directory: /var/www/www.ericrberg.com/public/js/
+[Tue May 07 00:43:46 2013] [error] [client 96.224.237.245] Attempt to serve directory: /var/www/www.ericrberg.com/public/js/
+[Tue May 07 00:43:47 2013] [error] [client 96.224.237.245] Attempt to serve directory: /var/www/www.ericrberg.com/public/js/
+[Tue May 07 00:43:48 2013] [error] [client 96.224.237.245] Attempt to serve directory: /var/www/www.ericrberg.com/public/js/
+[Tue May 07 00:43:49 2013] [error] [client 96.224.237.245] Attempt to serve directory: /var/www/www.ericrberg.com/public/js/
+[Tue May 07 00:43:51 2013] [error] [client 96.224.237.245] Attempt to serve directory: /var/www/www.ericrberg.com/public/js/
+[Tue May 07 00:43:52 2013] [error] [client 96.224.237.245] Attempt to serve directory: /var/www/www.ericrberg.com/public/js/
+[Tue May 07 00:43:54 2013] [error] [client 96.224.237.245] Attempt to serve directory: /var/www/www.ericrberg.com/public/js/
+[Fri May 17 22:11:38 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=d4751673af603df2b86c1e5492218027
+[Fri May 17 22:11:38 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=d4751673af603df2b86c1e5492218027
+[Fri May 17 22:11:38 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/main.php:0, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=d4751673af603df2b86c1e5492218027
+[Fri May 17 22:11:38 2013] [error] [client 24.18.143.237] PHP   2. trigger_error() /usr/share/phpmyadmin/main.php:304, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=d4751673af603df2b86c1e5492218027
+[Fri May 17 22:11:38 2013] [error] [client 24.18.143.237] PHP   3. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/main.php:304, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=d4751673af603df2b86c1e5492218027
+[Fri May 17 22:11:38 2013] [error] [client 24.18.143.237] PHP   4. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=d4751673af603df2b86c1e5492218027
+[Sat May 18 20:28:31 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=4b8407fc44eaf36bf7d860625dd5bfb4
+[Sat May 18 20:28:31 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=4b8407fc44eaf36bf7d860625dd5bfb4
+[Sat May 18 20:28:31 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/main.php:0, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=4b8407fc44eaf36bf7d860625dd5bfb4
+[Sat May 18 20:28:31 2013] [error] [client 24.18.143.237] PHP   2. trigger_error() /usr/share/phpmyadmin/main.php:304, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=4b8407fc44eaf36bf7d860625dd5bfb4
+[Sat May 18 20:28:31 2013] [error] [client 24.18.143.237] PHP   3. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/main.php:304, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=4b8407fc44eaf36bf7d860625dd5bfb4
+[Sat May 18 20:28:31 2013] [error] [client 24.18.143.237] PHP   4. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=4b8407fc44eaf36bf7d860625dd5bfb4
+[Wed May 22 17:02:03 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=03d3ce23ae225c6ef4dfccda64b91007
+[Wed May 22 17:02:03 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=03d3ce23ae225c6ef4dfccda64b91007
+[Wed May 22 17:02:03 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/main.php:0, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=03d3ce23ae225c6ef4dfccda64b91007
+[Wed May 22 17:02:03 2013] [error] [client 24.18.143.237] PHP   2. trigger_error() /usr/share/phpmyadmin/main.php:304, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=03d3ce23ae225c6ef4dfccda64b91007
+[Wed May 22 17:02:03 2013] [error] [client 24.18.143.237] PHP   3. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/main.php:304, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=03d3ce23ae225c6ef4dfccda64b91007
+[Wed May 22 17:02:03 2013] [error] [client 24.18.143.237] PHP   4. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=03d3ce23ae225c6ef4dfccda64b91007
+[Wed May 22 17:02:09 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=03d3ce23ae225c6ef4dfccda64b91007
+[Wed May 22 17:02:09 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=03d3ce23ae225c6ef4dfccda64b91007
+[Wed May 22 17:02:09 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/main.php:0, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=03d3ce23ae225c6ef4dfccda64b91007
+[Wed May 22 17:02:09 2013] [error] [client 24.18.143.237] PHP   2. trigger_error() /usr/share/phpmyadmin/main.php:304, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=03d3ce23ae225c6ef4dfccda64b91007
+[Wed May 22 17:02:09 2013] [error] [client 24.18.143.237] PHP   3. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/main.php:304, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=03d3ce23ae225c6ef4dfccda64b91007
+[Wed May 22 17:02:09 2013] [error] [client 24.18.143.237] PHP   4. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=03d3ce23ae225c6ef4dfccda64b91007
+[Sun May 26 17:58:16 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=e3685e0ea50417b1e611689ec0609baf
+[Sun May 26 17:58:16 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=e3685e0ea50417b1e611689ec0609baf
+[Sun May 26 17:58:16 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/main.php:0, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=e3685e0ea50417b1e611689ec0609baf
+[Sun May 26 17:58:16 2013] [error] [client 24.18.143.237] PHP   2. trigger_error() /usr/share/phpmyadmin/main.php:304, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=e3685e0ea50417b1e611689ec0609baf
+[Sun May 26 17:58:16 2013] [error] [client 24.18.143.237] PHP   3. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/main.php:304, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=e3685e0ea50417b1e611689ec0609baf
+[Sun May 26 17:58:16 2013] [error] [client 24.18.143.237] PHP   4. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=e3685e0ea50417b1e611689ec0609baf
+[Sun May 26 17:58:29 2013] [error] [client 24.18.143.237] PHP Notice:  Array to string conversion in /usr/share/phpmyadmin/libraries/Error.class.php on line 180, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=e3685e0ea50417b1e611689ec0609baf
+[Sun May 26 17:58:29 2013] [error] [client 24.18.143.237] PHP Stack trace:, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=e3685e0ea50417b1e611689ec0609baf
+[Sun May 26 17:58:29 2013] [error] [client 24.18.143.237] PHP   1. {main}() /usr/share/phpmyadmin/main.php:0, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=e3685e0ea50417b1e611689ec0609baf
+[Sun May 26 17:58:29 2013] [error] [client 24.18.143.237] PHP   2. trigger_error() /usr/share/phpmyadmin/main.php:304, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=e3685e0ea50417b1e611689ec0609baf
+[Sun May 26 17:58:29 2013] [error] [client 24.18.143.237] PHP   3. PMA_Error_Handler->handleError() /usr/share/phpmyadmin/main.php:304, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=e3685e0ea50417b1e611689ec0609baf
+[Sun May 26 17:58:29 2013] [error] [client 24.18.143.237] PHP   4. PMA_Error->getHash() /usr/share/phpmyadmin/libraries/Error_Handler.class.php:123, referer: http://www.ericrberg.com/phpmyadmin/index.php?token=e3685e0ea50417b1e611689ec0609baf

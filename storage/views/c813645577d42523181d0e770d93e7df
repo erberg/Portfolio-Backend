@@ -53,7 +53,7 @@
 		<div id="logo">
 			<img src='/img/logo.png' alt='Circles and Hexagons' width='72' height='86'/></div>
 		<div class="leftfloat"><h1 id="myname"> ERIC BERG </h1></div>
-		<div class="leftfloat"><h2 id="tagline"><span style="margin:0px 10px;">//</span>web developer</h2></div>
+		<div class="leftfloat"><h2 id="tagline"><span style="margin:0px 10px;">//</span>web engineer</h2></div>
 		</div>
 		</div>
 	</div>
