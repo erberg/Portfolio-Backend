@@ -10,7 +10,7 @@
 	<!-- Basic Page Needs
   ================================================== -->
 	<meta charset="utf-8">
-	<title>Eric Berg // Web Developer</title>
+	<title>Eric Berg</title>
 	<meta name="description" content="This is the professional site of Eric Berg, where you can find out what he's been working on lately.">
 	<meta name="author" content="Eric Berg">
 
